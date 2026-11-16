@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,6 +7,8 @@ name = "fedgnn-halo"
 version = "0.1.0"
 description = "Experimentos modulares de previsão espaço-temporal federada em grafos"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.10,<3.14"
 authors = [{name = "Helder José Bastos Ramos"}]
 dependencies = [

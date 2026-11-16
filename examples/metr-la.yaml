@@ -1,0 +1,22 @@
+method: fedavg
+seed: 7
+device: cpu
+threads: 1
+output: results/metr-la-example
+dataset:
+  name: metr-la
+  input_steps: 12
+  horizon: 12
+partition:
+  method: leiden
+  resolution: 1.0
+model:
+  name: leconv
+  hidden_size: 16
+  allow_nodes_without_incoming: true
+batch_size: 32
+training:
+  max_rounds: 1
+  max_epochs: 1
+  local_epochs: 1
+  learning_rate: 0.001

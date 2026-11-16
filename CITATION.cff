@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Ao utilizar este código, cite o repositório e os métodos originais empregados."
+type: software
+title: "FedGNN-Halo: previsão espaço-temporal federada em grafos"
+authors:
+  - family-names: Ramos
+    given-names: Helder José Bastos
+version: 0.1.0
+repository-code: "https://github.com/hjbramos/fedgnn-halo"
+license: MIT

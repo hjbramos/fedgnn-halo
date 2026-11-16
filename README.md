@@ -2,7 +2,7 @@
 
 Código para estudar previsão espaço-temporal federada em grafos particionados. O FedGNN-Halo representa mensagens de vizinhos externos por nós virtuais de fronteira. O projeto reúne modelos, treinamento local, agregação federada, agrupamentos e carregamento dos conjuntos SUNT, METR-LA e PEMS-BAY.
 
-**Esta distribuição está em preparação.** O exemplo sintético permite começar sem dados externos. Executar o exemplo não equivale a reproduzir os resultados da dissertação. A publicação pública e a licença serão definidas antes da versão de lançamento.
+**Esta distribuição está em preparação.** O exemplo sintético permite começar sem dados externos. Executar o exemplo não equivale a reproduzir os resultados da dissertação. O repositório permanece privado durante a preparação para publicação.
 
 ## Começar do zero
 
@@ -76,4 +76,4 @@ A simulação é sequencial por padrão. As estimativas de comunicação não me
 
 `SOURCE.json` registra a revisão e os hashes do código experimental usado como base. Os módulos de distribuição e a injeção de dados/partições nos treinadores foram acrescentados sem mudar as fórmulas de agregação. As referências às arquiteturas e aos métodos foram preservadas. Veja [atribuições](docs/attributions.md).
 
-A licença de distribuição ainda será definida com o autor. As licenças dos conjuntos e das dependências continuam independentes. Não há autorização de redistribuição dos dados implícita neste repositório.
+O código próprio está disponível sob a [licença MIT](LICENSE). As licenças dos conjuntos e das dependências continuam independentes. Não há autorização de redistribuição dos dados implícita neste repositório.

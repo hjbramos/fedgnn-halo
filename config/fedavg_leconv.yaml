@@ -36,5 +36,6 @@ federated:
 
 execution:
   cpus_per_run: 1
+  gpus_per_run: 1
   max_parallel: 1
 output: results/fedavg_leconv

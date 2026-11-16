@@ -44,3 +44,9 @@ Clone em um diretório novo, crie um venv sem `--system-site-packages` e siga os
 A variante exploratória `leconv_edge` depende de atributos operacionais externos preparados e não integra os exemplos autocontidos. Ela exige `model.edge_attributes_root` ou `FEDGNN_EDGE_ATTRIBUTES_DIR`, sem procurar outros repositórios no computador.
 
 O exemplo sintético habilita `model.allow_nodes_without_incoming: true`: em uma partição aleatória, um nó pode perder todos os vizinhos locais. Nesse caso, a mensagem dos vizinhos é zero e a LEConv mantém o termo do próprio nó, sem criar novas arestas.
+
+## Versões verificadas
+
+`requirements/desktop-cpu-py313.txt` registra o ambiente Linux/CPU com Python 3.13 usado na validação. Nesse ambiente, pode-se instalar as versões registradas com `python -m pip install -r requirements/desktop-cpu-py313.txt` e depois `python -m pip install --no-deps -e .`. Para macOS, Windows ou outra versão de Python, use o procedimento do README, pois as distribuições binárias podem ser diferentes.
+
+O teste com dados reais pode ser repetido com `fedgnn-halo --config examples/metr-la.yaml --method centralized --output results/metr-centralized` e, em diretórios distintos, com `--method fedavg` e `--method halo`. Esse exemplo usa uma época/rodada, arquitetura reduzida e resolução Leiden fixa, conforme o relatório de validação.
