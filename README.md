@@ -66,7 +66,7 @@ docs/          página do projeto e guias
 
 ## Dados reais e reprodução
 
-Consulte [dados e experimentos](docs/experiments.md). Os dados não estão incluídos no Git. Os carregadores acessam as fontes originais; disponibilidade, condições de uso e tamanho dos downloads dependem dessas fontes. `FEDGNN_DATA_DIR` permite escolher o diretório de dados antes de iniciar o Python.
+Consulte [dados e experimentos](docs/experiments.md) e a [auditoria de reprodução da dissertação](docs/reproduction-audit.md), que distingue o que já executa das pendências para reproduzir as tabelas. Os dados não estão incluídos no Git. Os carregadores acessam as fontes originais; disponibilidade, condições de uso e tamanho dos downloads dependem dessas fontes. `FEDGNN_DATA_DIR` permite escolher o diretório de dados antes de iniciar o Python.
 
 As configurações em `config/` preservam referências do código experimental, com agendamento de hardware simplificado. **Não constituem, sozinhas, uma receita completa de reprodução da dissertação:** algumas campanhas usaram limites e seleções na linha de comando. O nome interno `fedgnnhet` corresponde ao FedGNN-Halo e foi mantido nos runners para compatibilidade. A API de entrada usa `halo`.
 

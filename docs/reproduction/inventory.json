@@ -1,0 +1,131 @@
+{
+  "package_version": "1.29.0",
+  "package_source_commit": "c31798b5347c42bf041032dcdf113c2346c1d91c",
+  "distribution_source_commit": "78b6fa7630bbfa06a712e0cd1ca9cc6d43e32d91",
+  "records": 360,
+  "record_groups": {
+    "principal": 195,
+    "controle": 100,
+    "referência": 45,
+    "complementar": 20
+  },
+  "missing_configs": [
+    "config/centralized_noedges_parada_federada.yaml",
+    "config/centralized_parada_federada.yaml",
+    "config/completar_controles_20261114/pems-bay_none_k5.yaml",
+    "config/sunt_centralized_boardings.yaml",
+    "config/sunt_ditto_final_desktop.yaml",
+    "config/sunt_fedavg_final.yaml",
+    "config/sunt_fedavg_probe.yaml",
+    "config/sunt_fedgnnhet_final_desktop.yaml",
+    "config/sunt_fedprox_final.yaml",
+    "config/sunt_fedpub_final.yaml",
+    "config/sunt_loading_directed_centralized.yaml",
+    "config/sunt_loading_directed_fedavg.yaml",
+    "config/sunt_loading_directed_fedgnnhet_desktop.yaml",
+    "config/sunt_local_final.yaml",
+    "config/sunt_probe_boardings.yaml"
+  ],
+  "reference_partitions": [
+    {
+      "dataset": "metr-la",
+      "k": 5,
+      "particao": "data/metr-la/processed/partitions/leiden/k005/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "405504af992e25238ccabd113ac49d4e9639b83974bef50a92f7a97c6b4d7280",
+      "partitions_csv_sha256": "200419f34a38f8d7dac7f722f9d8f66bf19e1f1e4e7897c72cb595955f4af298",
+      "client_assignments_sha256": "ee99a1c15398e60572b039d3b860b5a2c8f31e576bf4c4e71c6c0a43da37874b",
+      "node_ids_sha256": "3c85177dd17c4776f115609d9f676d30230a3a29807921ee16a8055d117b4e83",
+      "metadata_sha256": "03972c474d1eb0a3665d63e5f08fb18ed3c23aba3658944cc945fa7778df99d5"
+    },
+    {
+      "dataset": "metr-la",
+      "k": 10,
+      "particao": "data/metr-la/processed/partitions/leiden/k010/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "405504af992e25238ccabd113ac49d4e9639b83974bef50a92f7a97c6b4d7280",
+      "partitions_csv_sha256": "200419f34a38f8d7dac7f722f9d8f66bf19e1f1e4e7897c72cb595955f4af298",
+      "client_assignments_sha256": "ced92f7d608b9339d03567011f403271ff98b614e14594762978314f40fd9b5d",
+      "node_ids_sha256": "3c85177dd17c4776f115609d9f676d30230a3a29807921ee16a8055d117b4e83",
+      "metadata_sha256": "420863301ee04c3df04767aec097abda508642bb048f7e7b4aecfc99120b678c"
+    },
+    {
+      "dataset": "metr-la",
+      "k": 20,
+      "particao": "data/metr-la/processed/partitions/leiden/k020/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "405504af992e25238ccabd113ac49d4e9639b83974bef50a92f7a97c6b4d7280",
+      "partitions_csv_sha256": "200419f34a38f8d7dac7f722f9d8f66bf19e1f1e4e7897c72cb595955f4af298",
+      "client_assignments_sha256": "26ea7d2815ca5b3ab8df53d8108a7a535f03f65681e81bf4557b0ba134ce339c",
+      "node_ids_sha256": "3c85177dd17c4776f115609d9f676d30230a3a29807921ee16a8055d117b4e83",
+      "metadata_sha256": "137fbc0535cee8fbc57fa9e6da4facd98370eed189a25a14a0465525ee8322b5"
+    },
+    {
+      "dataset": "pems-bay",
+      "k": 5,
+      "particao": "data/pems-bay/processed/partitions/leiden/k005/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "c98def8685f0d0477ddb28341c368a44a479366490c71d96e0bed2b0ce7231d9",
+      "partitions_csv_sha256": "8528e89221142b2f08f9c6dd27380a7145206ffe795f65e14650a5e6ef5c757a",
+      "client_assignments_sha256": "ffaab35ffaecf0f572d07b45d40531c2107313d713d941a9a2917ea9cb23194e",
+      "node_ids_sha256": "25db4b3faa739006152451441a6faa25f34a66a7236979f7eb8902130fff9324",
+      "metadata_sha256": "19e777980ff331526bf03c5d3db8c4a9648078c7f047147a171a648ceabf3a1d"
+    },
+    {
+      "dataset": "pems-bay",
+      "k": 10,
+      "particao": "data/pems-bay/processed/partitions/leiden/k010/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "c98def8685f0d0477ddb28341c368a44a479366490c71d96e0bed2b0ce7231d9",
+      "partitions_csv_sha256": "8528e89221142b2f08f9c6dd27380a7145206ffe795f65e14650a5e6ef5c757a",
+      "client_assignments_sha256": "2997439fa4a5e640e68cd30b787e64133708ce60f28a229f1bd13b9c47ac4c53",
+      "node_ids_sha256": "25db4b3faa739006152451441a6faa25f34a66a7236979f7eb8902130fff9324",
+      "metadata_sha256": "4064f48fc479f58555728ba258cca031a7e4af57483b50e3721af4d834e7567b"
+    },
+    {
+      "dataset": "pems-bay",
+      "k": 20,
+      "particao": "data/pems-bay/processed/partitions/leiden/k020/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "c98def8685f0d0477ddb28341c368a44a479366490c71d96e0bed2b0ce7231d9",
+      "partitions_csv_sha256": "8528e89221142b2f08f9c6dd27380a7145206ffe795f65e14650a5e6ef5c757a",
+      "client_assignments_sha256": "f85f6ad3553ef4afbed9526af0d93e85fde871050e0d8799d6f3f630f1838656",
+      "node_ids_sha256": "25db4b3faa739006152451441a6faa25f34a66a7236979f7eb8902130fff9324",
+      "metadata_sha256": "f0c1623e55eba81c719cbc55adff63ab5fb0f2c50e83a83412e1df89ffd74f50"
+    },
+    {
+      "dataset": "sunt",
+      "k": 6,
+      "particao": "data/sunt/processed/partitions/leiden/k006/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "3cc84b9b5ca508713a36ab6182593734444652cf6a2951b8deba61ff8073f7c9",
+      "partitions_csv_sha256": "75262ffb293468d9d183d140c3311b03f623ca4a50059cc1696fae62c6ba771a",
+      "client_assignments_sha256": "2f4e0ed409f773e91d0b6b5bee76704506c86eb34b587595e8ec6b863cc86443",
+      "node_ids_sha256": "335b56ac6559c587dda614e2de356f9ed2f08dc96741b85553f4108d79b6d4ba",
+      "metadata_sha256": "415247643c04b5e107163312184ffceecff25696861caf2ee7923c05938e2ea7"
+    },
+    {
+      "dataset": "sunt",
+      "k": 20,
+      "particao": "data/sunt/processed/partitions/leiden/k020/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "3cc84b9b5ca508713a36ab6182593734444652cf6a2951b8deba61ff8073f7c9",
+      "partitions_csv_sha256": "75262ffb293468d9d183d140c3311b03f623ca4a50059cc1696fae62c6ba771a",
+      "client_assignments_sha256": "2993d63861289bbcd2db711cacff4b83559b475e519c011271f51204b3d4997f",
+      "node_ids_sha256": "335b56ac6559c587dda614e2de356f9ed2f08dc96741b85553f4108d79b6d4ba",
+      "metadata_sha256": "8f3978b6fa4fc4338434694a5d2d3ea075bd4307ca36111e5a7d5eb7449758d3"
+    },
+    {
+      "dataset": "sunt",
+      "k": 166,
+      "particao": "data/sunt/processed/partitions/leiden/k166/partition_seed_042",
+      "grafo_estatisticas": "metr-la/pems-bay: dirigido de distâncias; sunt: transit simétrico (embarques)",
+      "adjacencia_sha256": "3cc84b9b5ca508713a36ab6182593734444652cf6a2951b8deba61ff8073f7c9",
+      "partitions_csv_sha256": "75262ffb293468d9d183d140c3311b03f623ca4a50059cc1696fae62c6ba771a",
+      "client_assignments_sha256": "d65367ab1392c54a3db3579e989ee418159e72ad7a4f468a58b340514d61d325",
+      "node_ids_sha256": "335b56ac6559c587dda614e2de356f9ed2f08dc96741b85553f4108d79b6d4ba",
+      "metadata_sha256": "9f5a88c986386703346ad8ec0114bdcaa4aa8bef35f2da472108d38cac1a61f0"
+    }
+  ],
+  "note": "Auditoria de disponibilidade, sem treinamento; as configurações citadas não são comandos finais certificados."
+}
