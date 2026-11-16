@@ -69,7 +69,9 @@ class AgregacaoPonderada(unittest.TestCase):
         saida = aggregate_states(treino_local_determinista(), [1.0, 2.0, 3.0])
         self.assertEqual(sorted(saida), sorted(self.REFERENCIA))
         for k, esperado in self.REFERENCIA.items():
-            np.testing.assert_allclose(saida[k].flatten().numpy(), esperado, rtol=0, atol=1e-9,
+            # A referência resulta de treino em float32; plataformas podem diferir em poucos ULPs.
+            tolerance = 2 * torch.finfo(saida[k].dtype).eps
+            np.testing.assert_allclose(saida[k].flatten().numpy(), esperado, rtol=tolerance, atol=1e-9,
                                        err_msg=f"{k} mudou — refatoramento alterou o comportamento?")
 
     def test_pesos_diferentes_dao_resultado_diferente(self):
