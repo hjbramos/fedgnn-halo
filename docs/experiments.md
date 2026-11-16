@@ -42,3 +42,5 @@ No FedProx, use `training.proximal_mu`. No Ditto, use `training.lambda: per_clie
 Clone em um diretório novo, crie um venv sem `--system-site-packages` e siga os comandos do README. Execute a suíte, os dois notebooks e os métodos sintéticos. Não reutilize `data/`, `results/` ou pacotes de outro projeto. O relatório em `docs/validation.md`, quando disponível, registra o alcance efetivamente verificado; não implica reprodução integral da dissertação.
 
 A variante exploratória `leconv_edge` depende de atributos operacionais externos preparados e não integra os exemplos autocontidos. Ela exige `model.edge_attributes_root` ou `FEDGNN_EDGE_ATTRIBUTES_DIR`, sem procurar outros repositórios no computador.
+
+O exemplo sintético habilita `model.allow_nodes_without_incoming: true`: em uma partição aleatória, um nó pode perder todos os vizinhos locais. Nesse caso, a mensagem dos vizinhos é zero e a LEConv mantém o termo do próprio nó, sem criar novas arestas.

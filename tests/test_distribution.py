@@ -12,9 +12,11 @@ from fedgnn_halo.partition import assignments
 BASE = yaml.safe_load((Path(__file__).resolve().parents[1] / 'examples/synthetic.yaml').read_text())
 
 @pytest.mark.parametrize('method', METHODS)
-def test_methods_write_finite_metrics(tmp_path, method):
+@pytest.mark.parametrize('partition', ['contiguous', 'random'])
+def test_methods_write_finite_metrics(tmp_path, method, partition):
     cfg = copy.deepcopy(BASE)
     cfg.update(method=method, output=str(tmp_path / method))
+    cfg['partition']['method'] = partition
     cfg['training'].update(max_epochs=1, max_rounds=1)
     result = run(cfg)
     assert np.isfinite(result['test']['MAE'])
