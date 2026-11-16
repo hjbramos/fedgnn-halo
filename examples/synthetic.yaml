@@ -1,0 +1,26 @@
+method: halo
+seed: 7
+device: cpu
+threads: 1
+output: results/synthetic-halo
+dataset:
+  name: synthetic
+  nodes: 12
+  steps: 120
+  input_steps: 6
+  horizon: 2
+partition:
+  method: contiguous
+  clients: 3
+model:
+  name: leconv
+  hidden_size: 16
+batch_size: 16
+training:
+  learning_rate: 0.001
+  max_epochs: 3
+  max_rounds: 3
+  local_epochs: 1
+  patience: 10
+  proximal_mu: 0.01
+  lambda_candidates: [0.01, 0.1, 1.0]
