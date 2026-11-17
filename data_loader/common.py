@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import os
+import json
 from urllib.request import urlretrieve
 
 import numpy as np
@@ -37,7 +38,7 @@ def download_hf(repo: str, files: list[str], dest_dir: Path, force: bool = False
 
     print(f"baixando {len(missing)} arquivo(s) de {repo}")
     for f in missing if not force else files:
-        hf_hub_download(repo, f, repo_type="dataset", local_dir=dest_dir)
+        hf_hub_download(repo, f, repo_type="dataset", local_dir=dest_dir, revision=json.loads(os.environ.get("FEDGNN_HF_REVISIONS", "{}")).get(repo))
 
 
 def align_to_graph(df: pd.DataFrame, sensor_ids: list[str]) -> pd.DataFrame:

@@ -1,0 +1,4 @@
+method,requested_clients,num_clients,partition_seed,resolution,path
+leiden,5,5,42,0.0630957344480193,data/pems-bay/processed/partitions/leiden/k005/partition_seed_042
+leiden,10,10,42,0.3548133892335754,data/pems-bay/processed/partitions/leiden/k010/partition_seed_042
+leiden,20,20,42,1.584893192461114,data/pems-bay/processed/partitions/leiden/k020/partition_seed_042

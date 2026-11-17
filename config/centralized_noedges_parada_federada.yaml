@@ -1,0 +1,39 @@
+# Controle: centralizado LEConv SEM arestas das rodovias, com a regra de parada das condições federadas
+# (limite 400, paciência 30, mesmo limiar 0,005). Tudo o mais é idêntico a config/centralized_noedges.yaml.
+# Par do controle config/centralized_parada_federada.yaml; protocolo em results/centralized_parada_federada/PROTOCOLO.md
+datasets: [metr-la, pems-bay]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  metr-la:  {input_steps: 12, horizon: 12}
+  pems-bay: {input_steps: 12, horizon: 12}
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]   # `loading` retirado da entrada em 23/09
+    target: n_boardings      # alvo do sunt-fedstgnn (signal: n_boardings); `loading` até 23/09
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+  self_loops_only: true
+
+training:
+  learning_rate: 0.001
+  max_epochs: 400
+  patience: 30
+  early_stopping_min_delta: 0.005
+  gradient_clip_norm: 5.0
+
+execution:
+  cpus_per_run: 4
+  gpus: [1, 2, 3, 4]     # só as A16: a L40S está ocupada por outra campanha
+  gpus_per_run: 1
+  max_parallel: 4        # uma execução por A16
+  ray_temp_dir: .ray
+
+output: results/centralized_noedges_parada_federada

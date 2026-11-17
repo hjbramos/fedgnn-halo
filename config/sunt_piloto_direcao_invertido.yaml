@@ -1,0 +1,37 @@
+# PILOTO EXPLORATÓRIO de orientação do grafo do SUNT (embarques, centralizado) — braço "invertido".
+# Protocolo: results/sunt_piloto_direcao/PROTOCOLO.md. Grafo: o observado com origem e destino trocados (transposta), mesma afinidade.
+# Idêntico ao protocolo vigente do centralizado de embarques (config/sunt_centralized_boardings.yaml: W168/H24,
+# entradas [n_boardings, n_alightings], 600 épocas sem parada antecipada, melhor checkpoint pela validação) exceto:
+# grafo, saída, teste DESLIGADO, determinismo estrito, validação detalhada e nós sem entrada aceitos (só o próprio
+# termo da LEConv; sem efeito no simétrico, onde todo nó tem entrada). Os três braços diferem SÓ em windows.sunt.graph.
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+    graph: transit_pair_reversed
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+  allow_nodes_without_incoming: true
+
+training:
+  learning_rate: 0.001
+  max_epochs: 600
+  patience: 999                 # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: false          # piloto: o teste não é usado
+  strict_determinism: true
+  validation_detail: true
+
+output: results/sunt_piloto_direcao/invertido

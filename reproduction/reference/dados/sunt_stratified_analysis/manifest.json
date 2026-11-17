@@ -1,0 +1,544 @@
+{
+ "análise": "SUNT estratificada v1 (exploratória)",
+ "script": "experiments/sunt_stratified_analysis.py",
+ "script_sha256": "4b455624ddbca18e7aefe46a937ca233d891a33689a85cd0684fe71dd119358d",
+ "protocolo": "results/sunt_stratified_analysis/v1/protocol.md",
+ "protocolo_sha256": "c945cd86453ecd7981b816fa0700d6666019378e3c97af09345132803bdb006a",
+ "comando": "python -m experiments.sunt_stratified_analysis",
+ "git_commit": "211f368de4c9f9eaf27d3a7972737ace1e4f509c",
+ "git_worktree_dirty": true,
+ "python": "3.10.18",
+ "plataforma": "macOS-27.0-arm64-arm-64bit",
+ "pacotes": {
+  "numpy": "1.26.4",
+  "pandas": "1.3.5",
+  "scipy": "1.13.1",
+  "matplotlib": "3.10.7"
+ },
+ "provenance": {
+  "arquivo": "generated-traffic/provenance.json",
+  "sha256": "2fd70678df82763b861d02aa19161c89ac3ae5bc4b0b9a401751103ed7c0c4cb",
+  "versao_exportador": "1.7.0"
+ },
+ "dados_processados": {
+  "sunt_2024-04-01_3d_1h_top30_all.parquet": "de38d12b921a4706a3e04d542b4fe2cb6b8ff994115ebc147faa1b2a39381018",
+  "sunt_n_boardings.parquet": "246cf3bbbc10e138c3a78ccc3d910633fc648ab58b850f10aa666808a5d29d7e",
+  "sunt_passenger_flows.npz": "6a751da5938a1ad51a979286feddb667b61942dde7c1a64daec664a2329e1de2",
+  "sunt_transit_graph.npz": "7531aedbde53933382310f48b68798f5b4c2e26b8946eff651f33bf9202bb873",
+  "sunt_transit_graph_directed.npz": "cfb5152b7ea1a39a5274b736bea0ad0eddcf4a25b316ceb30d84cf0ad93b006e"
+ },
+ "série_alvo_e_máscara_sha256": "5682c07a80092e567b46aa515fa79399801b509b6af190e98a17676dec1be313",
+ "adjacência_sha256": "bab452ce8582320e64ce1a3c5fb23b446f3283e66e3ad2bcec5622011c73ce9a",
+ "partições": {
+  "6": {
+   "partição": "data/sunt/processed/partitions/leiden/k006/partition_seed_042",
+   "client_assignments_sha256": "2f4e0ed409f773e91d0b6b5bee76704506c86eb34b587595e8ec6b863cc86443",
+   "node_ids_sha256": "335b56ac6559c587dda614e2de356f9ed2f08dc96741b85553f4108d79b6d4ba",
+   "metadata_sha256": "415247643c04b5e107163312184ffceecff25696861caf2ee7923c05938e2ea7",
+   "nós_fronteira": 137,
+   "nós_sem_entrada": 0,
+   "fronteira_só_saída": 0
+  },
+  "20": {
+   "partição": "data/sunt/processed/partitions/leiden/k020/partition_seed_042",
+   "client_assignments_sha256": "2993d63861289bbcd2db711cacff4b83559b475e519c011271f51204b3d4997f",
+   "node_ids_sha256": "335b56ac6559c587dda614e2de356f9ed2f08dc96741b85553f4108d79b6d4ba",
+   "metadata_sha256": "8f3978b6fa4fc4338434694a5d2d3ea075bd4307ca36111e5a7d5eb7449758d3",
+   "nós_fronteira": 288,
+   "nós_sem_entrada": 0,
+   "fronteira_só_saída": 0
+  },
+  "166": {
+   "partição": "data/sunt/processed/partitions/leiden/k166/partition_seed_042",
+   "client_assignments_sha256": "d65367ab1392c54a3db3579e989ee418159e72ad7a4f468a58b340514d61d325",
+   "node_ids_sha256": "335b56ac6559c587dda614e2de356f9ed2f08dc96741b85553f4108d79b6d4ba",
+   "metadata_sha256": "9f5a88c986386703346ad8ec0114bdcaa4aa8bef35f2da472108d38cac1a61f0",
+   "nós_fronteira": 1016,
+   "nós_sem_entrada": 0,
+   "fronteira_só_saída": 0
+  }
+ },
+ "descritores": {
+  "período_treino": "2024-03-01 00:00:00 a 2024-05-03 15:00:00 (exclusivo 2024-05-03 16:00:00)",
+  "horas_treino": 1528,
+  "tercis": {
+   "volume": {
+    "q1/3": 2.1737500456131214,
+    "q2/3": 9.315298334945757,
+    "tamanhos": {
+     "baixo": 968,
+     "médio": 967,
+     "alto": 968,
+     "sem_obs_treino": 0
+    },
+    "faixas_efetivas": 3,
+    "empates_no_limite": {
+     "q1/3": 0,
+     "q2/3": 0
+    }
+   },
+   "cobertura": {
+    "q1/3": 0.8069371727748691,
+    "q2/3": 0.8534031413612565,
+    "tamanhos": {
+     "baixo": 975,
+     "médio": 963,
+     "alto": 965,
+     "sem_obs_treino": 0
+    },
+    "faixas_efetivas": 3,
+    "empates_no_limite": {
+     "q1/3": 8,
+     "q2/3": 7
+    }
+   }
+  }
+ },
+ "execuções": [
+  {
+   "método": "Centralizado",
+   "k": NaN,
+   "semente": 7,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_007/metrics.json",
+   "sha256": "40268cce7b71f97f76f4e7035f193ccef4f1f93f78e9df467b8d0a0406682fcb",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Centralizado",
+   "k": NaN,
+   "semente": 42,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_042/metrics.json",
+   "sha256": "a4b0ab237110824a63a381306db399a434c653879f48defe9d00f592fedc04f5",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Centralizado",
+   "k": NaN,
+   "semente": 101,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_101/metrics.json",
+   "sha256": "024484e55f98fa0c0bd916641c3ae7a1c857360062d6b4b2210d2573c16000ec",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Centralizado",
+   "k": NaN,
+   "semente": 123,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_123/metrics.json",
+   "sha256": "fa8db4e812fc0975ea9cdf476782ba264439b088be59d9983fcec58b762944db",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Centralizado",
+   "k": NaN,
+   "semente": 314,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_314/metrics.json",
+   "sha256": "1674b9e12aa5f4c2d114373e2710c6b8e2b805f10414174f55350e95c0299271",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 6.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedavg_final/sunt/k006/seed_007/metrics.json",
+   "sha256": "afaf8ad5b7b90578cd17ae89f147c8fa7556076b92e6b7a73f07eafa3ad35222",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 6.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedavg_final/sunt/k006/seed_042/metrics.json",
+   "sha256": "d97069791d2e6fcfd2c604c1ec0593a62c6686d3ca7c471fa2cea43642bc6277",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 6.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedavg_final/sunt/k006/seed_101/metrics.json",
+   "sha256": "2bdeeae42403561c19a8d270d41d34f27dedbaef7f0b8bdbb71032c017a6766c",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 6.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedavg_final/sunt/k006/seed_123/metrics.json",
+   "sha256": "b76fbf6f7008026c0b38126019578d585d70e478eec6a6a64f6b915d94c469ea",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 6.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedavg_final/sunt/k006/seed_314/metrics.json",
+   "sha256": "568decac5ac26965be2d1c1ac6853f74df98297d0a3b0fbffc24e8b0dafa0c23",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 20.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_007/metrics.json",
+   "sha256": "e8a5ffeb86ec6ab6fc7813953ec9224371da38b046dbb700cfbf788c410d9f93",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 20.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_042/metrics.json",
+   "sha256": "28bf0496a729cf4f5532eafeda79702b6bd4081da287e453046a34f0f4cb30eb",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 20.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_101/metrics.json",
+   "sha256": "c7d46c2e02b13497571816137054516218d3ff699f404e3bb91a7af842e42d33",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 20.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_123/metrics.json",
+   "sha256": "5ed58869cdb97e962cef784e16623a32e6c0cfe34416f46bf9e6e0428e467c1b",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 20.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_314/metrics.json",
+   "sha256": "91b572cd95c5a09df47eaeac502df1191488c0b5ad18406f740e7976d95e9446",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 166.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_007/metrics.json",
+   "sha256": "37cfdb3d104825a18d222d14d728d15faecb180182ae30698d7d0bc75cd04d09",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 166.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_042/metrics.json",
+   "sha256": "a8be687c87d7e10a94b0c917be03caae52c8a80fe1a70d079b814bdcb512899d",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 166.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_101/metrics.json",
+   "sha256": "ff2754c17a1efa89b6cfd878e78d45e6c00f68ffa8c9a14d46c6a5e6b35216ca",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 166.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_123/metrics.json",
+   "sha256": "5bd0f0acc3bfad6854e5ee7bb0f443c0dacfda9174993d6c6568e0d3025a3c2c",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedAvg",
+   "k": 166.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_314/metrics.json",
+   "sha256": "91f0b990d5577cd2acdf129e7721ab09eac5c48fef601470429a68f876c0969e",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 6.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k006/halo_1hop/seed_007/metrics.json",
+   "sha256": "1a40979176a8a7332cdda2226d5ce0c794622f48ba7e1c9c6f1bd3ed7956e337",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 6.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k006/halo_1hop/seed_042/metrics.json",
+   "sha256": "12d5c3174a9b39aa4a910e79eee9f9a273348ebc1c308dbe0821912951c51371",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 6.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k006/halo_1hop/seed_101/metrics.json",
+   "sha256": "417d43a6755e38b7f92bb3d3015115f180a65c3fe84d8a7ff1055cf78c9130a6",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 6.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k006/halo_1hop/seed_123/metrics.json",
+   "sha256": "47c83df84651c6e58cb2b90719a30fcb555536c2f10dbc859df3081d415e610c",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 6.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k006/halo_1hop/seed_314/metrics.json",
+   "sha256": "6904bfed81656eb7de7bc0a6b2db53f4baccdb504aac3b521a6bba318f9f030e",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 20.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k020/halo_1hop/seed_007/metrics.json",
+   "sha256": "31c5b9eda3ea44a481cbba7caba4422a761b43f61eef2923b54bd000097c74b0",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 20.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k020/halo_1hop/seed_042/metrics.json",
+   "sha256": "369f6cca45ce38a02d62c1fa1a1956530257d05c45edf1e4f03ac4b789b14513",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 20.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k020/halo_1hop/seed_101/metrics.json",
+   "sha256": "3ce912088efdc6bf3cc47abf2f5c83366ca7484336fb3db58fbd72d4a2e3822c",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 20.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k020/halo_1hop/seed_123/metrics.json",
+   "sha256": "1f81c3b5c371821a689112557971e76922002b5c9e74495ee3305fd23be57223",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 20.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k020/halo_1hop/seed_314/metrics.json",
+   "sha256": "9f1f5d397838dcd999c54c18f77b4973463808397a20e085c3452102a1c867bf",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 166.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k166/halo_1hop/seed_007/metrics.json",
+   "sha256": "6af9550cda391811d907bfddb733a48ac0c3d90e71cbcf4e372302283f17c50a",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 166.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k166/halo_1hop/seed_042/metrics.json",
+   "sha256": "c124b37dcb1d9334d87aacaa5cef92c6a1e38153ef9995b8b50f1d42ec35a459",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 166.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k166/halo_1hop/seed_101/metrics.json",
+   "sha256": "d033f31be20c8944dab8382412a042b39f7510faa6d6de01d3efbba1326d635a",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 166.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k166/halo_1hop/seed_123/metrics.json",
+   "sha256": "de024a4b75039cc8110bc7f6768353c9224158049c2521e59c896393f50a469f",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "halo",
+   "k": 166.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedgnnhet_final/sunt/k166/halo_1hop/seed_314/metrics.json",
+   "sha256": "35bb73539f3fbb81b43b754d7018c09462fc9ef72fb37becf44017e84828c83a",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 6.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedprox_final/sunt/k006/mu0p01/seed_007/metrics.json",
+   "sha256": "3df747b1176975fb8788c518ba5df52f31152854895347283afcfddf0f750388",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 6.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedprox_final/sunt/k006/mu0p01/seed_042/metrics.json",
+   "sha256": "78b531921b700d2d657296934ba8a75ce975db48dd21392dd2d537e58ab46e42",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 6.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedprox_final/sunt/k006/mu0p01/seed_101/metrics.json",
+   "sha256": "5920cb404dcae74d73ca3e9cc6f2a7a0ba777b74e6bebbec6db7ae9d4a39b152",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 6.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedprox_final/sunt/k006/mu0p01/seed_123/metrics.json",
+   "sha256": "375b4580914b5b11da1fd7e873ede4a32d4f96ff0782d3012040a543e1b69d8c",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 6.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedprox_final/sunt/k006/mu0p01/seed_314/metrics.json",
+   "sha256": "50fe37ed369efa4f2819ee3478b4ff62b11c9efa454ef4678214bd670eb47864",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 20.0,
+   "semente": 7,
+   "arquivo": "results/sunt_fedprox_final/sunt/k020/mu0p01/seed_007/metrics.json",
+   "sha256": "faab1bfbe2b05d190d68a9b72e4e8435877078914933a88a21972f237256ad3d",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 20.0,
+   "semente": 42,
+   "arquivo": "results/sunt_fedprox_final/sunt/k020/mu0p01/seed_042/metrics.json",
+   "sha256": "a1917ecc4b2fe18ffc5cb91ebdddb6a15777591ff07d5ef0de9df7086f156076",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 20.0,
+   "semente": 101,
+   "arquivo": "results/sunt_fedprox_final/sunt/k020/mu0p01/seed_101/metrics.json",
+   "sha256": "7ecaf27938fb8321e12e59b1c3151f897b5f50323583c08ef1ea88bfbef48d32",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 20.0,
+   "semente": 123,
+   "arquivo": "results/sunt_fedprox_final/sunt/k020/mu0p01/seed_123/metrics.json",
+   "sha256": "5e7c3aa148019eb8aa56d5b02192b483f6049b382990ec909f0b7e1931d8fd24",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "FedProx",
+   "k": 20.0,
+   "semente": 314,
+   "arquivo": "results/sunt_fedprox_final/sunt/k020/mu0p01/seed_314/metrics.json",
+   "sha256": "54c2eaf40bf453235667d54848b80ebfd3a50fe8ee8d8c61dea1ef91be6d7ee9",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 6.0,
+   "semente": 7,
+   "arquivo": "results/sunt_ditto_final/sunt/k006/lam_per_client/seed_007/metrics.json",
+   "sha256": "e73a64cc77a1630f462f6159849f1308b46dee92532c46732894b4dd6b74f292",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 6.0,
+   "semente": 42,
+   "arquivo": "results/sunt_ditto_final/sunt/k006/lam_per_client/seed_042/metrics.json",
+   "sha256": "df6d471af81035877372dc179d4cfc3b54ef4090e1cd26fa1f4482fea079b690",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 6.0,
+   "semente": 101,
+   "arquivo": "results/sunt_ditto_final/sunt/k006/lam_per_client/seed_101/metrics.json",
+   "sha256": "da509f9d97281c33bf845c047e21e4adf70b4775297e7865882e0eceb82f4769",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 6.0,
+   "semente": 123,
+   "arquivo": "results/sunt_ditto_final/sunt/k006/lam_per_client/seed_123/metrics.json",
+   "sha256": "6ceb67f74d2678969d26bdef1b2117984eb932d5faf0fd483a88863c5fd4fcee",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 6.0,
+   "semente": 314,
+   "arquivo": "results/sunt_ditto_final/sunt/k006/lam_per_client/seed_314/metrics.json",
+   "sha256": "cc9f02986d56a0bc211a66010ca00dc7b509ce7403648a40967d77e659a06f4c",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 20.0,
+   "semente": 7,
+   "arquivo": "results/sunt_ditto_final/sunt/k020/lam_per_client/seed_007/metrics.json",
+   "sha256": "d6a33d84e231fa4585c2f44c58c79efce4cd826badc778bd6a38d7d46d6e4cef",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 20.0,
+   "semente": 42,
+   "arquivo": "results/sunt_ditto_final/sunt/k020/lam_per_client/seed_042/metrics.json",
+   "sha256": "17ccecb7836d8bb697098a345a7bbcf5cc2624b35bb69eef19b741c9a8a220fa",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 20.0,
+   "semente": 101,
+   "arquivo": "results/sunt_ditto_final/sunt/k020/lam_per_client/seed_101/metrics.json",
+   "sha256": "1172953620109609c5632c794460d3ab499dd5810cf6d833faafb029160fe919",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 20.0,
+   "semente": 123,
+   "arquivo": "results/sunt_ditto_final/sunt/k020/lam_per_client/seed_123/metrics.json",
+   "sha256": "979261e835970de51b966362d8f242f3f95540db9c0f7b17493c262e6dbee485",
+   "sha256_igual_provenance": true
+  },
+  {
+   "método": "Ditto",
+   "k": 20.0,
+   "semente": 314,
+   "arquivo": "results/sunt_ditto_final/sunt/k020/lam_per_client/seed_314/metrics.json",
+   "sha256": "cbbc39cbcf304b03ce16bae3df2c776ff84383c1b5e82ba92cb2864b8b258251",
+   "sha256_igual_provenance": true
+  }
+ ],
+ "lacunas_per_node": [],
+ "verificações": {
+  "total": 1748,
+  "falhas": 0
+ }
+}

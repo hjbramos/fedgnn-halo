@@ -1,3 +1,4 @@
+# FedAvg 0-hop com LEConv sobre as partições Leiden — protocolo de sunt-fedstgnn (client_scaling.yaml, seção federated)
 method: fedavg
 datasets: [metr-la, pems-bay, sunt]
 seeds: [7, 42, 101, 123, 314]
@@ -8,8 +9,8 @@ windows:
   sunt:
     input_steps: 168
     horizon: 24
-    features: [n_boardings, n_alightings]
-    target: n_boardings
+    features: [n_boardings, n_alightings]   # `loading` retirado da entrada em 23/09
+    target: n_boardings      # alvo do sunt-fedstgnn (signal: n_boardings); `loading` até 23/09
 
 data:
   batch_size: 32
@@ -20,8 +21,8 @@ model:
   hidden_size: 64
 
 federated:
-  num_clients: [5, 10, 20]
-  num_clients_per_dataset:
+  num_clients: [5, 10, 20]       # k pedido; o k obtido vem de partitions.csv (SUNT: 5 -> 6)
+  num_clients_per_dataset:        # grade do SUNT (a mesma do FedGNNHet): 5→6, 20, 163→166
     sunt: [5, 20, 163]
   partition_seed: 42
   learning_rate: 0.001
@@ -35,7 +36,10 @@ federated:
   aggregation_weight: train_observations
 
 execution:
-  cpus_per_run: 1
-  gpus_per_run: 1
-  max_parallel: 1
+  cpus_per_run: 4
+  # gpus: [0]            # opcional: restringe às GPUs listadas (índices do nvidia-smi); ausente = todas
+  gpus_per_run: 1        # fração permitida (ex.: 0.2 = 5 runs leves na mesma placa)
+  max_parallel: 5        # terumo: 1x L40S + 4x A16
+  ray_temp_dir: .ray
+
 output: results/fedavg_leconv

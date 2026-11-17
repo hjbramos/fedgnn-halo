@@ -1,0 +1,39 @@
+method: fedprox
+datasets:
+- metr-la
+seeds:
+- 7
+- 42
+- 101
+- 123
+- 314
+windows:
+  metr-la:
+    input_steps: 12
+    horizon: 12
+data:
+  batch_size: 32
+  num_workers: 0
+model:
+  name: leconv
+  hidden_size: 64
+fedprox:
+  num_clients:
+  - 5
+  proximal_mu:
+  - 0.01
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 400
+  patience: 30
+  early_stopping_min_delta: 0.005
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+execution:
+  cpus_per_run: 1
+  max_parallel: 1
+  gpus_per_run: 1
+output: results/reproduced/metrla_fedprox_k5

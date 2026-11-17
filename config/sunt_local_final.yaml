@@ -1,0 +1,50 @@
+# CAMPANHA da referência Local no SUNT (alvo n_boardings), protocolo LEConv da dissertação: cada cliente treina só o
+# seu modelo pessoal (Ditto com λ = 0) pelo caminho `local_only`, sem treinar nem agregar o modelo global. Igual a
+# config/sunt_ditto_final.yaml (mesmos dados, partições, modelo, Adam 0,001 reiniciado a cada rodada, 1 época local,
+# lotes de 32, clipping 5, sem parada antecipada, checkpoint pelo menor MAE micro de validação dos modelos pessoais),
+# salvo λ = 0, `local_only`, teste adiado e saída. O orçamento da célula vem do comando (--max-epochs 600, 600, 1000
+# para k = 6, 20, 166), como no Ditto e no FedProx. Registro: results/lote6_sunt_local/REGISTRO.md.
+method: ditto
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+ditto:
+  num_clients: [5, 20, 163]       # pedidos → obtidos 6, 20, 166
+  lambda: [0]
+  lambda_candidates: [0.01, 0.1, 1.0]   # não usados com λ = 0 (mantidos iguais aos do Ditto)
+  local_only: true
+  evaluate_test: false            # teste avaliado depois, por --evaluate-test-from-checkpoint
+  keep_last_checkpoint: true
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600
+  patience: 100000                # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations   # só pondera o MAE de treino reportado; não há agregação
+
+execution:
+  cpus_per_run: 3
+  gpus_per_run: 1
+  max_parallel: 1
+  ray_temp_dir: .ray
+
+output: results/sunt_local_final

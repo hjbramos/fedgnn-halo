@@ -1,0 +1,48 @@
+method: ditto
+datasets:
+- sunt
+seeds:
+- 7
+- 42
+- 101
+- 123
+- 314
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features:
+    - n_boardings
+    - n_alightings
+    target: n_boardings
+data:
+  batch_size: 32
+  num_workers: 0
+model:
+  name: leconv
+  hidden_size: 64
+ditto:
+  num_clients:
+  - 5
+  lambda:
+  - 0.01
+  lambda_candidates:
+  - 0.01
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600
+  patience: 100000
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+  local_only: false
+  evaluate_test: false
+  keep_last_checkpoint: true
+execution:
+  cpus_per_run: 1
+  max_parallel: 1
+  gpus_per_run: 1
+output: results/reproduced/sunt_ditto_fixed_k6

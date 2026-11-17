@@ -1,0 +1,42 @@
+# Centralizado SEM MENSAGENS ENTRE PARADAS (todas as arestas entre nós distintos removidas).
+# LEConv mantém o termo do próprio nó: com o auto-laço, x_i' = lin3(x_i) + lin1(x_i) − lin2(x_i);
+# é a ablação `self_loops_only` já usada nos controles sem arestas de METR-LA/PEMS-BAY.
+#
+# AVALIAÇÃO FINAL do controle de grafo: usada só por experiments.evaluate_frozen sobre os checkpoints de
+# results/sunt_control_noedges_probe (mesma config de treino; muda só evaluate_test e output).
+# Protocolo e decisões: results/sunt_graph_controls/v1/protocol.md
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+  self_loops_only: true        # cada nó só com auto-laço de peso 1: sem mensagens entre paradas
+
+training:
+  learning_rate: 0.001
+  max_epochs: 600
+  patience: 999                 # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: true
+  keep_last_checkpoint: true    # last.pt preservado: retomada após queda continua da última época
+
+execution:
+  cpus_per_run: 3               # só limita threads de CPU (servidor compartilhado); não altera o treino
+  gpus_per_run: 1
+  max_parallel: 1               # lançamento por semente e GPU fixada (CUDA_VISIBLE_DEVICES), --backend local
+  ray_temp_dir: .ray
+
+output: results/sunt_control_noedges

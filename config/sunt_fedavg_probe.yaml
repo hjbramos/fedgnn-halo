@@ -1,0 +1,52 @@
+# SONDAGEM federada de orçamento do SUNT (alvo n_boardings) com o FedAvg — NÃO é resultado.
+#
+# Objetivo: pelas curvas de VALIDAÇÃO, fixar por escrito o limite de rodadas de cada célula k, comum a
+# todos os métodos federados daquela célula (checkpoint pela validação de cada método). O teste não é
+# avaliado nem gravado. 600 rodadas é teto de sondagem, não orçamento justificado; se a melhora ainda for
+# consistente no teto, estender só a célula, com `--clients <k> --max-epochs <novo teto>` no lançamento (retoma
+# do last.pt; o `max_rounds` do YAML fica em 600 para não estender outras células). A sondagem define o limite de
+# comparação, mas não demonstra que Ditto, FedProx ou FED-PUB convergem nele.
+# Custo medido (config/sunt_fedavg_timing.yaml): 34,5 / 42,2 / 75,0 s por rodada em k = 6 / 20 / 166.
+# k=166 primeiro na fila, por ser o mais longo (~12,5 h a 600 rodadas).
+method: fedavg
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+federated:
+  num_clients: [163, 5, 20]       # SUNT: 163→166, 5→6, 20
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600
+  patience: 100000                # sem parada antecipada até qualquer teto de sondagem (999 não garantiria 1 200)
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+  evaluate_test: false
+  keep_last_checkpoint: true
+
+execution:
+  cpus_per_run: 4
+  gpus: [0, 1, 4]                 # 29/09 à noite: A16 nº 2 e nº 3 em uso por outro pesquisador
+  gpus_per_run: 0.5
+  max_parallel: 10
+  ray_temp_dir: .ray
+
+output: results/sunt_fedavg_probe

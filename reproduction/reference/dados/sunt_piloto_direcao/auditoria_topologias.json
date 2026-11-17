@@ -1,0 +1,110 @@
+{
+  "nos": 2903,
+  "universo_igual": true,
+  "adj_sha256": {
+    "simetrico": "bab452ce8582320e64ce1a3c5fb23b446f3283e66e3ad2bcec5622011c73ce9a",
+    "observado": "5b510a34b3b38e936eddebd1ec67e9e5aa91598484f313af1948e5ba2879b1a2",
+    "invertido": "6fea6effc386d3f795997c5edf364996bbde8d9e2c50fe8c4a053825db283b77"
+  },
+  "pares": {
+    "simetrico": 4666,
+    "observado": 4666,
+    "invertido": 4666
+  },
+  "mesmo_suporte_de_pares": true,
+  "simetrico_e_simetrizacao_do_observado": true,
+  "invertido_e_transposta_do_observado": true,
+  "mesma_afinidade_por_par": true,
+  "diagonal_zero": true,
+  "contagens_somadas_reproduzem_simetrico": true,
+  "por_braco": {
+    "simetrico": {
+      "arestas_orientadas": 9332,
+      "pares_reciprocos": 4666,
+      "grau_entrada": {
+        "min": 1,
+        "mediana": 3.0,
+        "max": 19,
+        "zero": 0
+      },
+      "grau_saida": {
+        "min": 1,
+        "mediana": 3.0,
+        "max": 19,
+        "zero": 0
+      },
+      "soma_pesos_entrada": {
+        "min": 0.27386584877967834,
+        "mediana": 2.0100977420806885,
+        "max": 13.088029861450195
+      },
+      "componentes_fracas": 1,
+      "componentes_fortes": 1,
+      "nos_sem_entrada": []
+    },
+    "observado": {
+      "arestas_orientadas": 4710,
+      "pares_reciprocos": 44,
+      "grau_entrada": {
+        "min": 0,
+        "mediana": 1.0,
+        "max": 11,
+        "zero": 1
+      },
+      "grau_saida": {
+        "min": 1,
+        "mediana": 1.0,
+        "max": 10,
+        "zero": 0
+      },
+      "soma_pesos_entrada": {
+        "min": 0.0,
+        "mediana": 0.8320814371109009,
+        "max": 6.989459991455078
+      },
+      "componentes_fracas": 1,
+      "componentes_fortes": 2,
+      "nos_sem_entrada": [
+        "127813152"
+      ]
+    },
+    "invertido": {
+      "arestas_orientadas": 4710,
+      "pares_reciprocos": 44,
+      "grau_entrada": {
+        "min": 1,
+        "mediana": 1.0,
+        "max": 10,
+        "zero": 0
+      },
+      "grau_saida": {
+        "min": 0,
+        "mediana": 1.0,
+        "max": 11,
+        "zero": 1
+      },
+      "soma_pesos_entrada": {
+        "min": 0.13693292438983917,
+        "mediana": 0.8339808583259583,
+        "max": 6.839691638946533
+      },
+      "componentes_fracas": 1,
+      "componentes_fortes": 2,
+      "nos_sem_entrada": []
+    }
+  },
+  "estratos": {
+    "observado": {
+      "sem_entrada": 1,
+      "grande_reducao": 669,
+      "demais": 2233
+    },
+    "invertido": {
+      "sem_entrada": 0,
+      "grande_reducao": 658,
+      "demais": 2245
+    }
+  },
+  "regra_estratos": "sem_entrada: grau 0; grande_reducao: 0 < grau < 0.5 × grau no simétrico; demais: o resto (grau = número de arestas de entrada; definidos só pela topologia)",
+  "afinidade": "log1p(contagem do par u↔v no treino)/máx (regra do simétrico), igual nos três braços"
+}

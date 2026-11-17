@@ -1,0 +1,43 @@
+# PROTOCOLO CONGELADO do Centralizado do SUNT, alvo `n_boardings` (27/09).
+#
+# Definido pela sondagem cega `config/sunt_probe_boardings.yaml` (só validação): 600 épocas fixas, sem
+# parada antecipada, checkpoint pelo menor MAE de validação, avaliação final das cinco sementes.
+# 600 é um limite prático de custo, não uma afirmação de convergência: o ganho diminui (0,062, 0,033,
+# 0,023 e 0,011 por 100 épocas), mas quatro das cinco sementes ainda melhoraram entre 500 e 600.
+# O resultado final vem de `python -m experiments.evaluate_frozen --probe results/sunt_probe_boardings
+# --config config/sunt_centralized_boardings.yaml`, que avalia o teste nos checkpoints da sondagem em
+# vez de retreinar (mesma configuração e sementes). Rodar este YAML pelo run_grid retreinaria do zero
+# com o mesmo protocolo. O orçamento não se transfere aos federados.
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+training:
+  learning_rate: 0.001
+  max_epochs: 600
+  patience: 999                 # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: true
+
+execution:
+  cpus_per_run: 4
+  gpus_per_run: 1
+  max_parallel: 5
+  ray_temp_dir: .ray
+
+output: results/sunt_centralized_boardings

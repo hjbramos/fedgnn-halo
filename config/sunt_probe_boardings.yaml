@@ -1,0 +1,47 @@
+# SONDAGEM de orçamento do SUNT centralizado no alvo `n_boardings` (27/09) — NÃO é resultado.
+#
+# Objetivo: ver pelas curvas de VALIDAÇÃO onde o treino deixa de melhorar e, a partir disso, congelar
+# por escrito o orçamento e a regra de parada (épocas, `patience`, `min_delta`) da campanha final.
+# O teste NÃO é avaliado nem gravado (`evaluate_test: false`), para que o protocolo seja fixado às cegas.
+#
+# Uma configuração só: LEConv com o peso principal do SUNT, `log1p(contagem)` simétrico (o default do
+# loader, `edge_weight_rule: dataset`). Cinco sementes para distinguir tendência de oscilação.
+# 300 épocas é um orçamento inicial: se as curvas ainda melhorarem de forma consistente no teto,
+# estender a sondagem antes de congelar: basta aumentar `max_epochs` e relançar, que retoma do last.pt.
+# O orçamento daqui vale para o Centralizado; não se transfere automaticamente aos federados, que têm
+# outra dinâmica de treino.
+# Saída separada de results/sunt_probe (alvo `loading`, histórico).
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+training:
+  learning_rate: 0.001
+  max_epochs: 600               # estendida em 27/09: em 300 a melhora ainda era consistente nas 5 sementes
+  patience: 999                 # desligado: a sondagem precisa da curva inteira
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: false          # sondagem cega: nada de teste
+  keep_last_checkpoint: true    # guarda o last.pt: aumentar max_epochs retoma da época 301, não do zero
+
+execution:
+  cpus_per_run: 4
+  gpus_per_run: 1
+  max_parallel: 5
+  ray_temp_dir: .ray
+
+output: results/sunt_probe_boardings

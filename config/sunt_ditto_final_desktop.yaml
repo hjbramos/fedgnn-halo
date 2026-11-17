@@ -1,0 +1,51 @@
+# CAMPANHA FINAL do Ditto `per_client` no SUNT (alvo n_boardings), célula k=6 (pedido 5), no DESKTOP
+# pessoal (env fedstgnn_env; Ray no loopback). Mesmo protocolo das demais campanhas do SUNT na célula:
+# 600 rodadas fixas, sem parada antecipada, checkpoint pela melhor validação (MAE micro dos {v_k}),
+# teste avaliado uma vez ao fim. λ por cliente entre {0,01; 0,1; 1} pela validação local, como no
+# METR-LA. Mesmos dados, partição, arquitetura e pesos de aresta. Revisão externa (02/10) priorizou o
+# Ditto `per_client` em k=6 depois do FedProx. Lançamento (engatado após o FedGNNHet k=20 do desktop):
+#   --clients 5 --lam per_client --max-epochs 600
+method: ditto
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+ditto:
+  num_clients: [5]
+  lambda: [per_client]
+  lambda_candidates: [0.01, 0.1, 1.0]
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600
+  patience: 100000                # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+
+execution:
+  cpus_per_run: 3                 # 5 × 3 = 15 das 16 threads
+  gpus: [0]                       # RTX 2060
+  gpus_per_run: 0.2
+  max_parallel: 5
+  worker_niceness: 0
+  ray_node_ip: 127.0.0.1
+  ray_temp_dir: .ray
+
+output: results/sunt_ditto_final

@@ -1,0 +1,47 @@
+# CAMPANHA COMPLEMENTAR do SUNT: alvo CARGA (`loading`, ocupação média por parada e hora) com grafo
+# DIRECIONADO (`transit_directed`: log1p(contagem do sentido)/máx, contagens só do treino, cache próprio).
+# Entradas: embarques, desembarques e histórico de carga (autorregressivo; só passos anteriores ao horizonte).
+# Nós sem aresta de entrada (1 no grafo completo; 89 nos clientes de k=20) não recebem mensagem de vizinhos:
+# a LEConv usa só o termo do próprio nó (`allow_nodes_without_incoming`). Partição Leiden k=20 semente 42, a
+# mesma da campanha de embarques; arestas internas tiradas da adjacência direcionada. Limites de custo
+# declarados antes (600 épocas / 600 rodadas, 5 sementes, melhor checkpoint pela validação), sem afirmar
+# convergência nem esforço computacional equivalente. Revisão externa (03/10) aprovou o escopo.
+# Experimento complementar: não substitui a campanha de embarques.
+# Centralizado. Lançamento: --max-epochs 600
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings, loading]
+    target: loading
+    graph: transit_directed
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+  allow_nodes_without_incoming: true
+
+training:
+  learning_rate: 0.001
+  max_epochs: 600
+  patience: 999                 # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: true
+
+execution:
+  cpus_per_run: 3                 # convive com o Ditto k=20 no Terumo
+  gpus: [0, 1, 2, 3, 4]
+  gpus_per_run: 0.5
+  max_parallel: 5
+  worker_niceness: 0
+  ray_temp_dir: .ray
+
+output: results/sunt_loading_directed_centralized

@@ -1,3 +1,15 @@
+# CAMPANHA FINAL do FedGNNHet `1hop` no SUNT (alvo n_boardings), comparação principal com o FedAvg.
+# Protocolo congelado, igual ao do FedAvg na mesma célula: rodadas fixas sem parada antecipada e
+# checkpoint pela melhor validação; orçamento por célula k = 6 / 20 / 166 → 600 / 600 / 1 000 rodadas.
+# O teste é avaliado ao fim de cada execução (o protocolo já está fixado). Lançar uma sessão por
+# orçamento, porque o run_grid não tem orçamento por k:
+#   --clients 163 --max-epochs 1000        (k=166, primeiro: é o mais longo)
+#   --clients 5 20 --max-epochs 600        (k=6 e k=20)
+# Entrada conferida em 30/09 (dados do Terumo iguais aos locais): nós com n_boardings e n_alightings
+# (valores ‖ máscara; sem loading), alvo n_boardings; grafo `transit` simétrico, 4 666 arestas, peso
+# log1p(contagem)/max ∈ [0,059; 1], normalizado pela soma de entrada na LEConv. Pesos internos de cada
+# cliente iguais à submatriz da adjacência; halo 1hop com as 2 features e aresta virtual de peso W_v,
+# que repõe a soma de entrada do grafo completo (137 / 288 / 1 016 nós virtuais em k = 6 / 20 / 166).
 method: fedgnnhet
 datasets: [sunt]
 seeds: [7, 42, 101, 123, 314]
@@ -24,8 +36,8 @@ fedgnnhet:
   learning_rate: 0.001
   optimizer: adam_reset_each_round
   local_epochs: 1
-  max_rounds: 600
-  patience: 100000
+  max_rounds: 600                 # sobrescrito no lançamento por --max-epochs
+  patience: 100000                # sem parada antecipada
   early_stopping_min_delta: 0.0
   gradient_clip_norm: 5.0
   participation_fraction: 1.0
@@ -33,7 +45,11 @@ fedgnnhet:
   evaluate_test: true
 
 execution:
-  cpus_per_run: 1
-  gpus_per_run: 1
-  max_parallel: 1
+  cpus_per_run: 4
+  gpus: [0, 1, 2, 3, 4]           # 30/09 17h: as 5 GPUs livres; ~22 núcleos em uso por outro usuário
+  gpus_per_run: 1                 # uma semente por GPU (≤ 0,3 GB cada no smoke)
+  max_parallel: 5                 # 5 × 4 = 20 núcleos por sessão
+  worker_niceness: 0              # 02/10: com nice 15 (padrão do Ray) a carga ~100 deixava ~0,4 núcleo por semente
+  ray_temp_dir: .ray
+
 output: results/sunt_fedgnnhet_final

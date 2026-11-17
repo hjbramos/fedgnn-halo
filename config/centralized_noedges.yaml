@@ -1,3 +1,6 @@
+# Ablação do valor da estrutura espacial: LEConv SEM arestas (só auto-laço por nó).
+# Idêntico ao centralized.yaml em tudo o resto — a única diferença é `self_loops_only: true`.
+# Comparar com results/centralized (LEConv com grafo) e results/centralized_gru (sem grafo, temporal forte).
 datasets: [metr-la, pems-bay, sunt]
 seeds: [7, 42, 101, 123, 314]
 
@@ -7,8 +10,8 @@ windows:
   sunt:
     input_steps: 168
     horizon: 24
-    features: [n_boardings, n_alightings]
-    target: n_boardings
+    features: [n_boardings, n_alightings]   # `loading` retirado da entrada em 23/09
+    target: n_boardings      # alvo do sunt-fedstgnn (signal: n_boardings); `loading` até 23/09
 
 data:
   batch_size: 32
@@ -27,7 +30,9 @@ training:
   gradient_clip_norm: 5.0
 
 execution:
-  cpus_per_run: 1
-  gpus_per_run: 1
-  max_parallel: 1
+  cpus_per_run: 2
+  gpus_per_run: 0.2
+  max_parallel: 3
+  ray_temp_dir: .ray
+
 output: results/centralized_noedges

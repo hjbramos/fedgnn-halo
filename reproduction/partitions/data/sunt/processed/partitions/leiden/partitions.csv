@@ -1,0 +1,5 @@
+method,requested_clients,num_clients,partition_seed,resolution,path
+leiden,5,6,42,0.1122018454301963,data/sunt/processed/partitions/leiden/k006/partition_seed_042
+leiden,10,10,42,0.1584893192461114,data/sunt/processed/partitions/leiden/k010/partition_seed_042
+leiden,20,20,42,0.5011872336272725,data/sunt/processed/partitions/leiden/k020/partition_seed_042
+leiden,163,166,42,14.12537544622754,data/sunt/processed/partitions/leiden/k166/partition_seed_042

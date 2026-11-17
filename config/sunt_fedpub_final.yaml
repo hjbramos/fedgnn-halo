@@ -1,0 +1,65 @@
+# CAMPANHA FINAL do FED-PUB no SUNT (alvo n_boardings), célula k=20 (pedido 20) — a célula em que estão
+# FedAvg, FedProx, Ditto e FedGNNHet. Configuração ÚNICA, final congelada antes da campanha no SUNT (04/10, após
+# a revisão externa), depois de sondagens preliminares no METR-LA que também avaliaram teste (ver README):
+# λ1 = 1e-5 (critério: esparsidade das máscaras; com o 0,001 do artigo elas ficavam quase inteiramente abaixo do
+# limiar nas primeiras rodadas — observação de desenvolvimento, sem registro de execução preservado), embedding `representation_pre_activation` (o ponto do código oficial: última
+# convolução antes da ativação), τ = 3 (cenário sem sobreposição do artigo), λ2 = 0,001, limiar 0,001.
+# Mesmo protocolo das outras campanhas do SUNT na célula: 600 rodadas fixas, sem parada antecipada,
+# checkpoint pela melhor validação dos modelos personalizados θ_i ⊙ μ_i, teste avaliado uma vez ao fim.
+# ADAPTAÇÃO, não reprodução fiel do código oficial (declarado no README): LEConv de uma camada; Adam
+# reiniciado a cada rodada (o oficial preserva o estado); grafo proxy com p_out = 0,01 (artigo; o oficial
+# usa 0); pesos base com as posições de máscara ≤ limiar zeradas no envio, o que altera a agregação e não
+# só a comunicação. A comunicação gravada é estimativa (sem índices do formato esparso).
+# Lançamento: --clients 20 --max-epochs 600
+method: fedpub
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+fedpub:
+  num_clients: [20]
+  partition_seed: 42
+  tau: 3.0
+  similarity_source: representation_pre_activation
+  lambda_l1: [0.00001]
+  lambda_prox: 0.001
+  mask_threshold: 0.001
+  proxy_graph:
+    blocks: 5
+    nodes_per_block: 100
+    p_in: 0.1
+    p_out: 0.01
+    seed: 0
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600
+  patience: 100000                # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  evaluate_test: true
+
+execution:
+  cpus_per_run: 3
+  gpus: [0, 1, 2, 3, 4]
+  gpus_per_run: 0.5
+  max_parallel: 5
+  worker_niceness: 0
+  ray_temp_dir: .ray
+
+output: results/sunt_fedpub_final

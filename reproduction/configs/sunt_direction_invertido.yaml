@@ -1,0 +1,38 @@
+datasets:
+- sunt
+seeds:
+- 7
+- 42
+- 101
+- 123
+- 314
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features:
+    - n_boardings
+    - n_alightings
+    target: n_boardings
+    graph: transit_pair_reversed
+data:
+  batch_size: 32
+  num_workers: 0
+model:
+  name: leconv
+  hidden_size: 64
+  allow_nodes_without_incoming: true
+training:
+  learning_rate: 0.001
+  max_epochs: 600
+  patience: 999
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: false
+  strict_determinism: true
+  validation_detail: true
+output: results/reproduced/sunt_direction_invertido
+execution:
+  cpus_per_run: 1
+  max_parallel: 1
+  gpus_per_run: 1

@@ -1,0 +1,17 @@
+% Gerado por experiments/export_traffic.py; não editar. Fragmento tabular, sem legenda.
+
+\begin{tabular}{>{\raggedright\arraybackslash}l>{\raggedright\arraybackslash}p{3.3cm}cccccc>{\raggedright\arraybackslash}p{3.3cm}}
+\toprule
+Configuração & Comparação (A $-$ B) & $\Delta$MAE & IC95\% & $p_t$ & $p_{\mathrm{Holm}}$ & $p_W$ & A melhor & Classificação \\
+\midrule
+METR-LA $k=5$ & FedAvg − Centralizado & \num{+0.0204} & [\num{+0.0057}; \num{+0.0350}] & \num{0.0182} & \num{0.0182} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+METR-LA $k=10$ & FedAvg − Centralizado & \num{+0.0817} & [\num{+0.0714}; \num{+0.0920}] & \num{<0.0001} & \num{<0.0001} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+METR-LA $k=20$ & FedAvg − Centralizado & \num{+0.1393} & [\num{+0.1258}; \num{+0.1528}] & \num{<0.0001} & \num{<0.0001} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+PEMS-BAY $k=5$ & FedAvg − Centralizado & \num{-0.0046} & [\num{-0.0080}; \num{-0.0013}] & \num{0.0187} & \num{0.0375} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=10$ & FedAvg − Centralizado & \num{+0.0016} & [\num{-0.0037}; \num{+0.0070}] & \num{0.4402} & \num{0.4402} & \num{0.4375} & 1/5 & piora observada \\
+PEMS-BAY $k=20$ & FedAvg − Centralizado & \num{+0.0154} & [\num{+0.0090}; \num{+0.0217}] & \num{0.0026} & \num{0.0077} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+SUNT $k=6$ & FedAvg − Centralizado & \num{+0.0663} & [\num{-0.0160}; \num{+0.1486}] & \num{0.0889} & \num{0.0889} & \num{0.0625} & 0/5 & piora observada \\
+SUNT $k=20$ & FedAvg − Centralizado & \num{+0.1323} & [\num{+0.0756}; \num{+0.1890}] & \num{0.0029} & \num{0.0058} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+SUNT $k=166$ & FedAvg − Centralizado & \num{+0.3937} & [\num{+0.3732}; \num{+0.4142}] & \num{<0.0001} & \num{<0.0001} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+\bottomrule
+\end{tabular}

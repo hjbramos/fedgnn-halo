@@ -1,0 +1,20 @@
+% Gerado por experiments/export_traffic.py; não editar. Fragmento tabular, sem legenda.
+
+\begin{tabular}{>{\raggedright\arraybackslash}l>{\raggedright\arraybackslash}p{3.3cm}cccccc>{\raggedright\arraybackslash}p{3.3cm}}
+\toprule
+Configuração & Comparação (A $-$ B) & $\Delta$MAE & IC95\% & $p_t$ & $p_{\mathrm{Holm}}$ & $p_W$ & A melhor & Classificação \\
+\midrule
+SUNT $k=6$ & FedProx − FedAvg & \num{+0.0362} & [\num{-0.0647}; \num{+0.1371}] & \num{0.3761} & \num{1.0000} & \num{0.6250} & 2/5 & piora observada \\
+SUNT $k=6$ & Ditto (seleção adaptada) − FedAvg & \num{-0.0282} & [\num{-0.0922}; \num{+0.0359}] & \num{0.2891} & \num{1.0000} & \num{0.3125} & 3/5 & melhora observada \\
+SUNT $k=6$ & Local − FedAvg & \num{+0.1158} & [\num{+0.0267}; \num{+0.2049}] & \num{0.0226} & \num{0.1129} & \num{0.0625} & 0/5 & piora com evidência nominal \\
+SUNT $k=6$ & Local − FedGNN-Halo & \num{+0.1585} & [\num{+0.1305}; \num{+0.1865}] & \num{0.0001} & \num{0.0009} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+SUNT $k=20$ & FedProx − FedAvg & \num{-0.0178} & [\num{-0.0737}; \num{+0.0381}] & \num{0.4264} & \num{1.0000} & \num{0.6250} & 3/5 & melhora observada \\
+SUNT $k=20$ & Ditto (seleção adaptada) − FedAvg & \num{-0.0089} & [\num{-0.0698}; \num{+0.0520}] & \num{0.7059} & \num{1.0000} & \num{1.0000} & 2/5 & melhora observada \\
+SUNT $k=20$ & Local − FedAvg & \num{+0.2733} & [\num{+0.2098}; \num{+0.3367}] & \num{0.0003} & \num{0.0022} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+SUNT $k=20$ & Local − FedGNN-Halo & \num{+0.2792} & [\num{+0.2515}; \num{+0.3069}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+SUNT $k=166$ & FedProx − FedAvg & \num{-0.0829} & [\num{-0.1210}; \num{-0.0449}] & \num{0.0038} & \num{0.0225} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+SUNT $k=166$ & Ditto (seleção adaptada) − FedAvg & \num{-0.0946} & [\num{-0.1336}; \num{-0.0556}] & \num{0.0025} & \num{0.0178} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+SUNT $k=166$ & Local − FedAvg & \num{+0.5937} & [\num{+0.5741}; \num{+0.6133}] & \num{<0.0001} & \num{<0.0001} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+SUNT $k=166$ & Local − FedGNN-Halo & \num{+0.6002} & [\num{+0.5499}; \num{+0.6504}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+\bottomrule
+\end{tabular}

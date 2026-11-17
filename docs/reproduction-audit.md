@@ -2,7 +2,9 @@
 
 Conferência em 16 de novembro de 2026. Nenhum treinamento completo foi iniciado. O repositório permanece privado.
 
-## Parecer
+> Registro da auditoria inicial, anterior à incorporação dos artefatos. As pendências de distribuição listadas abaixo foram tratadas no [guia atual de reprodução](reproduction.md); a repetição dos treinamentos completos permanece para a etapa posterior.
+
+## Parecer inicial
 
 O repositório executa exemplos e os treinadores principais, mas **ainda não permite reproduzir integralmente os resultados da dissertação de maneira autocontida**. A validação de instalação não deve ser confundida com a reprodução do protocolo experimental.
 

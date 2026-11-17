@@ -1,0 +1,39 @@
+Sensibilidade do ajuste de Holm — 15/11/2026
+
+Análise de conferência, não incorporada ao PDF nem ao pacote generated-traffic.
+Fonte: generated-traffic/dados/diferencas_pareadas.csv, valores sem arredondamento.
+A identificação SHA256 da fonte está em resumo.json.
+
+Escopos definidos antes do cálculo:
+1. 62 contrastes das tarefas principais: reúne as famílias principal, ablação,
+   caracterização, exploratórias e controles da regra de parada. Exclui os três
+   contrastes dos estudos complementares de carga e FED-PUB.
+2. Todos os 65 contrastes do CSV, incluindo esses estudos complementares.
+Não inclui análises descritivas, diagnósticos só de validação nem contrastes
+fora desse CSV. Portanto, 65 não significa todos os testes possíveis da pesquisa.
+Nenhuma duplicação de pares A/B foi encontrada.
+
+Procedimento: ajuste de Holm dos p nominais do teste t pareado, sem modificar
+as diferenças, sementes, intervalos ou resultados originais. A implementação
+reproduziu os valores publicados em todas as famílias. Conferência independente
+por cálculo vetorizado em NumPy (ordenação, produto e máximo acumulado);
+p nominais conferidos com
+scipy.stats.ttest_1samp sobre as cinco diferenças por semente.
+Referência do procedimento: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/p.adjust.html
+
+Resultados:
+62 contrastes: 43 atendem a p<0,05 nas famílias originais; 32 na família única.
+65 contrastes: 44 atendem a p<0,05 nas famílias originais; 32 na família única.
+As mudanças estão listadas em resumo.json; os CSVs contêm todos os contrastes.
+FedGNN-Halo versus FedAvg, METR-LA k=20: p original 0,02206253;
+p único (62) 0,07354177; p único (65) 0,08089594.
+
+Interpretação: a classificação de alguns contrastes é sensível à abrangência
+da família. Não cabe afirmar que todas as conclusões estatísticas permanecem
+inalteradas. Isso não modifica a redução observada de MAE, nem demonstra que
+seja obrigatório substituir famílias com finalidades distintas por uma única.
+A análise também não torna prospectiva a organização original das famílias.
+Se incorporada, recomenda-se uma síntese curta e detalhamento no apêndice,
+sem substituir silenciosamente o protocolo ou as tabelas existentes.
+
+Reprodução: python3 analises/holm_sensibilidade_20261115/calcular.py

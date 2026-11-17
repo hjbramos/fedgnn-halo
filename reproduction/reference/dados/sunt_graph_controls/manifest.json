@@ -1,0 +1,300 @@
+{
+ "análise": "controles de grafo SUNT v1",
+ "prévia_de_layout": false,
+ "script": "experiments/sunt_graph_controls_analysis.py",
+ "script_sha256": "d41679c4c47afe2b5debc5889cd96bebf3bfd9ece2bb0cfc14e4e67c3cb188b6",
+ "protocolo_sha256": "89299cada66cfd5cb080ae2ef5101c61c98e4b1d239e1457645a32dc77862840",
+ "protocolo_k166_sha256": "bc59f3a6fd9f1cd725eec92d539bc85a81a1473d4bfe14578a080c0b833482aa",
+ "comando": "python -m experiments.sunt_graph_controls_analysis",
+ "git_commit": "840b5bb008b860603b69224c91e132a7fdf72c3a",
+ "git_branch": "controles-grafo-sunt",
+ "python": "3.10.18",
+ "pacotes": {
+  "numpy": "1.26.4",
+  "pandas": "1.3.5",
+  "scipy": "1.13.1",
+  "matplotlib": "3.10.7"
+ },
+ "node_descriptors": {
+  "arquivo": "results/sunt_stratified_analysis/v1/node_descriptors.csv",
+  "sha256": "dc7f9b2bc33f16ca0b2d384de18586e880889f6eb03bcdf6f677262339f185c6",
+  "manifest_v1_sha256": "05e694e67c8fea9584ad5d182b204e6461d0f2c08b6f040d77596d26428b0200"
+ },
+ "checkpoints_sha256": "results/sunt_graph_controls/v1/checkpoints_sha256.csv",
+ "execuções": [
+  {
+   "braço": "Centralizado",
+   "semente": 7,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_007/metrics.json",
+   "sha256": "40268cce7b71f97f76f4e7035f193ccef4f1f93f78e9df467b8d0a0406682fcb",
+   "checkpoint": "results/sunt_probe_boardings/sunt/seed_007/best_model.pt",
+   "checkpoint_sha256": "e84324bf5294b97835400b8fbb80343d07f0a4d1be0841f8299ad23a2315499e",
+   "gpu": "NVIDIA L40S"
+  },
+  {
+   "braço": "Centralizado",
+   "semente": 42,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_042/metrics.json",
+   "sha256": "a4b0ab237110824a63a381306db399a434c653879f48defe9d00f592fedc04f5",
+   "checkpoint": "results/sunt_probe_boardings/sunt/seed_042/best_model.pt",
+   "checkpoint_sha256": "555bca779cdd7f98aeca14e77166417618a74e92fd49858a87ab4d0f98631d41",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "Centralizado",
+   "semente": 101,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_101/metrics.json",
+   "sha256": "024484e55f98fa0c0bd916641c3ae7a1c857360062d6b4b2210d2573c16000ec",
+   "checkpoint": "results/sunt_probe_boardings/sunt/seed_101/best_model.pt",
+   "checkpoint_sha256": "84072570ef04a17ee43e3d08bbb76de799fc0581b5162b0ba7f05e7ea801d281",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "Centralizado",
+   "semente": 123,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_123/metrics.json",
+   "sha256": "fa8db4e812fc0975ea9cdf476782ba264439b088be59d9983fcec58b762944db",
+   "checkpoint": "results/sunt_probe_boardings/sunt/seed_123/best_model.pt",
+   "checkpoint_sha256": "14db0b26658e8ff032315d4e67c7b5a64f29beff0ffdb7447e18a8b91f324085",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "Centralizado",
+   "semente": 314,
+   "arquivo": "results/sunt_centralized_boardings/sunt/seed_314/metrics.json",
+   "sha256": "1674b9e12aa5f4c2d114373e2710c6b8e2b805f10414174f55350e95c0299271",
+   "checkpoint": "results/sunt_probe_boardings/sunt/seed_314/best_model.pt",
+   "checkpoint_sha256": "d74ed3b531587f59d12793b4fccd3a18b21ab5eeec8d972519fb36a601c13bfc",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "sem_arestas",
+   "semente": 7,
+   "arquivo": "results/sunt_control_noedges/sunt/seed_007/metrics.json",
+   "sha256": "53ca6272b1a0e7072d6e6483b520a94fcef6c870aaa436615c023b3d4947424c",
+   "checkpoint": "results/sunt_control_noedges_probe/sunt/seed_007/best_model.pt",
+   "checkpoint_sha256": "cbf7e3194fed2d4df392aeed2d8980a98eda14496568f17f70d149405d09e7fb",
+   "gpu": "NVIDIA L40S"
+  },
+  {
+   "braço": "sem_arestas",
+   "semente": 42,
+   "arquivo": "results/sunt_control_noedges/sunt/seed_042/metrics.json",
+   "sha256": "bad8b518ba3d00bd16d682a3bcb12ba8a3b66cb98da00aaf5f131d9836dbfeb9",
+   "checkpoint": "results/sunt_control_noedges_probe/sunt/seed_042/best_model.pt",
+   "checkpoint_sha256": "ec769409cc9172812c2dfa6ddfa9531fd4545270c6bab0bbdc70bfee2a1111a4",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "sem_arestas",
+   "semente": 101,
+   "arquivo": "results/sunt_control_noedges/sunt/seed_101/metrics.json",
+   "sha256": "0b766112235f4c1602beb5fb8bd189e41788e5a7d7bedd3db8998a8d24d2fc6a",
+   "checkpoint": "results/sunt_control_noedges_probe/sunt/seed_101/best_model.pt",
+   "checkpoint_sha256": "0aae895bbe51341e71fca3271af8cfb5f950255a0c132a623d2544b017e85c8a",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "sem_arestas",
+   "semente": 123,
+   "arquivo": "results/sunt_control_noedges/sunt/seed_123/metrics.json",
+   "sha256": "cd1682ac979420b1500805511c83d87f21d199956a840a5d4486d6d15208b9fa",
+   "checkpoint": "results/sunt_control_noedges_probe/sunt/seed_123/best_model.pt",
+   "checkpoint_sha256": "421dc9e41497779bb3cac5f6a2e06c1ef01ee0fb43d2c329abee238a94e858b8",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "sem_arestas",
+   "semente": 314,
+   "arquivo": "results/sunt_control_noedges/sunt/seed_314/metrics.json",
+   "sha256": "2e8281eeb56f14a20741fc4ccb96b673c30191316dd9f8b5c83d7334db28ef7b",
+   "checkpoint": "results/sunt_control_noedges_probe/sunt/seed_314/best_model.pt",
+   "checkpoint_sha256": "86bab1459f7f56652761a6a542eb4af55660fb7c8790cf1e9058a91105187a3e",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "cortes_k20",
+   "semente": 7,
+   "arquivo": "results/sunt_control_cut20/sunt/seed_007/metrics.json",
+   "sha256": "5b12bbd0ea9f17fa88a0a751065f8abdf6ffe1acb5a6963649bba8611ea5bf6b",
+   "checkpoint": "results/sunt_control_cut20_probe/sunt/seed_007/best_model.pt",
+   "checkpoint_sha256": "8be2a5cd93027cb3de5116f9ec38d690d81d9b12a20bdbb6eb49fa0a21e489e0",
+   "gpu": "NVIDIA L40S"
+  },
+  {
+   "braço": "cortes_k20",
+   "semente": 42,
+   "arquivo": "results/sunt_control_cut20/sunt/seed_042/metrics.json",
+   "sha256": "7ff6c2958b21b8bf397bd8a0c2c220d5a5fcc045fa45f6715672964b9414481e",
+   "checkpoint": "results/sunt_control_cut20_probe/sunt/seed_042/best_model.pt",
+   "checkpoint_sha256": "c04fbbb88c8594e3a0bf699cd2e509a9a1ae2a07d9df520f2a5cfafbc125d699",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "cortes_k20",
+   "semente": 101,
+   "arquivo": "results/sunt_control_cut20/sunt/seed_101/metrics.json",
+   "sha256": "c573b915622503d8578509a84faf52f2518c0c418d0dc46f9dc376113742ea0f",
+   "checkpoint": "results/sunt_control_cut20_probe/sunt/seed_101/best_model.pt",
+   "checkpoint_sha256": "c9ad5d748a231dbe27c5daea06200d512fb0a707123c7a43f4bfd33de624a438",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "cortes_k20",
+   "semente": 123,
+   "arquivo": "results/sunt_control_cut20/sunt/seed_123/metrics.json",
+   "sha256": "152a9987e51018de594fcf889ad880cec6f2e1e3bc79bd6a61a3ecec8e99f12a",
+   "checkpoint": "results/sunt_control_cut20_probe/sunt/seed_123/best_model.pt",
+   "checkpoint_sha256": "74bf96e46f14bab6e9b9adabbb24e5028be590946ee9ec53618ea84b7fd40b51",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "cortes_k20",
+   "semente": 314,
+   "arquivo": "results/sunt_control_cut20/sunt/seed_314/metrics.json",
+   "sha256": "c7460bcf673659140395e0bc482761abddac5d5ff5d97f88074ae75b1fe1f0d5",
+   "checkpoint": "results/sunt_control_cut20_probe/sunt/seed_314/best_model.pt",
+   "checkpoint_sha256": "13b56d3158671cbe4e5d8ea668d83e97ea182376c2f1f42bf4633a0bac3c6ca6",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "FedAvg_k20",
+   "semente": 7,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_007/metrics.json",
+   "sha256": "e8a5ffeb86ec6ab6fc7813953ec9224371da38b046dbb700cfbf788c410d9f93",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k020/seed_007/best_model.pt",
+   "checkpoint_sha256": "24505fbf011ab55014ff822caa0713bd0637ec7d6844b4bb95f01d232b97a547",
+   "gpu": "NVIDIA L40S"
+  },
+  {
+   "braço": "FedAvg_k20",
+   "semente": 42,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_042/metrics.json",
+   "sha256": "28bf0496a729cf4f5532eafeda79702b6bd4081da287e453046a34f0f4cb30eb",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k020/seed_042/best_model.pt",
+   "checkpoint_sha256": "b5ec5da8d4849674800dd31c8f206baf4f0581db62d63ed8757bb928794f4cb3",
+   "gpu": "NVIDIA L40S"
+  },
+  {
+   "braço": "FedAvg_k20",
+   "semente": 101,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_101/metrics.json",
+   "sha256": "c7d46c2e02b13497571816137054516218d3ff699f404e3bb91a7af842e42d33",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k020/seed_101/best_model.pt",
+   "checkpoint_sha256": "e9b02a8c7d3419ff08b16d2fe0fe6c5e2ffde32129950957544b0a6f121e2599",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "FedAvg_k20",
+   "semente": 123,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_123/metrics.json",
+   "sha256": "5ed58869cdb97e962cef784e16623a32e6c0cfe34416f46bf9e6e0428e467c1b",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k020/seed_123/best_model.pt",
+   "checkpoint_sha256": "829b3d60e2c8c2834a85cca4ec7894eee7748daab3f2de9b98c8d2786a541cfb",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "FedAvg_k20",
+   "semente": 314,
+   "arquivo": "results/sunt_fedavg_final/sunt/k020/seed_314/metrics.json",
+   "sha256": "91b572cd95c5a09df47eaeac502df1191488c0b5ad18406f740e7976d95e9446",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k020/seed_314/best_model.pt",
+   "checkpoint_sha256": "bdfc00585655697426a368d6fb63fad00df5c2fa2f05f2fe8c5e197ab097e9aa",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "cortes_k166",
+   "semente": 7,
+   "arquivo": "results/sunt_control_cut166/sunt/seed_007/metrics.json",
+   "sha256": "4d49d4b97c36b50c1abc9658c85055b1c9bdc6a99d9f0d222aa793682b938dff",
+   "checkpoint": "results/sunt_control_cut166_probe/sunt/seed_007/best_model.pt",
+   "checkpoint_sha256": "ccd866e138f280e81d0a8a86260aeacdcdf545778610f2a586a91f5d5d8caca5",
+   "gpu": "NVIDIA GeForce RTX 2060"
+  },
+  {
+   "braço": "cortes_k166",
+   "semente": 42,
+   "arquivo": "results/sunt_control_cut166/sunt/seed_042/metrics.json",
+   "sha256": "42491cb592190ba1014da45fa201c556d8cc297233642d2a3f07358e62a4f2a9",
+   "checkpoint": "results/sunt_control_cut166_probe/sunt/seed_042/best_model.pt",
+   "checkpoint_sha256": "b19b478f3a80c2a9b57daadb3205a36b3cde29bbdf472fb237835cdc4d4bdb74",
+   "gpu": "NVIDIA GeForce RTX 2060"
+  },
+  {
+   "braço": "cortes_k166",
+   "semente": 101,
+   "arquivo": "results/sunt_control_cut166/sunt/seed_101/metrics.json",
+   "sha256": "0b68c2be86bc7f6690486f768eb080898f47b90d4a23ee07eb260f946efcf780",
+   "checkpoint": "results/sunt_control_cut166_probe/sunt/seed_101/best_model.pt",
+   "checkpoint_sha256": "2f10f27c16f37b288f1443bc9c47ff2e6a8b46946650936223a28b36002b6aa5",
+   "gpu": "NVIDIA GeForce RTX 2060"
+  },
+  {
+   "braço": "cortes_k166",
+   "semente": 123,
+   "arquivo": "results/sunt_control_cut166/sunt/seed_123/metrics.json",
+   "sha256": "8a673c69b56e9461f2da604bacc4171eb6fe44731d6b3478041de59afdc520ca",
+   "checkpoint": "results/sunt_control_cut166_probe/sunt/seed_123/best_model.pt",
+   "checkpoint_sha256": "1955a6d784ebebdfe27882726be63ee91ceb6bca5540e9b5ad430cfd5694156f",
+   "gpu": "NVIDIA GeForce RTX 2060"
+  },
+  {
+   "braço": "cortes_k166",
+   "semente": 314,
+   "arquivo": "results/sunt_control_cut166/sunt/seed_314/metrics.json",
+   "sha256": "8ebcec848bae99afa802358dc03c2308fe1b99c83d6d790e2894654d6203d8d8",
+   "checkpoint": "results/sunt_control_cut166_probe/sunt/seed_314/best_model.pt",
+   "checkpoint_sha256": "30472eefb40418027aa038397ae52fe0ff12d3c5d44f0c8285c64540e73d4bff",
+   "gpu": "NVIDIA GeForce RTX 2060"
+  },
+  {
+   "braço": "FedAvg_k166",
+   "semente": 7,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_007/metrics.json",
+   "sha256": "37cfdb3d104825a18d222d14d728d15faecb180182ae30698d7d0bc75cd04d09",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k166/seed_007/best_model.pt",
+   "checkpoint_sha256": "59a8f590e44b3cb9bf1eb76551e4caf8560a0d9d365c32fc09ef2dbee2cd83bf",
+   "gpu": "NVIDIA L40S"
+  },
+  {
+   "braço": "FedAvg_k166",
+   "semente": 42,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_042/metrics.json",
+   "sha256": "a8be687c87d7e10a94b0c917be03caae52c8a80fe1a70d079b814bdcb512899d",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k166/seed_042/best_model.pt",
+   "checkpoint_sha256": "f404eb076301d26c8c37c4e4550fc79ee7af644ada52f717a7dc2625a6251fca",
+   "gpu": "NVIDIA L40S"
+  },
+  {
+   "braço": "FedAvg_k166",
+   "semente": 101,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_101/metrics.json",
+   "sha256": "ff2754c17a1efa89b6cfd878e78d45e6c00f68ffa8c9a14d46c6a5e6b35216ca",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k166/seed_101/best_model.pt",
+   "checkpoint_sha256": "b780b1ad6cc7ae2b1a99deed75b5a3ac55338c3cfc3c4167c0d21a91d5c4048c",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "FedAvg_k166",
+   "semente": 123,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_123/metrics.json",
+   "sha256": "5bd0f0acc3bfad6854e5ee7bb0f443c0dacfda9174993d6c6568e0d3025a3c2c",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k166/seed_123/best_model.pt",
+   "checkpoint_sha256": "acb3de8f6b6457e626bd4b496e229f27533275652e622bdfecf6bf4a107fe349",
+   "gpu": "NVIDIA A16"
+  },
+  {
+   "braço": "FedAvg_k166",
+   "semente": 314,
+   "arquivo": "results/sunt_fedavg_final/sunt/k166/seed_314/metrics.json",
+   "sha256": "91f0b990d5577cd2acdf129e7721ab09eac5c48fef601470429a68f876c0969e",
+   "checkpoint": "results/sunt_fedavg_probe/sunt/k166/seed_314/best_model.pt",
+   "checkpoint_sha256": "0175b288820747accebb481d132d0139069bacbbf36af48f2bcf037241483c14",
+   "gpu": "NVIDIA A16"
+  }
+ ],
+ "verificações": {
+  "total": 1066,
+  "falhas": 0
+ }
+}

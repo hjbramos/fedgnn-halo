@@ -1,0 +1,49 @@
+{
+  "metr-la": {
+    "series_sha256": "95a88f45eb8c892ffbec194cf865c3c8fa310c19e0935f20ecf6f40313b6dab0",
+    "mask_sha256": "b51fb9a76a2f38bdd7ea72ce2d86cbd3de14180337d6036c448bd10f8bebc20c",
+    "adjacency_sha256": "3660036687f01bd23f942b5ace888eea0eff0e4a9094e3abf4bf6eb0e988912c",
+    "ids_sha256": "b1fd397cdbef5a0a56ae36e45d74db27b7788f5cfe621e68b595a0261ccdb091",
+    "shape": [
+      34272,
+      207,
+      1
+    ],
+    "feature_names": [
+      "speed"
+    ],
+    "timestamps_sha256": "6782a299ce348fac69daac81bdf1149260bdb906f4539d6d226d75ae241e0a92"
+  },
+  "pems-bay": {
+    "series_sha256": "7ec6fe6ebe809cb92638df2892145b24e1cbd1d81416a3b4441b218e9275643a",
+    "mask_sha256": "fa9deede4b4cd7281f46d31303569ddf06e9ac99885d2c051ef5fa5b846a48c6",
+    "adjacency_sha256": "e38153d4cf4eb83c145959affb1684f881ea2f552c7c3a8fa65b24fff2fadc6d",
+    "ids_sha256": "73b4fbe4d2bb73e719a095422f0fb34a8682a6322505dafabc60ffad1888fce9",
+    "shape": [
+      52116,
+      325,
+      1
+    ],
+    "feature_names": [
+      "speed"
+    ],
+    "timestamps_sha256": "59799acc3112b04bd56c41f9c630f4fe0d1f206e8a9237f3174d7f686d5eb75b"
+  },
+  "sunt": {
+    "series_sha256": "6f95d07fb8566adb5ac1ba271a3241a849e11b7b9d0f4b1655f8464b47381157",
+    "mask_sha256": "38659af612ef1a2f899f01c44781dcc01183776e9fe913cb79f599846d328e8b",
+    "adjacency_sha256": "8e23f3cc318b4846b671fc6a7233952d1c8c1f67f132ead514bbb317c1f3ccc1",
+    "ids_sha256": "be4b53da19e9d252c35a2bf1b034534ff8349dd8a82d85fd1a4fc10039d9bbe3",
+    "shape": [
+      2184,
+      2903,
+      3
+    ],
+    "feature_names": [
+      "n_boardings",
+      "n_alightings",
+      "loading"
+    ],
+    "timestamps_sha256": "f928083713efdeb7ac8af99189ac7a892cda2ed34d384d97c451098dbddb4b8e"
+  }
+}

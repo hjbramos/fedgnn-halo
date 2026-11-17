@@ -1,0 +1,18 @@
+{
+  "dataset": "sunt",
+  "method": "leiden",
+  "partition_seed": 42,
+  "requested_clients": 20,
+  "num_clients": 20,
+  "resolution": 0.5011872336272725,
+  "nodes": 2903,
+  "undirected_edges": 4666,
+  "cut_edges": 169,
+  "cut_weight_fraction": 0.038036378768830544,
+  "isolated_nodes_attached_by_distance": [],
+  "client_size_min": 50,
+  "client_size_max": 219,
+  "client_size_cv": 0.3098501061797761,
+  "clients_with_multiple_components": 0,
+  "graph": "max(W, W\u1d40) sem diagonal; subgrafos locais com arestas originais"
+}

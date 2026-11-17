@@ -1,0 +1,157 @@
+{
+  "total_celulas": 16,
+  "total_execucoes": 80,
+  "execucoes_ultimo_passo_igual_checkpoint": 2,
+  "execucoes_final_acima_checkpoint": 78,
+  "centralizado": {
+    "orcamento_epocas": 600,
+    "limiar_ultimos_10pct": 541,
+    "melhores_epocas_ordenadas": [
+      493,
+      539,
+      554,
+      566,
+      577
+    ],
+    "sementes_ultimos_10pct": 3,
+    "sementes_final_acima_checkpoint": 5
+  },
+  "federados_k166": {
+    "total_execucoes": 20,
+    "orcamento_rodadas": 1000,
+    "limiar_ultimos_10pct": 901,
+    "execucoes_ultimos_10pct": 19,
+    "limiar_bloco_final_observado": 983,
+    "execucoes_desde_limiar_bloco_final": 18,
+    "execucoes_minimo_na_rodada_1000": 1,
+    "execucoes_final_acima_checkpoint": 19,
+    "melhores_rodadas_ordenadas": [
+      843,
+      928,
+      983,
+      986,
+      986,
+      989,
+      990,
+      990,
+      991,
+      992,
+      993,
+      994,
+      996,
+      996,
+      997,
+      998,
+      998,
+      998,
+      998,
+      1000
+    ],
+    "transicoes_subida_por_execucao_em_999": {
+      "min": 396,
+      "max": 436
+    },
+    "por_metodo": {
+      "FedAvg": {
+        "melhores_rodadas_ordenadas": [
+          990,
+          994,
+          996,
+          998,
+          1000
+        ],
+        "ultimos_10pct": 5,
+        "desde_rodada_983": 5,
+        "na_ultima_rodada": 1,
+        "final_acima_checkpoint": 4
+      },
+      "FedProx": {
+        "melhores_rodadas_ordenadas": [
+          990,
+          991,
+          992,
+          993,
+          997
+        ],
+        "ultimos_10pct": 5,
+        "desde_rodada_983": 5,
+        "na_ultima_rodada": 0,
+        "final_acima_checkpoint": 5
+      },
+      "Ditto": {
+        "melhores_rodadas_ordenadas": [
+          843,
+          928,
+          986,
+          996,
+          998
+        ],
+        "ultimos_10pct": 4,
+        "desde_rodada_983": 3,
+        "na_ultima_rodada": 0,
+        "final_acima_checkpoint": 5
+      },
+      "FedGNNHet": {
+        "melhores_rodadas_ordenadas": [
+          983,
+          986,
+          989,
+          998,
+          998
+        ],
+        "ultimos_10pct": 5,
+        "desde_rodada_983": 5,
+        "na_ultima_rodada": 0,
+        "final_acima_checkpoint": 5
+      }
+    }
+  },
+  "local": {
+    "total_execucoes": 15,
+    "sementes_com_piora_pos_minimo": 15,
+    "por_k": {
+      "k=6": {
+        "orcamento": 600,
+        "melhores_rodadas_ordenadas": [
+          143,
+          209,
+          227,
+          247,
+          394
+        ],
+        "sementes_com_piora_pos_minimo": 5,
+        "delta_final_menos_checkpoint_min": 0.07021273983254339,
+        "delta_final_menos_checkpoint_media": 0.10862985967334335,
+        "delta_final_menos_checkpoint_max": 0.14066422593576444
+      },
+      "k=20": {
+        "orcamento": 600,
+        "melhores_rodadas_ordenadas": [
+          113,
+          127,
+          127,
+          153,
+          164
+        ],
+        "sementes_com_piora_pos_minimo": 5,
+        "delta_final_menos_checkpoint_min": 0.264480414323911,
+        "delta_final_menos_checkpoint_media": 0.3441174357688709,
+        "delta_final_menos_checkpoint_max": 0.4956191638164418
+      },
+      "k=166": {
+        "orcamento": 1000,
+        "melhores_rodadas_ordenadas": [
+          51,
+          62,
+          65,
+          69,
+          69
+        ],
+        "sementes_com_piora_pos_minimo": 5,
+        "delta_final_menos_checkpoint_min": 1.9831613038180294,
+        "delta_final_menos_checkpoint_media": 2.6078515692595006,
+        "delta_final_menos_checkpoint_max": 3.292576829628401
+      }
+    }
+  }
+}

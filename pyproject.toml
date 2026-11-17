@@ -19,6 +19,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+reproduction = ["scipy>=1.13,<2", "matplotlib>=3.9,<4"]
 notebooks = ["jupyterlab>=4,<5", "nbconvert>=7,<8", "matplotlib>=3.9,<4"]
 dev = ["pytest>=8,<10", "build>=1,<2"]
 distributed = ["ray>=2.38,<3"]

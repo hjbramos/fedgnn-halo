@@ -1,0 +1,32 @@
+datasets:
+- pems-bay
+seeds:
+- 7
+- 42
+- 101
+- 123
+- 314
+windows:
+  pems-bay:
+    input_steps: 12
+    horizon: 12
+data:
+  batch_size: 32
+  num_workers: 0
+model:
+  name: leconv
+  hidden_size: 64
+  cut_partition: data/pems-bay/processed/partitions/leiden/k020/partition_seed_042
+training:
+  learning_rate: 0.001
+  max_epochs: 100
+  patience: 10
+  early_stopping_min_delta: 0.005
+  gradient_clip_norm: 5.0
+  evaluate_test: true
+  keep_last_checkpoint: true
+execution:
+  cpus_per_run: 1
+  max_parallel: 1
+  gpus_per_run: 1
+output: results/reproduced/pems-bay_cut_k20

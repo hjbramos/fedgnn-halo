@@ -1,0 +1,36 @@
+datasets:
+- sunt
+seeds:
+- 7
+- 42
+- 101
+- 123
+- 314
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features:
+    - n_boardings
+    - n_alightings
+    target: n_boardings
+data:
+  batch_size: 32
+  num_workers: 0
+model:
+  name: leconv
+  hidden_size: 64
+  cut_partition: data/sunt/processed/partitions/leiden/k166/partition_seed_042
+training:
+  learning_rate: 0.001
+  max_epochs: 600
+  patience: 999
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: true
+  keep_last_checkpoint: true
+execution:
+  cpus_per_run: 1
+  max_parallel: 1
+  gpus_per_run: 1
+output: results/reproduced/sunt_control_cut166

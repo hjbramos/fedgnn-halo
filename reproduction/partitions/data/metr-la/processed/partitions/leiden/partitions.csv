@@ -1,0 +1,4 @@
+method,requested_clients,num_clients,partition_seed,resolution,path
+leiden,5,5,42,0.1995262314968879,data/metr-la/processed/partitions/leiden/k005/partition_seed_042
+leiden,10,10,42,1.412537544622754,data/metr-la/processed/partitions/leiden/k010/partition_seed_042
+leiden,20,20,42,3.981071705534973,data/metr-la/processed/partitions/leiden/k020/partition_seed_042

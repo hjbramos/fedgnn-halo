@@ -1,0 +1,14 @@
+{
+  "metr-la": {
+    "repo": "witgaw/METR-LA",
+    "revision": "612eedcdb60280dadd414e70a7f3b37103667a55"
+  },
+  "pems-bay": {
+    "repo": "witgaw/PEMS-BAY",
+    "revision": "4c488d8ce974a326b4d09bcbdd6f6fdc8fb5fd67"
+  },
+  "sunt": {
+    "repo": "labiaufba/PublicTransportationSunt",
+    "revision": "87fb53121be084636eab6d8469a6e59ac119bf2c"
+  }
+}

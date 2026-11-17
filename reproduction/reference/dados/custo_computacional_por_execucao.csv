@@ -1,0 +1,361 @@
+celula,metodo,dataset,alvo,k,semente,iteracoes,tempo_treino_h,s_por_iteracao,gpu,ambiente
+metrla_cent,Centralizado,metr-la,speed,,7,31,0.056247095465660098,6.5319207637540755,não registrado,não registrado
+metrla_cent,Centralizado,metr-la,speed,,42,33,0.049003800683551361,5.345869165478331,não registrado,não registrado
+metrla_cent,Centralizado,metr-la,speed,,101,24,0.036671024825837874,5.5006537238756819,não registrado,não registrado
+metrla_cent,Centralizado,metr-la,speed,,123,37,0.056622916327582463,5.5092567237647803,não registrado,não registrado
+metrla_cent,Centralizado,metr-la,speed,,314,35,0.054076815048853553,5.5621866907392228,não registrado,não registrado
+metrla_noedges,Centralizado sem conexões,metr-la,speed,,7,21,0.039207277960247464,6.7212476503281362,não registrado,não registrado
+metrla_noedges,Centralizado sem conexões,metr-la,speed,,42,22,0.041366755565007525,6.7691054560921406,não registrado,não registrado
+metrla_noedges,Centralizado sem conexões,metr-la,speed,,101,25,0.045737945901023015,6.5862642097473145,não registrado,não registrado
+metrla_noedges,Centralizado sem conexões,metr-la,speed,,123,16,0.029725075099203323,6.6881418973207474,não registrado,não registrado
+metrla_noedges,Centralizado sem conexões,metr-la,speed,,314,21,0.039195621543460422,6.7192494074503584,não registrado,não registrado
+metrla_centpf,Centralizado (parada federada),metr-la,speed,,7,104,0.16524596061971453,5.720052482990118,NVIDIA A16,servidor do laboratório
+metrla_centpf,Centralizado (parada federada),metr-la,speed,,42,69,0.11239911595980326,5.8643017022506054,NVIDIA A16,servidor do laboratório
+metrla_centpf,Centralizado (parada federada),metr-la,speed,,101,88,0.14060575664043426,5.7520536807450382,NVIDIA A16,servidor do laboratório
+metrla_centpf,Centralizado (parada federada),metr-la,speed,,123,87,0.14061843229664697,5.8186937502060809,NVIDIA A16,servidor do laboratório
+metrla_centpf,Centralizado (parada federada),metr-la,speed,,314,65,0.099863577418857152,5.5309058262751654,NVIDIA A16,servidor do laboratório
+metrla_noedgespf,Centralizado sem conexões (parada federada),metr-la,speed,,7,82,0.1198933494091034,5.2636104618630757,NVIDIA A16,servidor do laboratório
+metrla_noedgespf,Centralizado sem conexões (parada federada),metr-la,speed,,42,53,0.086871140069431724,5.9006812122632875,NVIDIA A16,servidor do laboratório
+metrla_noedgespf,Centralizado sem conexões (parada federada),metr-la,speed,,101,87,0.13145818683836194,5.4396491105529083,NVIDIA A16,servidor do laboratório
+metrla_noedgespf,Centralizado sem conexões (parada federada),metr-la,speed,,123,69,0.11362582180235122,5.928303746209628,NVIDIA A16,servidor do laboratório
+metrla_noedgespf,Centralizado sem conexões (parada federada),metr-la,speed,,314,79,0.12240040355258518,5.5777399087254009,NVIDIA A16,servidor do laboratório
+metrla_fedavg_k5,FedAvg,metr-la,speed,5,7,95,0.5950469334257974,22.54914695087232,não registrado,não registrado
+metrla_fedavg_k5,FedAvg,metr-la,speed,5,42,77,0.47926570561197068,22.407227794845383,não registrado,não registrado
+metrla_fedavg_k5,FedAvg,metr-la,speed,5,101,68,0.43633973717689511,23.100339027012097,não registrado,não registrado
+metrla_fedavg_k5,FedAvg,metr-la,speed,5,123,63,0.41369283245669469,23.639590426096841,não registrado,não registrado
+metrla_fedavg_k5,FedAvg,metr-la,speed,5,314,55,0.35481925527254743,23.224533072384922,não registrado,não registrado
+metrla_fedavg_k10,FedAvg,metr-la,speed,10,7,59,0.74122781833012896,45.227460101499396,não registrado,não registrado
+metrla_fedavg_k10,FedAvg,metr-la,speed,10,42,78,0.95903973228401607,44.263372259262283,não registrado,não registrado
+metrla_fedavg_k10,FedAvg,metr-la,speed,10,101,81,0.9804721214373906,43.576538730550695,não registrado,não registrado
+metrla_fedavg_k10,FedAvg,metr-la,speed,10,123,55,0.68546469304296709,44.866779908266935,não registrado,não registrado
+metrla_fedavg_k10,FedAvg,metr-la,speed,10,314,58,0.70319229986932541,43.64641861257882,não registrado,não registrado
+metrla_fedavg_k20,FedAvg,metr-la,speed,20,7,56,1.3590024735530217,87.364444728408543,não registrado,não registrado
+metrla_fedavg_k20,FedAvg,metr-la,speed,20,42,98,2.3388535507520039,85.917069211298099,não registrado,não registrado
+metrla_fedavg_k20,FedAvg,metr-la,speed,20,101,83,2.0352721670601102,88.276865077305985,não registrado,não registrado
+metrla_fedavg_k20,FedAvg,metr-la,speed,20,123,63,1.5527024826738569,88.72585615279182,não registrado,não registrado
+metrla_fedavg_k20,FedAvg,metr-la,speed,20,314,68,1.5999732769860162,84.704467605142028,não registrado,não registrado
+metrla_fedprox_k5,FedProx,metr-la,speed,5,7,95,0.79443177627192607,30.104783100830883,NVIDIA L40S,servidor do laboratório
+metrla_fedprox_k5,FedProx,metr-la,speed,5,42,77,0.64151737040943568,29.993019915246343,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k5,FedProx,metr-la,speed,5,101,104,0.87112231393655137,30.15423394395755,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k5,FedProx,metr-la,speed,5,123,124,1.1547197096215354,33.524120601915541,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k5,FedProx,metr-la,speed,5,314,55,0.46193714439868927,30.235885815186933,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k10,FedProx,metr-la,speed,10,7,88,1.3937466804186502,57.016909653490238,NVIDIA L40S,servidor do laboratório
+metrla_fedprox_k10,FedProx,metr-la,speed,10,42,62,1.0105828909741508,58.679006572692622,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k10,FedProx,metr-la,speed,10,101,69,1.1871839980284373,61.940034679744556,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k10,FedProx,metr-la,speed,10,123,55,0.89506234155760866,58.585898720134388,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k10,FedProx,metr-la,speed,10,314,58,0.97501037889056741,60.517885586311074,NVIDIA A16,servidor do laboratório
+metrla_fedprox_k20,FedProx,metr-la,speed,20,7,68,2.2773726948102317,120.56678972524755,não registrado,não registrado
+metrla_fedprox_k20,FedProx,metr-la,speed,20,42,77,2.5534061855740018,119.38002945540788,não registrado,não registrado
+metrla_fedprox_k20,FedProx,metr-la,speed,20,101,56,1.6707513960864808,107.40544689127377,não registrado,não registrado
+metrla_fedprox_k20,FedProx,metr-la,speed,20,123,63,1.9375301476981905,110.7160084398966,não registrado,não registrado
+metrla_fedprox_k20,FedProx,metr-la,speed,20,314,56,1.6645168853468366,107.00465691515377,não registrado,não registrado
+pemsbay_cent,Centralizado,pems-bay,speed,,7,44,0.13327568405204349,10.90437414971265,não registrado,não registrado
+pemsbay_cent,Centralizado,pems-bay,speed,,42,48,0.093995326028929821,7.0496494521697359,não registrado,não registrado
+pemsbay_cent,Centralizado,pems-bay,speed,,101,41,0.11918744067351024,10.465238693283826,não registrado,não registrado
+pemsbay_cent,Centralizado,pems-bay,speed,,123,36,0.10523346642653147,10.523346642653147,não registrado,não registrado
+pemsbay_cent,Centralizado,pems-bay,speed,,314,44,0.13549441728327011,11.08590686863119,não registrado,não registrado
+pemsbay_noedges,Centralizado sem conexões,pems-bay,speed,,7,29,0.088192833794487849,10.948075919315732,não registrado,não registrado
+pemsbay_noedges,Centralizado sem conexões,pems-bay,speed,,42,33,0.10051202906502618,10.964948625275582,não registrado,não registrado
+pemsbay_noedges,Centralizado sem conexões,pems-bay,speed,,101,28,0.086739271150694949,11.152192005089351,não registrado,não registrado
+pemsbay_noedges,Centralizado sem conexões,pems-bay,speed,,123,36,0.097768013742234969,9.7768013742234974,não registrado,não registrado
+pemsbay_noedges,Centralizado sem conexões,pems-bay,speed,,314,36,0.089232384363810216,8.9232384363810215,não registrado,não registrado
+pemsbay_centpf,Centralizado (parada federada),pems-bay,speed,,7,106,0.29103579673502178,9.884234606095081,NVIDIA A16,servidor do laboratório
+pemsbay_centpf,Centralizado (parada federada),pems-bay,speed,,42,68,0.18868872629271613,9.9894031566732071,NVIDIA A16,servidor do laboratório
+pemsbay_centpf,Centralizado (parada federada),pems-bay,speed,,101,91,0.24969424704710644,9.8780141688965184,NVIDIA A16,servidor do laboratório
+pemsbay_centpf,Centralizado (parada federada),pems-bay,speed,,123,108,0.30790988915496403,10.263662971832135,NVIDIA A16,servidor do laboratório
+pemsbay_centpf,Centralizado (parada federada),pems-bay,speed,,314,86,0.24455209824773999,10.237064577812372,NVIDIA A16,servidor do laboratório
+pemsbay_noedgespf,Centralizado sem conexões (parada federada),pems-bay,speed,,7,68,0.17133131636513604,9.0704814546248489,NVIDIA A16,servidor do laboratório
+pemsbay_noedgespf,Centralizado sem conexões (parada federada),pems-bay,speed,,42,64,0.1564771713150872,8.8018408864736557,NVIDIA A16,servidor do laboratório
+pemsbay_noedgespf,Centralizado sem conexões (parada federada),pems-bay,speed,,101,100,0.25268373741043937,9.0966145467758182,NVIDIA A16,servidor do laboratório
+pemsbay_noedgespf,Centralizado sem conexões (parada federada),pems-bay,speed,,123,70,0.16041744987169901,8.2500402791159502,NVIDIA A16,servidor do laboratório
+pemsbay_noedgespf,Centralizado sem conexões (parada federada),pems-bay,speed,,314,98,0.25272151907285056,9.2836476394108356,NVIDIA A16,servidor do laboratório
+pemsbay_fedavg_k5,FedAvg,pems-bay,speed,5,7,111,1.1302941580613455,36.658188910097692,não registrado,não registrado
+pemsbay_fedavg_k5,FedAvg,pems-bay,speed,5,42,90,0.92713946574264106,37.085578629705644,não registrado,não registrado
+pemsbay_fedavg_k5,FedAvg,pems-bay,speed,5,101,77,0.78690527412626476,36.790376452656538,não registrado,não registrado
+pemsbay_fedavg_k5,FedAvg,pems-bay,speed,5,123,73,0.74574571583006122,36.776501054633151,não registrado,não registrado
+pemsbay_fedavg_k5,FedAvg,pems-bay,speed,5,314,90,0.91151895258161753,36.460758103264702,não registrado,não registrado
+pemsbay_fedavg_k10,FedAvg,pems-bay,speed,10,7,68,1.5105896194113626,79.97239161589566,não registrado,não registrado
+pemsbay_fedavg_k10,FedAvg,pems-bay,speed,10,42,62,1.3566526217593087,78.773378037637286,não registrado,não registrado
+pemsbay_fedavg_k10,FedAvg,pems-bay,speed,10,101,87,1.965956340233485,81.349917526902829,não registrado,não registrado
+pemsbay_fedavg_k10,FedAvg,pems-bay,speed,10,123,73,1.6746540439791149,82.58567888116184,não registrado,não registrado
+pemsbay_fedavg_k10,FedAvg,pems-bay,speed,10,314,96,2.2060744896199966,82.727793360749885,não registrado,não registrado
+pemsbay_fedavg_k20,FedAvg,pems-bay,speed,20,7,93,3.5587709607018363,137.75887589813561,não registrado,não registrado
+pemsbay_fedavg_k20,FedAvg,pems-bay,speed,20,42,78,3.0868883513742023,142.47177006342471,não registrado,não registrado
+pemsbay_fedavg_k20,FedAvg,pems-bay,speed,20,101,104,3.998247170911895,138.40086360848866,não registrado,não registrado
+pemsbay_fedavg_k20,FedAvg,pems-bay,speed,20,123,109,4.1052248980601629,135.58540947721639,não registrado,não registrado
+pemsbay_fedavg_k20,FedAvg,pems-bay,speed,20,314,96,3.6123717572291691,135.46394089609385,não registrado,não registrado
+pemsbay_fedprox_k5,FedProx,pems-bay,speed,5,7,116,1.5269511235422559,47.388138316828631,NVIDIA L40S,servidor do laboratório
+pemsbay_fedprox_k5,FedProx,pems-bay,speed,5,42,98,1.369478932817777,50.307389368816295,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k5,FedProx,pems-bay,speed,5,101,120,1.6394160664743846,49.182481994231544,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k5,FedProx,pems-bay,speed,5,123,86,1.1859208572573132,49.643198675887533,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k5,FedProx,pems-bay,speed,5,314,106,1.4513680522971684,49.291745172356663,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k10,FedProx,pems-bay,speed,10,7,84,2.3571932102574245,101.02256615388961,NVIDIA L40S,servidor do laboratório
+pemsbay_fedprox_k10,FedProx,pems-bay,speed,10,42,115,3.2486693050463993,101.69747389710467,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k10,FedProx,pems-bay,speed,10,101,117,3.2865375708871416,101.1242329503736,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k10,FedProx,pems-bay,speed,10,123,138,3.8520802469385993,100.48904992013738,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k10,FedProx,pems-bay,speed,10,314,119,3.345210310816765,101.19963965496095,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k20,FedProx,pems-bay,speed,20,7,96,5.6357381392187547,211.34018022070327,NVIDIA L40S,servidor do laboratório
+pemsbay_fedprox_k20,FedProx,pems-bay,speed,20,42,99,5.8612472979889976,213.1362653814181,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k20,FedProx,pems-bay,speed,20,101,91,5.2431934768623778,207.42303864510504,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k20,FedProx,pems-bay,speed,20,123,115,6.6821152205599681,209.17925907839899,NVIDIA A16,servidor do laboratório
+pemsbay_fedprox_k20,FedProx,pems-bay,speed,20,314,94,5.333014865782526,204.24312251933077,NVIDIA A16,servidor do laboratório
+metrla_halo_k5,FedGNN-Halo,metr-la,speed,5,7,82,0.73256407658259071,32.161349703625937,não registrado,não registrado
+metrla_halo_k5,FedGNN-Halo,metr-la,speed,5,42,53,0.46592290745841131,31.64759371415624,não registrado,não registrado
+metrla_halo_k5,FedGNN-Halo,metr-la,speed,5,101,68,0.60323104182879128,31.935761037994833,não registrado,não registrado
+metrla_halo_k5,FedGNN-Halo,metr-la,speed,5,123,57,0.50202855904897059,31.707066887303402,não registrado,não registrado
+metrla_halo_k5,FedGNN-Halo,metr-la,speed,5,314,54,0.47384092092514041,31.589394728342693,não registrado,não registrado
+metrla_halo_k10,FedGNN-Halo,metr-la,speed,10,7,88,1.5127623070610894,61.885730743408203,não registrado,não registrado
+metrla_halo_k10,FedGNN-Halo,metr-la,speed,10,42,58,1.0055757806036207,62.415048451259217,não registrado,não registrado
+metrla_halo_k10,FedGNN-Halo,metr-la,speed,10,101,81,1.3829914555946985,61.466286915319934,não registrado,não registrado
+metrla_halo_k10,FedGNN-Halo,metr-la,speed,10,123,55,0.96511436025301611,63.171121762015602,não registrado,não registrado
+metrla_halo_k10,FedGNN-Halo,metr-la,speed,10,314,58,1.020128333237436,63.318310338875342,não registrado,não registrado
+metrla_halo_k20,FedGNN-Halo,metr-la,speed,20,7,140,4.9585821659697427,127.50639855350767,não registrado,não registrado
+metrla_halo_k20,FedGNN-Halo,metr-la,speed,20,42,87,2.8919361457559796,119.66632327266123,não registrado,não registrado
+metrla_halo_k20,FedGNN-Halo,metr-la,speed,20,101,78,2.5475023198790021,117.57703014826163,não registrado,não registrado
+metrla_halo_k20,FedGNN-Halo,metr-la,speed,20,123,77,2.6972240891059238,126.10398338677047,não registrado,não registrado
+metrla_halo_k20,FedGNN-Halo,metr-la,speed,20,314,94,3.1389151938094031,120.21377337993459,não registrado,não registrado
+metrla_halonone_k5,FedAvg (ablação),metr-la,speed,5,7,81,0.51091571185323925,22.707364971255078,não registrado,não registrado
+metrla_halonone_k5,FedAvg (ablação),metr-la,speed,5,42,76,0.52445470935768557,24.842591495890368,não registrado,não registrado
+metrla_halonone_k5,FedAvg (ablação),metr-la,speed,5,101,73,0.50730061425103079,25.017564538407001,não registrado,não registrado
+metrla_halonone_k5,FedAvg (ablação),metr-la,speed,5,123,63,0.40795362565252519,23.311635751572865,não registrado,não registrado
+metrla_halonone_k5,FedAvg (ablação),metr-la,speed,5,314,55,0.38093136264218225,24.933689191124657,não registrado,não registrado
+metrla_halonone_k10,FedAvg (ablação),metr-la,speed,10,7,59,0.93937289264467028,57.317668025776491,não registrado,não registrado
+metrla_halonone_k10,FedAvg (ablação),metr-la,speed,10,42,78,1.167172315120697,53.869491467109093,não registrado,não registrado
+metrla_halonone_k10,FedAvg (ablação),metr-la,speed,10,101,81,1.1084578000836902,49.264791114830679,não registrado,não registrado
+metrla_halonone_k10,FedAvg (ablação),metr-la,speed,10,123,55,0.65386866920524178,42.798676529797639,não registrado,não registrado
+metrla_halonone_k10,FedAvg (ablação),metr-la,speed,10,314,58,0.69839361733860439,43.348569352051307,não registrado,não registrado
+metrla_halonone_k20,FedAvg (ablação),metr-la,speed,20,7,56,1.3461893669101928,86.540745015655247,não registrado,não registrado
+metrla_halonone_k20,FedAvg (ablação),metr-la,speed,20,42,87,2.1078247834576502,87.220335867213109,não registrado,não registrado
+metrla_halonone_k20,FedAvg (ablação),metr-la,speed,20,101,78,1.8585847891701592,85.780836423238114,não registrado,não registrado
+metrla_halonone_k20,FedAvg (ablação),metr-la,speed,20,123,63,1.562897142569224,89.308408146812809,não registrado,não registrado
+metrla_halonone_k20,FedAvg (ablação),metr-la,speed,20,314,65,1.6440700793928571,91.056189012527469,não registrado,não registrado
+metrla_halomin2_k20,FedGNN-Halo (dois ou mais vizinhos),metr-la,speed,20,7,68,2.4208015455140006,128.16008182132944,NVIDIA L40S,servidor do laboratório
+metrla_halomin2_k20,FedGNN-Halo (dois ou mais vizinhos),metr-la,speed,20,42,77,2.7660302491982778,129.32089476771168,NVIDIA A16,servidor do laboratório
+metrla_halomin2_k20,FedGNN-Halo (dois ou mais vizinhos),metr-la,speed,20,101,78,2.7512470585770079,126.98063347278497,NVIDIA A16,servidor do laboratório
+metrla_halomin2_k20,FedGNN-Halo (dois ou mais vizinhos),metr-la,speed,20,123,63,2.2769685065746308,130.11248608997889,NVIDIA A16,servidor do laboratório
+metrla_halomin2_k20,FedGNN-Halo (dois ou mais vizinhos),metr-la,speed,20,314,94,3.3632992648416096,128.80720588755099,NVIDIA A16,servidor do laboratório
+metrla_ditto_k5,Ditto,metr-la,speed,5,7,77,3.3542197701666092,156.82066457921809,NVIDIA A16,servidor do laboratório
+metrla_ditto_k5,Ditto,metr-la,speed,5,42,102,4.5851803616682689,161.82989511770361,NVIDIA A16,servidor do laboratório
+metrla_ditto_k5,Ditto,metr-la,speed,5,101,83,3.5654287071360482,154.64510055047921,NVIDIA A16,servidor do laboratório
+metrla_ditto_k5,Ditto,metr-la,speed,5,123,67,2.7521170602242151,147.87494651951008,NVIDIA A16,servidor do laboratório
+metrla_ditto_k5,Ditto,metr-la,speed,5,314,76,3.4213003006246354,162.06159318748274,NVIDIA A16,servidor do laboratório
+metrla_ditto_k10,Ditto,metr-la,speed,10,7,81,5.9120274629195535,262.7567761297579,NVIDIA L40S,servidor do laboratório
+metrla_ditto_k10,Ditto,metr-la,speed,10,42,55,4.0328416752815244,263.96781874569979,NVIDIA L40S,servidor do laboratório
+metrla_ditto_k10,Ditto,metr-la,speed,10,101,75,5.7923754336436586,278.03402081489565,NVIDIA A16,servidor do laboratório
+metrla_ditto_k10,Ditto,metr-la,speed,10,123,65,5.0179794294304321,277.91886070691623,NVIDIA A16,servidor do laboratório
+metrla_ditto_k10,Ditto,metr-la,speed,10,314,65,5.0224603433741466,278.16703440226041,NVIDIA A16,servidor do laboratório
+metrla_ditto_k20,Ditto,metr-la,speed,20,7,68,11.537186351219813,610.79221859399013,NVIDIA L40S,servidor do laboratório
+metrla_ditto_k20,Ditto,metr-la,speed,20,42,64,10.966819194886419,616.8835797123611,NVIDIA L40S,servidor do laboratório
+metrla_ditto_k20,Ditto,metr-la,speed,20,101,69,11.905835345652369,621.17401803403664,NVIDIA A16,servidor do laboratório
+metrla_ditto_k20,Ditto,metr-la,speed,20,123,86,14.219543686509132,595.23671245852177,NVIDIA A16,servidor do laboratório
+metrla_ditto_k20,Ditto,metr-la,speed,20,314,74,12.5774793605672,611.87737429786375,NVIDIA A16,servidor do laboratório
+metrla_local_k5,Local,metr-la,speed,5,7,118,1.9551429838604397,59.648430016081214,NVIDIA L40S,servidor do laboratório
+metrla_local_k5,Local,metr-la,speed,5,42,62,1.0122845073541005,58.777810104431644,NVIDIA L40S,servidor do laboratório
+metrla_local_k5,Local,metr-la,speed,5,101,81,1.429398705429501,63.528831352422266,NVIDIA A16,servidor do laboratório
+metrla_local_k5,Local,metr-la,speed,5,123,77,1.2532414234346814,58.593105511231855,NVIDIA A16,servidor do laboratório
+metrla_local_k5,Local,metr-la,speed,5,314,75,1.2729633587598801,61.102241220474241,NVIDIA A16,servidor do laboratório
+metrla_local_k10,Local,metr-la,speed,10,7,85,2.6245950679646599,111.15932052556207,NVIDIA A16,servidor do laboratório
+metrla_local_k10,Local,metr-la,speed,10,42,105,3.388595425883929,116.18041460173471,NVIDIA A16,servidor do laboratório
+metrla_local_k10,Local,metr-la,speed,10,101,84,2.5747088392575583,110.34466453960964,NVIDIA A16,servidor do laboratório
+metrla_local_k10,Local,metr-la,speed,10,123,65,1.8652889032496347,103.30830848767208,NVIDIA A16,servidor do laboratório
+metrla_local_k10,Local,metr-la,speed,10,314,99,3.2121544308794867,116.80561566834498,NVIDIA A16,servidor do laboratório
+metrla_local_k20,Local,metr-la,speed,20,7,65,4.4419024942980876,246.01306122266328,NVIDIA A16,servidor do laboratório
+metrla_local_k20,Local,metr-la,speed,20,42,83,5.5954618979162642,242.69473292166927,NVIDIA A16,servidor do laboratório
+metrla_local_k20,Local,metr-la,speed,20,101,63,4.1667499083280566,238.09999476160323,NVIDIA A16,servidor do laboratório
+metrla_local_k20,Local,metr-la,speed,20,123,65,4.2273431110382083,234.12977230365459,NVIDIA A16,servidor do laboratório
+metrla_local_k20,Local,metr-la,speed,20,314,81,5.1537216336197327,229.05429482754366,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k5,Ditto λ=0.01 (controle),metr-la,speed,5,7,49,1.0032429699103038,73.70764676892027,NVIDIA L40S,servidor do laboratório
+metrla_dittofix0p01_k5,Ditto λ=0.01 (controle),metr-la,speed,5,42,71,1.4857621551222271,75.33441913295799,NVIDIA L40S,servidor do laboratório
+metrla_dittofix0p01_k5,Ditto λ=0.01 (controle),metr-la,speed,5,101,67,1.3468888685438367,72.370148160564369,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k5,Ditto λ=0.01 (controle),metr-la,speed,5,123,77,1.5593271653519736,72.903607730741626,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k5,Ditto λ=0.01 (controle),metr-la,speed,5,314,75,1.508711575600836,72.418155628840125,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k5,Ditto λ=0.1 (controle),metr-la,speed,5,7,82,1.5077335678868824,66.193181029180195,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k5,Ditto λ=0.1 (controle),metr-la,speed,5,42,81,1.7093151483933131,75.969562150813914,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k5,Ditto λ=0.1 (controle),metr-la,speed,5,101,81,1.6764705527491039,74.509802344404619,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k5,Ditto λ=0.1 (controle),metr-la,speed,5,123,77,1.6719280298550923,78.168063733484843,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k5,Ditto λ=0.1 (controle),metr-la,speed,5,314,56,1.164199529091517,74.841398298740387,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k5,Ditto λ=1 (controle),metr-la,speed,5,7,87,1.6689153030845854,69.058564265569046,NVIDIA L40S,servidor do laboratório
+metrla_dittofix1_k5,Ditto λ=1 (controle),metr-la,speed,5,42,62,1.310886737704277,76.116004124764473,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k5,Ditto λ=1 (controle),metr-la,speed,5,101,77,1.5912931245565414,74.398120109136997,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k5,Ditto λ=1 (controle),metr-la,speed,5,123,77,1.526481453842587,71.367964075757314,NVIDIA L40S,servidor do laboratório
+metrla_dittofix1_k5,Ditto λ=1 (controle),metr-la,speed,5,314,75,1.5057694474193786,72.276933476130168,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k10,Ditto λ=0.01 (controle),metr-la,speed,10,7,67,2.7695898562007479,148.81378331824914,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k10,Ditto λ=0.01 (controle),metr-la,speed,10,42,65,2.6728072757853401,148.03240296657268,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k10,Ditto λ=0.01 (controle),metr-la,speed,10,101,84,3.2464977933300867,139.13561971414657,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k10,Ditto λ=0.01 (controle),metr-la,speed,10,123,85,3.2591340484221778,138.03391263905692,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k10,Ditto λ=0.01 (controle),metr-la,speed,10,314,99,3.551120806535085,129.13166569218492,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k10,Ditto λ=0.1 (controle),metr-la,speed,10,7,65,2.3481982495387395,130.05405689753019,NVIDIA L40S,servidor do laboratório
+metrla_dittofix0p1_k10,Ditto λ=0.1 (controle),metr-la,speed,10,42,60,1.9849739760160445,119.09843856096268,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k10,Ditto λ=0.1 (controle),metr-la,speed,10,101,75,2.6454533819357553,126.98176233291626,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k10,Ditto λ=0.1 (controle),metr-la,speed,10,123,80,2.8268995820151437,127.21048119068146,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k10,Ditto λ=0.1 (controle),metr-la,speed,10,314,66,2.1722244062688616,118.48496761466518,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k10,Ditto λ=1 (controle),metr-la,speed,10,7,59,2.0976757274733648,127.99377320176464,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k10,Ditto λ=1 (controle),metr-la,speed,10,42,79,2.8405137645536001,129.44113357459443,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k10,Ditto λ=1 (controle),metr-la,speed,10,101,59,2.1255215032895407,129.69283748885331,NVIDIA L40S,servidor do laboratório
+metrla_dittofix1_k10,Ditto λ=1 (controle),metr-la,speed,10,123,105,4.0941685945457884,140.37149467014132,NVIDIA L40S,servidor do laboratório
+metrla_dittofix1_k10,Ditto λ=1 (controle),metr-la,speed,10,314,85,3.2373057899210189,137.10942169077256,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k20,Ditto λ=0.01 (controle),metr-la,speed,20,7,73,5.8328173294332295,287.64578610903595,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k20,Ditto λ=0.01 (controle),metr-la,speed,20,42,83,6.345694509016143,275.23494255973634,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k20,Ditto λ=0.01 (controle),metr-la,speed,20,101,63,4.864307794372241,277.96044539269946,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k20,Ditto λ=0.01 (controle),metr-la,speed,20,123,65,5.2820316212707095,292.54328979345468,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k20,Ditto λ=0.01 (controle),metr-la,speed,20,314,62,4.8741174692577784,283.01327240851617,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k20,Ditto λ=0.1 (controle),metr-la,speed,20,7,73,5.0528156144089165,249.17994810783699,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k20,Ditto λ=0.1 (controle),metr-la,speed,20,42,109,6.9967329524623025,231.08475806297511,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k20,Ditto λ=0.1 (controle),metr-la,speed,20,101,63,4.1182800785038207,235.33029020021831,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k20,Ditto λ=0.1 (controle),metr-la,speed,20,123,65,4.2703691814343134,236.51275466405428,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k20,Ditto λ=0.1 (controle),metr-la,speed,20,314,62,4.1235332650608489,239.4309637777267,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k20,Ditto λ=1 (controle),metr-la,speed,20,7,65,4.1658581229050951,230.72444988397453,NVIDIA L40S,servidor do laboratório
+metrla_dittofix1_k20,Ditto λ=1 (controle),metr-la,speed,20,42,71,4.5776161683268013,232.1044817743167,NVIDIA L40S,servidor do laboratório
+metrla_dittofix1_k20,Ditto λ=1 (controle),metr-la,speed,20,101,87,5.4179477111498517,224.19093977171798,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k20,Ditto λ=1 (controle),metr-la,speed,20,123,93,5.5750687518384723,215.80911297439246,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k20,Ditto λ=1 (controle),metr-la,speed,20,314,70,4.3684537382258313,224.66333510875702,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k5,FedGNN-Halo,pems-bay,speed,5,7,90,1.3928427755170398,55.713711020681593,NVIDIA L40S,servidor do laboratório
+pemsbay_halo_k5,FedGNN-Halo,pems-bay,speed,5,42,66,1.0652853876352311,58.106475689194419,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k5,FedGNN-Halo,pems-bay,speed,5,101,71,1.1525817124711142,58.440762885859314,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k5,FedGNN-Halo,pems-bay,speed,5,123,77,1.1915442961454392,55.708564495111439,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k5,FedGNN-Halo,pems-bay,speed,5,314,89,1.4472798108392291,58.541655269901405,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k10,FedGNN-Halo,pems-bay,speed,10,7,68,2.3686498420106039,125.39910928291432,NVIDIA L40S,servidor do laboratório
+pemsbay_halo_k10,FedGNN-Halo,pems-bay,speed,10,42,90,2.9903326527939904,119.61330611175961,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k10,FedGNN-Halo,pems-bay,speed,10,101,80,2.7286001094182333,122.78700492382049,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k10,FedGNN-Halo,pems-bay,speed,10,123,89,3.0099589348501627,121.75114792652344,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k10,FedGNN-Halo,pems-bay,speed,10,314,94,3.2182337173488405,123.251504068679,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k20,FedGNN-Halo,pems-bay,speed,20,7,55,2.9532307359245089,193.30237544233148,NVIDIA L40S,servidor do laboratório
+pemsbay_halo_k20,FedGNN-Halo,pems-bay,speed,20,42,93,5.1858167848984404,200.74129489929445,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k20,FedGNN-Halo,pems-bay,speed,20,101,91,5.0373085371653241,199.27813993181502,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k20,FedGNN-Halo,pems-bay,speed,20,123,74,4.1133172963725197,200.10732793163609,NVIDIA A16,servidor do laboratório
+pemsbay_halo_k20,FedGNN-Halo,pems-bay,speed,20,314,140,7.9375109588437613,204.10742465598241,NVIDIA A16,servidor do laboratório
+pemsbay_halonone_k5,FedAvg (sem halo),pems-bay,speed,5,7,66,0.79636120273007283,43.437883785276703,NVIDIA A16,servidor do laboratório
+pemsbay_halonone_k5,FedAvg (sem halo),pems-bay,speed,5,42,66,0.75033380965391794,40.927298708395526,NVIDIA A16,servidor do laboratório
+pemsbay_halonone_k5,FedAvg (sem halo),pems-bay,speed,5,101,71,0.88459199965000157,44.852552094929656,NVIDIA A16,servidor do laboratório
+pemsbay_halonone_k5,FedAvg (sem halo),pems-bay,speed,5,123,102,1.2514185727967155,44.16771433400173,NVIDIA A16,servidor do laboratório
+pemsbay_halonone_k5,FedAvg (sem halo),pems-bay,speed,5,314,68,0.82757788929674359,43.812947080415839,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k5,Ditto,pems-bay,speed,5,7,84,5.3033999725182852,227.28857025078364,NVIDIA L40S,servidor do laboratório
+pemsbay_ditto_k5,Ditto,pems-bay,speed,5,42,87,5.5793776233328716,230.87079820687742,NVIDIA L40S,servidor do laboratório
+pemsbay_ditto_k5,Ditto,pems-bay,speed,5,101,111,7.5096606845325891,243.5565627415975,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k5,Ditto,pems-bay,speed,5,123,79,5.3332399565643733,243.03371953964233,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k5,Ditto,pems-bay,speed,5,314,88,5.4398405910862815,222.53893327171153,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k10,Ditto,pems-bay,speed,10,7,62,7.9544627255201341,461.87202922374973,NVIDIA L40S,servidor do laboratório
+pemsbay_ditto_k10,Ditto,pems-bay,speed,10,42,66,8.4855255704455903,462.84684929703224,NVIDIA L40S,servidor do laboratório
+pemsbay_ditto_k10,Ditto,pems-bay,speed,10,101,111,14.211190406017833,460.90347262760542,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k10,Ditto,pems-bay,speed,10,123,85,10.525066867603195,445.76753792201771,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k10,Ditto,pems-bay,speed,10,314,77,9.7794090128607216,457.2191226792026,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k20,Ditto,pems-bay,speed,20,7,104,16.011128002868759,554.23135394545704,NVIDIA GeForce RTX 2060,estação de trabalho
+pemsbay_ditto_k20,Ditto,pems-bay,speed,20,42,105,16.36074975219038,560.93999150367006,NVIDIA GeForce RTX 2060,estação de trabalho
+pemsbay_ditto_k20,Ditto,pems-bay,speed,20,101,78,13.032855192422867,601.51639349644006,NVIDIA GeForce RTX 2060,estação de trabalho
+pemsbay_ditto_k20,Ditto,pems-bay,speed,20,123,79,9.6861639197667433,441.39481153367439,NVIDIA GeForce RTX 2060,estação de trabalho
+pemsbay_ditto_k20,Ditto,pems-bay,speed,20,314,76,9.3004944287406079,440.54973609823929,NVIDIA GeForce RTX 2060,estação de trabalho
+pemsbay_local_k5,Local,pems-bay,speed,5,7,84,2.0434867417812348,87.578003219195779,NVIDIA L40S,servidor do laboratório
+pemsbay_local_k5,Local,pems-bay,speed,5,42,95,2.3312165574232737,88.340837965513529,NVIDIA L40S,servidor do laboratório
+pemsbay_local_k5,Local,pems-bay,speed,5,101,76,1.8666047298908233,88.418118784302166,NVIDIA A16,servidor do laboratório
+pemsbay_local_k5,Local,pems-bay,speed,5,123,70,1.6291641020774841,83.785582392556321,NVIDIA A16,servidor do laboratório
+pemsbay_local_k5,Local,pems-bay,speed,5,314,102,2.4522112194034786,86.548631273063961,NVIDIA A16,servidor do laboratório
+pemsbay_local_k10,Local,pems-bay,speed,10,7,77,3.5895601360003155,167.82359077404072,NVIDIA L40S,servidor do laboratório
+pemsbay_local_k10,Local,pems-bay,speed,10,42,109,5.0335262137651444,166.24490247297723,NVIDIA L40S,servidor do laboratório
+pemsbay_local_k10,Local,pems-bay,speed,10,101,77,3.569037204384804,166.86407708812069,NVIDIA A16,servidor do laboratório
+pemsbay_local_k10,Local,pems-bay,speed,10,123,84,3.7805156810416114,162.02210061606905,NVIDIA A16,servidor do laboratório
+pemsbay_local_k10,Local,pems-bay,speed,10,314,97,4.4327368746863467,164.51394586464792,NVIDIA A16,servidor do laboratório
+pemsbay_local_k20,Local,pems-bay,speed,20,7,94,8.9605608981185494,343.17041737475296,NVIDIA L40S,servidor do laboratório
+pemsbay_local_k20,Local,pems-bay,speed,20,42,74,6.8049143129587177,331.04988549528895,NVIDIA L40S,servidor do laboratório
+pemsbay_local_k20,Local,pems-bay,speed,20,101,110,10.301911830968328,337.15347810441796,NVIDIA L40S,servidor do laboratório
+pemsbay_local_k20,Local,pems-bay,speed,20,123,70,6.6051229491498731,339.69203738485066,NVIDIA A16,servidor do laboratório
+pemsbay_local_k20,Local,pems-bay,speed,20,314,84,7.9685782097445594,341.51049470333828,NVIDIA A16,servidor do laboratório
+sunt_cent,Centralizado,sunt,n_boardings,,7,600,2.7826663253042434,16.695997951825461,NVIDIA L40S,servidor do laboratório
+sunt_cent,Centralizado,sunt,n_boardings,,42,600,3.1876550473107232,19.125930283864339,NVIDIA A16,servidor do laboratório
+sunt_cent,Centralizado,sunt,n_boardings,,101,600,3.1476365776856738,18.885819466114043,NVIDIA A16,servidor do laboratório
+sunt_cent,Centralizado,sunt,n_boardings,,123,600,3.1058901101350784,18.635340660810471,NVIDIA A16,servidor do laboratório
+sunt_cent,Centralizado,sunt,n_boardings,,314,600,3.1253725259833867,18.752235155900319,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k6,FedAvg,sunt,n_boardings,6,7,600,8.6859057810571461,52.115434686342873,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k6,FedAvg,sunt,n_boardings,6,42,600,8.6795840035544494,52.077504021326703,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k6,FedAvg,sunt,n_boardings,6,101,600,8.6477747131056262,51.88664827863375,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k6,FedAvg,sunt,n_boardings,6,123,600,8.4036072645584738,50.421643587350843,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k6,FedAvg,sunt,n_boardings,6,314,600,8.0794264682133985,48.476558809280398,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k20,FedAvg,sunt,n_boardings,20,7,600,9.3315722529755707,55.989433517853421,NVIDIA L40S,servidor do laboratório
+sunt_fedavg_k20,FedAvg,sunt,n_boardings,20,42,600,9.7121703954537715,58.273022372722629,NVIDIA L40S,servidor do laboratório
+sunt_fedavg_k20,FedAvg,sunt,n_boardings,20,101,600,9.2279600005017386,55.367760003010432,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k20,FedAvg,sunt,n_boardings,20,123,600,9.2174711024761198,55.304826614856722,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k20,FedAvg,sunt,n_boardings,20,314,600,9.1757774790790343,55.054664874474206,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k166,FedAvg,sunt,n_boardings,166,7,1000,29.971432625850042,107.89715745306015,NVIDIA L40S,servidor do laboratório
+sunt_fedavg_k166,FedAvg,sunt,n_boardings,166,42,1000,29.849617205262184,107.45862193894386,NVIDIA L40S,servidor do laboratório
+sunt_fedavg_k166,FedAvg,sunt,n_boardings,166,101,1000,29.287716438240476,105.43577917766571,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k166,FedAvg,sunt,n_boardings,166,123,1000,29.1406016273631,104.90616585850715,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k166,FedAvg,sunt,n_boardings,166,314,1000,29.008710002965397,104.43135601067543,NVIDIA A16,servidor do laboratório
+sunt_halo_k6,FedGNN-Halo,sunt,n_boardings,6,7,600,9.1077958725558386,54.646775235335035,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k6,FedGNN-Halo,sunt,n_boardings,6,42,600,8.9747686386770678,53.848611832062403,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k6,FedGNN-Halo,sunt,n_boardings,6,101,600,9.0601300706466041,54.360780423879625,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k6,FedGNN-Halo,sunt,n_boardings,6,123,600,9.0231524442301865,54.138914665381115,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k6,FedGNN-Halo,sunt,n_boardings,6,314,600,9.0556807506084436,54.334084503650665,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k20,FedGNN-Halo,sunt,n_boardings,20,7,600,10.445090658201112,62.670543949206667,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k20,FedGNN-Halo,sunt,n_boardings,20,42,600,10.494304783211813,62.965828699270887,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k20,FedGNN-Halo,sunt,n_boardings,20,101,600,10.498005729648803,62.988034377892809,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k20,FedGNN-Halo,sunt,n_boardings,20,123,600,10.422334805263413,62.534008831580479,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k20,FedGNN-Halo,sunt,n_boardings,20,314,600,10.451874936289258,62.711249617735547,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k166,FedGNN-Halo,sunt,n_boardings,166,7,1000,43.099706249170836,155.158942497015,NVIDIA L40S,servidor do laboratório
+sunt_halo_k166,FedGNN-Halo,sunt,n_boardings,166,42,1000,40.031594668891692,144.11374080801011,NVIDIA A16,servidor do laboratório
+sunt_halo_k166,FedGNN-Halo,sunt,n_boardings,166,101,1000,39.79073814113935,143.24665730810165,NVIDIA A16,servidor do laboratório
+sunt_halo_k166,FedGNN-Halo,sunt,n_boardings,166,123,1000,40.297249009807906,145.07009643530844,NVIDIA A16,servidor do laboratório
+sunt_halo_k166,FedGNN-Halo,sunt,n_boardings,166,314,1000,41.291603042615783,148.64977095341683,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k6,FedProx,sunt,n_boardings,6,7,600,7.9917436713642545,47.950462028185527,NVIDIA L40S,servidor do laboratório
+sunt_fedprox_k6,FedProx,sunt,n_boardings,6,42,600,8.0306583138969216,48.183949883381523,NVIDIA L40S,servidor do laboratório
+sunt_fedprox_k6,FedProx,sunt,n_boardings,6,101,600,8.575697557793724,51.454185346762337,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k6,FedProx,sunt,n_boardings,6,123,600,8.7515666531191929,52.509399918715161,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k6,FedProx,sunt,n_boardings,6,314,600,8.480585224297311,50.883511345783866,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k20,FedProx,sunt,n_boardings,20,7,600,9.8958237287733297,59.374942372639971,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k20,FedProx,sunt,n_boardings,20,42,600,9.8407780981063837,59.044668588638302,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k20,FedProx,sunt,n_boardings,20,101,600,9.8677814020050896,59.206688412030537,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k20,FedProx,sunt,n_boardings,20,123,600,9.9068544168604742,59.441126501162849,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k20,FedProx,sunt,n_boardings,20,314,600,10.021677352786064,60.130064116716383,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k166,FedProx,sunt,n_boardings,166,7,1000,24.199266038073432,87.117357737064367,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k166,FedProx,sunt,n_boardings,166,42,1000,24.062641224463782,86.625508408069607,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k166,FedProx,sunt,n_boardings,166,101,1000,24.64151891231537,88.709468084335327,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k166,FedProx,sunt,n_boardings,166,123,1000,25.207667806678348,90.747604104042054,NVIDIA L40S,servidor do laboratório
+sunt_fedprox_k166,FedProx,sunt,n_boardings,166,314,1000,25.289474869304232,91.042109529495235,NVIDIA L40S,servidor do laboratório
+sunt_ditto_k6,Ditto,sunt,n_boardings,6,7,600,26.09932954132557,156.59597724795341,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_ditto_k6,Ditto,sunt,n_boardings,6,42,600,25.949238321516248,155.69542992909749,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_ditto_k6,Ditto,sunt,n_boardings,6,101,600,25.860123804145388,155.16074282487233,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_ditto_k6,Ditto,sunt,n_boardings,6,123,600,26.012066721452609,156.07240032871564,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_ditto_k6,Ditto,sunt,n_boardings,6,314,600,26.044098910490671,156.26459346294402,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_ditto_k20,Ditto,sunt,n_boardings,20,7,600,34.7740736279885,208.64444176793097,NVIDIA L40S,servidor do laboratório
+sunt_ditto_k20,Ditto,sunt,n_boardings,20,42,600,35.863655679159692,215.18193407495818,NVIDIA A16,servidor do laboratório
+sunt_ditto_k20,Ditto,sunt,n_boardings,20,101,600,35.710936325126227,214.26561795075733,NVIDIA A16,servidor do laboratório
+sunt_ditto_k20,Ditto,sunt,n_boardings,20,123,600,36.411039070553251,218.46623442331949,NVIDIA A16,servidor do laboratório
+sunt_ditto_k20,Ditto,sunt,n_boardings,20,314,600,36.678242163062095,220.06945297837257,NVIDIA A16,servidor do laboratório
+sunt_ditto_k166,Ditto,sunt,n_boardings,166,7,1000,102.90875668187937,370.47152405476572,NVIDIA L40S,servidor do laboratório
+sunt_ditto_k166,Ditto,sunt,n_boardings,166,42,1000,103.96090571158462,374.25926056170465,NVIDIA L40S,servidor do laboratório
+sunt_ditto_k166,Ditto,sunt,n_boardings,166,101,1000,97.956205624341962,352.64234024763107,NVIDIA A16,servidor do laboratório
+sunt_ditto_k166,Ditto,sunt,n_boardings,166,123,1000,96.041005939907492,345.74762138366697,NVIDIA A16,servidor do laboratório
+sunt_ditto_k166,Ditto,sunt,n_boardings,166,314,1000,96.639585522347033,347.90250788044932,NVIDIA A16,servidor do laboratório
+sunt_local_k6,Local,sunt,n_boardings,6,7,600,6.7526046400600013,40.515627840360004,NVIDIA L40S,servidor do laboratório
+sunt_local_k6,Local,sunt,n_boardings,6,42,600,7.2012587252590388,43.207552351554234,NVIDIA A16,servidor do laboratório
+sunt_local_k6,Local,sunt,n_boardings,6,101,600,6.844240005016327,41.06544003009796,NVIDIA A16,servidor do laboratório
+sunt_local_k6,Local,sunt,n_boardings,6,123,600,7.4376611900991865,44.625967140595115,NVIDIA A16,servidor do laboratório
+sunt_local_k6,Local,sunt,n_boardings,6,314,600,7.1839043717251885,43.103426230351133,NVIDIA A16,servidor do laboratório
+sunt_local_k20,Local,sunt,n_boardings,20,7,600,7.8958401187923215,47.375040712753929,NVIDIA L40S,servidor do laboratório
+sunt_local_k20,Local,sunt,n_boardings,20,42,600,7.7239689448806974,46.343813669284188,NVIDIA A16,servidor do laboratório
+sunt_local_k20,Local,sunt,n_boardings,20,101,600,8.2153493150075274,49.292095890045168,NVIDIA A16,servidor do laboratório
+sunt_local_k20,Local,sunt,n_boardings,20,123,600,7.8504153476821052,47.102492086092631,NVIDIA A16,servidor do laboratório
+sunt_local_k20,Local,sunt,n_boardings,20,314,600,8.2526559911171589,49.51593594670296,NVIDIA A16,servidor do laboratório
+sunt_local_k166,Local,sunt,n_boardings,166,7,1000,21.875883329841827,78.75317998743057,NVIDIA L40S,servidor do laboratório
+sunt_local_k166,Local,sunt,n_boardings,166,42,1000,21.893162507414818,78.815385026693349,NVIDIA A16,servidor do laboratório
+sunt_local_k166,Local,sunt,n_boardings,166,101,1000,22.360576507978969,80.498075428724292,NVIDIA A16,servidor do laboratório
+sunt_local_k166,Local,sunt,n_boardings,166,123,1000,22.231930463247828,80.034949667692189,NVIDIA A16,servidor do laboratório
+sunt_local_k166,Local,sunt,n_boardings,166,314,1000,21.795189095205732,78.462680742740631,NVIDIA A16,servidor do laboratório
+carga_cent,Centralizado,sunt,loading,,7,600,3.8027958344088661,22.816775006453195,NVIDIA L40S,servidor do laboratório
+carga_cent,Centralizado,sunt,loading,,42,600,3.8685833876662783,23.211500325997669,NVIDIA L40S,servidor do laboratório
+carga_cent,Centralizado,sunt,loading,,101,600,4.2614136572016612,25.568481943209967,NVIDIA A16,servidor do laboratório
+carga_cent,Centralizado,sunt,loading,,123,600,4.3429434120655062,26.057660472393035,NVIDIA A16,servidor do laboratório
+carga_cent,Centralizado,sunt,loading,,314,600,4.2489313462707727,25.49358807762464,NVIDIA A16,servidor do laboratório
+carga_fedavg_k20,FedAvg,sunt,loading,20,7,600,8.2336372082100979,49.401823249260588,NVIDIA L40S,servidor do laboratório
+carga_fedavg_k20,FedAvg,sunt,loading,20,42,600,8.2763178338607144,49.65790700316429,NVIDIA L40S,servidor do laboratório
+carga_fedavg_k20,FedAvg,sunt,loading,20,101,600,8.9175636645158125,53.505381987094879,NVIDIA A16,servidor do laboratório
+carga_fedavg_k20,FedAvg,sunt,loading,20,123,600,8.9717665521303811,53.83059931278229,NVIDIA A16,servidor do laboratório
+carga_fedavg_k20,FedAvg,sunt,loading,20,314,600,8.7995385174618832,52.797231104771299,NVIDIA A16,servidor do laboratório
+carga_halo_k20,FedGNN-Halo,sunt,loading,20,7,600,12.573480736017228,75.440884416103358,NVIDIA GeForce RTX 2060,estação de trabalho
+carga_halo_k20,FedGNN-Halo,sunt,loading,20,42,600,12.575528021785948,75.453168130715682,NVIDIA GeForce RTX 2060,estação de trabalho
+carga_halo_k20,FedGNN-Halo,sunt,loading,20,101,600,12.632613738444116,75.795682430664698,NVIDIA GeForce RTX 2060,estação de trabalho
+carga_halo_k20,FedGNN-Halo,sunt,loading,20,123,600,12.588269459075399,75.529616754452391,NVIDIA GeForce RTX 2060,estação de trabalho
+carga_halo_k20,FedGNN-Halo,sunt,loading,20,314,600,12.594160001410378,75.564960008462265,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_fedpub_k20,FED-PUB (adaptação),sunt,n_boardings,20,7,600,7.5165963054365585,45.099577832619346,NVIDIA L40S,servidor do laboratório
+sunt_fedpub_k20,FED-PUB (adaptação),sunt,n_boardings,20,42,600,7.2475710380739633,43.485426228443778,NVIDIA L40S,servidor do laboratório
+sunt_fedpub_k20,FED-PUB (adaptação),sunt,n_boardings,20,101,600,7.6169553551408979,45.701732130845386,NVIDIA A16,servidor do laboratório
+sunt_fedpub_k20,FED-PUB (adaptação),sunt,n_boardings,20,123,600,7.8275059092044827,46.965035455226896,NVIDIA A16,servidor do laboratório
+sunt_fedpub_k20,FED-PUB (adaptação),sunt,n_boardings,20,314,600,7.5799140391747155,45.479484235048297,NVIDIA A16,servidor do laboratório

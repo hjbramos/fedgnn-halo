@@ -1,0 +1,20 @@
+% Gerado por experiments/export_traffic.py; não editar. Fragmento tabular, sem legenda.
+
+\begin{tabular}{>{\raggedright\arraybackslash}l>{\raggedright\arraybackslash}p{3.3cm}cccccc>{\raggedright\arraybackslash}p{3.3cm}}
+\toprule
+Configuração & Comparação (A $-$ B) & $\Delta$MAE & IC95\% & $p_t$ & $p_{\mathrm{Holm}}$ & $p_W$ & A melhor & Classificação \\
+\midrule
+PEMS-BAY $k=5$ & FedProx − FedAvg & \num{+0.0247} & [\num{+0.0211}; \num{+0.0283}] & \num{<0.0001} & \num{0.0002} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+PEMS-BAY $k=10$ & FedProx − FedAvg & \num{+0.0191} & [\num{+0.0169}; \num{+0.0212}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+PEMS-BAY $k=20$ & FedProx − FedAvg & \num{+0.0174} & [\num{+0.0140}; \num{+0.0209}] & \num{0.0001} & \num{0.0004} & \num{0.0625} & 0/5 & piora com evidência após ajuste \\
+PEMS-BAY $k=5$ & Local − FedAvg & \num{-0.0191} & [\num{-0.0214}; \num{-0.0167}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=5$ & Local − FedGNN-Halo & \num{-0.0197} & [\num{-0.0216}; \num{-0.0178}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=10$ & Local − FedAvg & \num{-0.0350} & [\num{-0.0384}; \num{-0.0317}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=10$ & Local − FedGNN-Halo & \num{-0.0354} & [\num{-0.0387}; \num{-0.0320}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=20$ & Local − FedAvg & \num{-0.0551} & [\num{-0.0570}; \num{-0.0532}] & \num{<0.0001} & \num{<0.0001} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=20$ & Local − FedGNN-Halo & \num{-0.0549} & [\num{-0.0639}; \num{-0.0459}] & \num{0.0001} & \num{0.0003} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=20$ & Ditto (seleção adaptada) − FedAvg & \num{-0.0346} & [\num{-0.0386}; \num{-0.0306}] & \num{<0.0001} & \num{0.0001} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=10$ & Ditto (seleção adaptada) − FedAvg & \num{-0.0190} & [\num{-0.0237}; \num{-0.0144}] & \num{0.0003} & \num{0.0007} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+PEMS-BAY $k=5$ & Ditto (seleção adaptada) − FedAvg & \num{-0.0105} & [\num{-0.0141}; \num{-0.0068}] & \num{0.0013} & \num{0.0013} & \num{0.0625} & 5/5 & melhora com evidência após ajuste \\
+\bottomrule
+\end{tabular}

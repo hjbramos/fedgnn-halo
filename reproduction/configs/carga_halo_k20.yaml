@@ -1,0 +1,47 @@
+method: fedgnnhet
+datasets:
+- sunt
+seeds:
+- 7
+- 42
+- 101
+- 123
+- 314
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features:
+    - n_boardings
+    - n_alightings
+    - loading
+    target: loading
+    graph: transit_directed
+data:
+  batch_size: 32
+  num_workers: 0
+model:
+  name: leconv
+  hidden_size: 64
+  allow_nodes_without_incoming: true
+fedgnnhet:
+  num_clients:
+  - 20
+  halo:
+  - 1hop
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600
+  patience: 100000
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+  evaluate_test: true
+execution:
+  cpus_per_run: 1
+  max_parallel: 1
+  gpus_per_run: 1
+output: results/reproduced/carga_halo_k20

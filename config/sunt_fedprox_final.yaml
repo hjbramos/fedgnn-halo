@@ -1,0 +1,48 @@
+# CAMPANHA FINAL do FedProx (μ=0,01) no SUNT (alvo n_boardings), células k=6 e k=20 (pedidos 5 e 20).
+# Mesmo protocolo do FedAvg e do FedGNNHet nessas células: 600 rodadas fixas, sem parada antecipada,
+# checkpoint pela melhor validação, teste avaliado uma vez ao fim de cada execução. Mesmos dados,
+# partições Leiden (semente 42), arquitetura e pesos de aresta. k=166 opcional (1 000 rodadas), fora
+# desta config. Revisão externa (02/10) concordou com o recorte. Lançamento:
+#   --clients 5 20 --max-epochs 600
+method: fedprox
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+fedprox:
+  num_clients: [5, 20]
+  proximal_mu: [0.01]
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600
+  patience: 100000                # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+
+execution:
+  cpus_per_run: 3                 # 02/10 15h: ~30 núcleos livres no Terumo; 10 × 3 = 30
+  gpus: [0, 1, 2, 3, 4]
+  gpus_per_run: 0.5
+  max_parallel: 10
+  worker_niceness: 0
+  ray_temp_dir: .ray
+
+output: results/sunt_fedprox_final

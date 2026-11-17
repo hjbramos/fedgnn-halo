@@ -1,0 +1,132 @@
+[
+  {
+    "name": "sunt_none_k6",
+    "dataset": "sunt",
+    "k": 6,
+    "kind": "halo",
+    "base": "config/sunt_fedgnnhet_final.yaml",
+    "config": "config/completar_controles_20261114/sunt_none_k6.yaml",
+    "smoke": "config/completar_controles_20261114/sunt_none_k6_smoke.yaml",
+    "output": "results/completar_controles_20261114/sunt_none_k6"
+  },
+  {
+    "name": "sunt_none_k20",
+    "dataset": "sunt",
+    "k": 20,
+    "kind": "halo",
+    "base": "config/sunt_fedgnnhet_final.yaml",
+    "config": "config/completar_controles_20261114/sunt_none_k20.yaml",
+    "smoke": "config/completar_controles_20261114/sunt_none_k20_smoke.yaml",
+    "output": "results/completar_controles_20261114/sunt_none_k20"
+  },
+  {
+    "name": "sunt_none_k166",
+    "dataset": "sunt",
+    "k": 166,
+    "kind": "halo",
+    "base": "config/sunt_fedgnnhet_final.yaml",
+    "config": "config/completar_controles_20261114/sunt_none_k166.yaml",
+    "smoke": "config/completar_controles_20261114/sunt_none_k166_smoke.yaml",
+    "output": "results/completar_controles_20261114/sunt_none_k166"
+  },
+  {
+    "name": "pems-bay_none_k5",
+    "dataset": "pems-bay",
+    "k": 5,
+    "kind": "halo",
+    "base": "config/fedgnnhet_leconv.yaml",
+    "config": "config/completar_controles_20261114/pems-bay_none_k5.yaml",
+    "smoke": "config/completar_controles_20261114/pems-bay_none_k5_smoke.yaml",
+    "output": "results/completar_controles_20261114/pems-bay_none_k5"
+  },
+  {
+    "name": "pems-bay_none_k10",
+    "dataset": "pems-bay",
+    "k": 10,
+    "kind": "halo",
+    "base": "config/fedgnnhet_leconv.yaml",
+    "config": "config/completar_controles_20261114/pems-bay_none_k10.yaml",
+    "smoke": "config/completar_controles_20261114/pems-bay_none_k10_smoke.yaml",
+    "output": "results/completar_controles_20261114/pems-bay_none_k10"
+  },
+  {
+    "name": "pems-bay_none_k20",
+    "dataset": "pems-bay",
+    "k": 20,
+    "kind": "halo",
+    "base": "config/fedgnnhet_leconv.yaml",
+    "config": "config/completar_controles_20261114/pems-bay_none_k20.yaml",
+    "smoke": "config/completar_controles_20261114/pems-bay_none_k20_smoke.yaml",
+    "output": "results/completar_controles_20261114/pems-bay_none_k20"
+  },
+  {
+    "name": "sunt_cut_k6",
+    "dataset": "sunt",
+    "k": 6,
+    "kind": "cut",
+    "base": "config/sunt_control_cut20.yaml",
+    "config": "config/completar_controles_20261114/sunt_cut_k6.yaml",
+    "smoke": "config/completar_controles_20261114/sunt_cut_k6_smoke.yaml",
+    "output": "results/completar_controles_20261114/sunt_cut_k6"
+  },
+  {
+    "name": "metr-la_cut_k5",
+    "dataset": "metr-la",
+    "k": 5,
+    "kind": "cut",
+    "base": "config/centralized.yaml",
+    "config": "config/completar_controles_20261114/metr-la_cut_k5.yaml",
+    "smoke": "config/completar_controles_20261114/metr-la_cut_k5_smoke.yaml",
+    "output": "results/completar_controles_20261114/metr-la_cut_k5"
+  },
+  {
+    "name": "metr-la_cut_k10",
+    "dataset": "metr-la",
+    "k": 10,
+    "kind": "cut",
+    "base": "config/centralized.yaml",
+    "config": "config/completar_controles_20261114/metr-la_cut_k10.yaml",
+    "smoke": "config/completar_controles_20261114/metr-la_cut_k10_smoke.yaml",
+    "output": "results/completar_controles_20261114/metr-la_cut_k10"
+  },
+  {
+    "name": "metr-la_cut_k20",
+    "dataset": "metr-la",
+    "k": 20,
+    "kind": "cut",
+    "base": "config/centralized.yaml",
+    "config": "config/completar_controles_20261114/metr-la_cut_k20.yaml",
+    "smoke": "config/completar_controles_20261114/metr-la_cut_k20_smoke.yaml",
+    "output": "results/completar_controles_20261114/metr-la_cut_k20"
+  },
+  {
+    "name": "pems-bay_cut_k5",
+    "dataset": "pems-bay",
+    "k": 5,
+    "kind": "cut",
+    "base": "config/centralized.yaml",
+    "config": "config/completar_controles_20261114/pems-bay_cut_k5.yaml",
+    "smoke": "config/completar_controles_20261114/pems-bay_cut_k5_smoke.yaml",
+    "output": "results/completar_controles_20261114/pems-bay_cut_k5"
+  },
+  {
+    "name": "pems-bay_cut_k10",
+    "dataset": "pems-bay",
+    "k": 10,
+    "kind": "cut",
+    "base": "config/centralized.yaml",
+    "config": "config/completar_controles_20261114/pems-bay_cut_k10.yaml",
+    "smoke": "config/completar_controles_20261114/pems-bay_cut_k10_smoke.yaml",
+    "output": "results/completar_controles_20261114/pems-bay_cut_k10"
+  },
+  {
+    "name": "pems-bay_cut_k20",
+    "dataset": "pems-bay",
+    "k": 20,
+    "kind": "cut",
+    "base": "config/centralized.yaml",
+    "config": "config/completar_controles_20261114/pems-bay_cut_k20.yaml",
+    "smoke": "config/completar_controles_20261114/pems-bay_cut_k20_smoke.yaml",
+    "output": "results/completar_controles_20261114/pems-bay_cut_k20"
+  }
+]

@@ -17,6 +17,8 @@ Contrato (config/datasets/sunt/temporal.yaml do sunt-fedstgnn):
 from __future__ import annotations
 
 import gc
+import os
+import json
 from functools import lru_cache
 from pathlib import Path
 
@@ -31,8 +33,8 @@ OD_DIR = RAW_DIR / "OD"
 PROCESSED_DIR = DATA_DIR / "sunt" / "processed"
 
 HF_REPO = "labiaufba/PublicTransportationSunt"
-_HF_API = f"https://huggingface.co/api/datasets/{HF_REPO}/tree/main/{{folder}}"
-_HF_RESOLVE = f"https://huggingface.co/datasets/{HF_REPO}/resolve/main/{{folder}}/{{fname}}"
+_HF_API = f"https://huggingface.co/api/datasets/{HF_REPO}/tree/{{revision}}/{{folder}}"
+_HF_RESOLVE = f"https://huggingface.co/datasets/{HF_REPO}/resolve/{{revision}}/{{folder}}/{{fname}}"
 _FOLDER = {"boarding": "Boarding", "od": "OD", "alighting": "Alighting"}
 
 # --- contrato temporal (== sunt-fedstgnn/config/datasets/sunt/temporal.yaml)
@@ -53,7 +55,7 @@ HORIZON = 24
 # --------------------------------------------------------------------------- download
 @lru_cache(maxsize=8)
 def available_dates(kind: str) -> set[str]:
-    r = requests.get(_HF_API.format(folder=_FOLDER[kind]), timeout=15)
+    r = requests.get(_HF_API.format(folder=_FOLDER[kind], revision=json.loads(os.environ.get("FEDGNN_HF_REVISIONS", "{}")).get(HF_REPO, "main")), timeout=15)
     r.raise_for_status()
     return {e["path"].split("/")[-1].split("-", 1)[-1].removesuffix(".parquet") for e in r.json()}
 
@@ -67,7 +69,7 @@ def download_day(kind: str, date: str, force: bool = False) -> Path:
         return dest
     dest.parent.mkdir(parents=True, exist_ok=True)
     print(f"baixando {folder}/{fname}")
-    r = requests.get(_HF_RESOLVE.format(folder=folder, fname=fname), timeout=120)
+    r = requests.get(_HF_RESOLVE.format(folder=folder, fname=fname, revision=json.loads(os.environ.get("FEDGNN_HF_REVISIONS", "{}")).get(HF_REPO, "main")), timeout=120)
     r.raise_for_status()
     dest.write_bytes(r.content)
     return dest

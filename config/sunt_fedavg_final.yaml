@@ -1,0 +1,49 @@
+# AVALIAÇÃO FINAL do FedAvg no SUNT (alvo n_boardings) sobre os checkpoints da sondagem cega
+# `config/sunt_fedavg_probe.yaml`, com o orçamento congelado de cada célula:
+#   k=6   → 600 rodadas   (decidido em 27/09)
+#   k=166 → 1 000 rodadas (decidido em 29/09)
+#   k=20  → 600 rodadas   (decidido em 30/09)
+# Ordem combinada: fechar a composição dos métodos por célula ANTES de avaliar o
+# teste, para que o teste não influencie essas escolhas.
+#   python -m experiments.evaluate_frozen --probe results/sunt_fedavg_probe --config config/sunt_fedavg_final.yaml
+method: fedavg
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+federated:
+  num_clients: [5, 20, 163]
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 1000
+  patience: 100000
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+  evaluate_test: true
+  rounds_by_clients: {6: 600, 20: 600, 166: 1000}   # k OBTIDO → orçamento congelado da célula
+
+execution:
+  cpus_per_run: 4
+  gpus_per_run: 0.5
+  max_parallel: 10
+  ray_temp_dir: .ray
+
+output: results/sunt_fedavg_final

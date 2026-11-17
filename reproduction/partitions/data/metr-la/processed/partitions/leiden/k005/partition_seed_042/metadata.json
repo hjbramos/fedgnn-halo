@@ -1,0 +1,20 @@
+{
+  "dataset": "metr-la",
+  "method": "leiden",
+  "partition_seed": 42,
+  "requested_clients": 5,
+  "num_clients": 5,
+  "resolution": 0.19952623149688797,
+  "nodes": 207,
+  "undirected_edges": 1313,
+  "cut_edges": 90,
+  "cut_weight_fraction": 0.044571824844829265,
+  "isolated_nodes_attached_by_distance": [
+    "717804"
+  ],
+  "client_size_min": 8,
+  "client_size_max": 71,
+  "client_size_cv": 0.5019507326709387,
+  "clients_with_multiple_components": 1,
+  "graph": "max(W, W\u1d40) sem diagonal; subgrafos locais com arestas originais"
+}

@@ -1,0 +1,229 @@
+{
+  "fonte": "generated-traffic/dados/diferencas_pareadas.csv",
+  "sha256": "51257644f125bf2d625a97ffa2ab77f4c11f92ee5b95c706eb9aa06167a7901f",
+  "familias_publicadas_reproduzidas": true,
+  "duplicatas": 0,
+  "cenarios": {
+    "tarefas_principais_62": {
+      "n": 62,
+      "atendem_original": 43,
+      "atendem_unica": 32,
+      "mudancas": [
+        {
+          "familia": "METR-LA k=20",
+          "A": "metrla_halo_k20",
+          "B": "metrla_fedavg_k20",
+          "dif_MAE_media": "-0.038312678772359735",
+          "p_t_pareado": "0.0024513922200224826",
+          "p_t_holm": "0.022062529980202344",
+          "p_holm_familia_unica": 0.07354176660067448
+        },
+        {
+          "familia": "METR-LA k=5",
+          "A": "metrla_fedavg_k5",
+          "B": "metrla_cent",
+          "dif_MAE_media": "0.020365930581654635",
+          "p_t_pareado": "0.01819695891148497",
+          "p_t_holm": "0.01819695891148497",
+          "p_holm_familia_unica": 0.4185300549641543
+        },
+        {
+          "familia": "PEMS-BAY k=5",
+          "A": "pemsbay_fedavg_k5",
+          "B": "pemsbay_cent",
+          "dif_MAE_media": "-0.0046392191204543297",
+          "p_t_pareado": "0.018736773049128679",
+          "p_t_holm": "0.037473546098257357",
+          "p_holm_familia_unica": 0.4185300549641543
+        },
+        {
+          "familia": "PEMS-BAY k=20",
+          "A": "pemsbay_fedavg_k20",
+          "B": "pemsbay_cent",
+          "dif_MAE_media": "0.01538155717470766",
+          "p_t_pareado": "0.0025640690437761481",
+          "p_t_holm": "0.0076922071313284442",
+          "p_holm_familia_unica": 0.07354841395241099
+        },
+        {
+          "familia": "SUNT k=20",
+          "A": "sunt_fedavg_k20",
+          "B": "sunt_cent",
+          "dif_MAE_media": "0.13232801883473577",
+          "p_t_pareado": "0.0029228052414391496",
+          "p_t_holm": "0.0058456104828782992",
+          "p_holm_familia_unica": 0.07891574151885704
+        },
+        {
+          "familia": "METR-LA k=5",
+          "A": "metrla_fedprox_k5",
+          "B": "metrla_fedavg_k5",
+          "dif_MAE_media": "0.031337496983353044",
+          "p_t_pareado": "0.003774842715938411",
+          "p_t_holm": "0.011324528147815233",
+          "p_holm_familia_unica": 0.09769441983173853
+        },
+        {
+          "familia": "METR-LA k=10",
+          "A": "metrla_fedprox_k10",
+          "B": "metrla_fedavg_k10",
+          "dif_MAE_media": "0.0099196873499613151",
+          "p_t_pareado": "0.02319704805595553",
+          "p_t_holm": "0.04639409611191106",
+          "p_holm_familia_unica": 0.47403061152037473
+        },
+        {
+          "familia": "SUNT k=166",
+          "A": "sunt_fedprox_k166",
+          "B": "sunt_fedavg_k166",
+          "dif_MAE_media": "-0.082944387568606892",
+          "p_t_pareado": "0.0037574776858360971",
+          "p_t_holm": "0.022544866115016583",
+          "p_holm_familia_unica": 0.09769441983173853
+        },
+        {
+          "familia": "SUNT k=166",
+          "A": "sunt_ditto_k166",
+          "B": "sunt_fedavg_k166",
+          "dif_MAE_media": "-0.094603087012925968",
+          "p_t_pareado": "0.0025361522052555516",
+          "p_t_holm": "0.01775306543678886",
+          "p_holm_familia_unica": 0.07354841395241099
+        },
+        {
+          "familia": "METR-LA (regra de parada)",
+          "A": "metrla_centpf",
+          "B": "metrla_cent",
+          "dif_MAE_media": "-0.013297393087832798",
+          "p_t_pareado": "0.0084994919737910023",
+          "p_t_holm": "0.0084994919737910023",
+          "p_holm_familia_unica": 0.20398780737098404
+        },
+        {
+          "familia": "PEMS-BAY (regra de parada)",
+          "A": "pemsbay_centpf",
+          "B": "pemsbay_cent",
+          "dif_MAE_media": "-0.007324559364179084",
+          "p_t_pareado": "0.031363256045046861",
+          "p_t_holm": "0.031363256045046861",
+          "p_holm_familia_unica": 0.5820495304449861
+        }
+      ]
+    },
+    "todos_exportados_65": {
+      "n": 65,
+      "atendem_original": 44,
+      "atendem_unica": 32,
+      "mudancas": [
+        {
+          "familia": "METR-LA k=20",
+          "A": "metrla_halo_k20",
+          "B": "metrla_fedavg_k20",
+          "dif_MAE_media": "-0.038312678772359735",
+          "p_t_pareado": "0.0024513922200224826",
+          "p_t_holm": "0.022062529980202344",
+          "p_holm_familia_unica": 0.08089594326074193
+        },
+        {
+          "familia": "METR-LA k=5",
+          "A": "metrla_fedavg_k5",
+          "B": "metrla_cent",
+          "dif_MAE_media": "0.020365930581654635",
+          "p_t_pareado": "0.01819695891148497",
+          "p_t_holm": "0.01819695891148497",
+          "p_holm_familia_unica": 0.45492397278712426
+        },
+        {
+          "familia": "PEMS-BAY k=5",
+          "A": "pemsbay_fedavg_k5",
+          "B": "pemsbay_cent",
+          "dif_MAE_media": "-0.0046392191204543297",
+          "p_t_pareado": "0.018736773049128679",
+          "p_t_holm": "0.037473546098257357",
+          "p_holm_familia_unica": 0.45492397278712426
+        },
+        {
+          "familia": "PEMS-BAY k=20",
+          "A": "pemsbay_fedavg_k20",
+          "B": "pemsbay_cent",
+          "dif_MAE_media": "0.01538155717470766",
+          "p_t_pareado": "0.0025640690437761481",
+          "p_t_holm": "0.0076922071313284442",
+          "p_holm_familia_unica": 0.08089594326074193
+        },
+        {
+          "familia": "SUNT k=20",
+          "A": "sunt_fedavg_k20",
+          "B": "sunt_cent",
+          "dif_MAE_media": "0.13232801883473577",
+          "p_t_pareado": "0.0029228052414391496",
+          "p_t_holm": "0.0058456104828782992",
+          "p_holm_familia_unica": 0.08476135200173533
+        },
+        {
+          "familia": "METR-LA k=5",
+          "A": "metrla_fedprox_k5",
+          "B": "metrla_fedavg_k5",
+          "dif_MAE_media": "0.031337496983353044",
+          "p_t_pareado": "0.003774842715938411",
+          "p_t_holm": "0.011324528147815233",
+          "p_holm_familia_unica": 0.10520937520341071
+        },
+        {
+          "familia": "METR-LA k=10",
+          "A": "metrla_fedprox_k10",
+          "B": "metrla_fedavg_k10",
+          "dif_MAE_media": "0.0099196873499613151",
+          "p_t_pareado": "0.02319704805595553",
+          "p_t_holm": "0.04639409611191106",
+          "p_holm_familia_unica": 0.5191763840461247
+        },
+        {
+          "familia": "SUNT k=166",
+          "A": "sunt_fedprox_k166",
+          "B": "sunt_fedavg_k166",
+          "dif_MAE_media": "-0.082944387568606892",
+          "p_t_pareado": "0.0037574776858360971",
+          "p_t_holm": "0.022544866115016583",
+          "p_holm_familia_unica": 0.10520937520341071
+        },
+        {
+          "familia": "SUNT k=166",
+          "A": "sunt_ditto_k166",
+          "B": "sunt_fedavg_k166",
+          "dif_MAE_media": "-0.094603087012925968",
+          "p_t_pareado": "0.0025361522052555516",
+          "p_t_holm": "0.01775306543678886",
+          "p_holm_familia_unica": 0.08089594326074193
+        },
+        {
+          "familia": "SUNT k=20 (complementar)",
+          "A": "sunt_fedpub_k20",
+          "B": "sunt_fedavg_k20",
+          "dif_MAE_media": "0.14211598450186838",
+          "p_t_pareado": "0.0024686225645836482",
+          "p_t_holm": "0.0024686225645836482",
+          "p_holm_familia_unica": 0.08089594326074193
+        },
+        {
+          "familia": "METR-LA (regra de parada)",
+          "A": "metrla_centpf",
+          "B": "metrla_cent",
+          "dif_MAE_media": "-0.013297393087832798",
+          "p_t_pareado": "0.0084994919737910023",
+          "p_t_holm": "0.0084994919737910023",
+          "p_holm_familia_unica": 0.22098679131856605
+        },
+        {
+          "familia": "PEMS-BAY (regra de parada)",
+          "A": "pemsbay_centpf",
+          "B": "pemsbay_cent",
+          "dif_MAE_media": "-0.007324559364179084",
+          "p_t_pareado": "0.031363256045046861",
+          "p_t_holm": "0.031363256045046861",
+          "p_holm_familia_unica": 0.6433179020707741
+        }
+      ]
+    }
+  }
+}

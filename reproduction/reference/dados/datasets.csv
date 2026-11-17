@@ -1,0 +1,5 @@
+dataset,alvo,nos,janela,horizonte,janelas_treino,janelas_validacao,janelas_teste,alvo_ausente_pct,alvo_media_observada
+metr-la,speed,207,12,12,23974,3424,6851,8.1093508256764864,58.459663391113281
+pems-bay,speed,325,12,12,36465,5209,10419,0,62.619636535644531
+sunt,n_boardings,2903,168,24,1337,195,415,20.170163112808648,15.471721649169922
+sunt,loading,2903,168,24,1337,195,415,,

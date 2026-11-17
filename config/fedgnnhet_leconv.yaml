@@ -1,3 +1,7 @@
+# FedGNNHet com LEConv sobre as partições Leiden: FedAvg 0-hop + halo de fronteira.
+# `halo` é a grade: none (== FedAvg 0-hop), static (resumo estático do vizinho externo, papel da
+# BoundaryTable/EMA do FedGNNHet original) e 1hop (agregado por janela; exato para a LEConv).
+# Mesmo protocolo do fedavg_leconv.yaml. SUNT inclui k=163 (-> 166) para ter fronteira suficiente.
 method: fedgnnhet
 datasets: [metr-la, pems-bay, sunt]
 seeds: [7, 42, 101, 123, 314]
@@ -8,8 +12,8 @@ windows:
   sunt:
     input_steps: 168
     horizon: 24
-    features: [n_boardings, n_alightings]
-    target: n_boardings
+    features: [n_boardings, n_alightings]   # `loading` retirado da entrada em 23/09
+    target: n_boardings      # alvo do sunt-fedstgnn (signal: n_boardings); `loading` até 23/09
 
 data:
   batch_size: 32
@@ -36,7 +40,10 @@ fedgnnhet:
   aggregation_weight: train_observations
 
 execution:
-  cpus_per_run: 1
+  cpus_per_run: 4
+  # gpus: [0]
   gpus_per_run: 1
-  max_parallel: 1
+  max_parallel: 5
+  ray_temp_dir: .ray
+
 output: results/fedgnnhet_leconv

@@ -1,0 +1,63 @@
+celula,metodo,dataset,alvo,k,execucoes,tempo_treino_h_media,tempo_treino_h_dp,s_por_iteracao_media,gpus,ambientes
+metrla_fedavg_k5,FedAvg,metr-la,speed,5,5,0.45583289278878103,0.089845935623228942,22.984167454242314,não registrado,não registrado
+metrla_fedavg_k10,FedAvg,metr-la,speed,10,5,0.8138793329927656,0.14391393289222562,44.316113922431626,não registrado,não registrado
+metrla_fedavg_k20,FedAvg,metr-la,speed,20,5,1.7771607902050017,0.39961029909107804,86.997740554989292,não registrado,não registrado
+metrla_fedprox_k5,FedProx,metr-la,speed,5,5,0.7847456629276276,0.25940086028713671,30.802408675427451,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_fedprox_k10,FedProx,metr-la,speed,10,5,1.0923172579738829,0.19950583184675971,59.347947042474573,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_fedprox_k20,FedProx,metr-la,speed,20,5,2.0207154619031487,0.38919931015212228,113.01458628539592,não registrado,não registrado
+pemsbay_fedavg_k5,FedAvg,pems-bay,speed,5,5,0.90032071326838603,0.15040688400700819,36.754280630071548,não registrado,não registrado
+pemsbay_fedavg_k10,FedAvg,pems-bay,speed,10,5,1.7427854230006534,0.34354669760962137,81.081831884469494,não registrado,não registrado
+pemsbay_fedavg_k20,FedAvg,pems-bay,speed,20,5,3.6723006276554528,0.40399646068259032,137.93617198867184,não registrado,não registrado
+pemsbay_fedprox_k5,FedProx,pems-bay,speed,5,5,1.4346270064777797,0.17091049153199836,49.162590705624133,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_fedprox_k10,FedProx,pems-bay,speed,10,5,3.2179381287892661,0.5396449151427346,101.10659251529324,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_fedprox_k20,FedProx,pems-bay,speed,20,5,5.7510618000825247,0.57554199140782447,209.06437316899124,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_halo_k5,FedGNN-Halo,metr-la,speed,5,5,0.55551750116878085,0.11311652591419917,31.80823321428462,não registrado,não registrado
+metrla_halo_k10,FedGNN-Halo,metr-la,speed,10,5,1.1773144473499721,0.25202123888416622,62.451299642175663,não registrado,não registrado
+metrla_halo_k20,FedGNN-Halo,metr-la,speed,20,5,3.2468319829040104,0.98219353901495665,122.21350174822712,não registrado,não registrado
+metrla_halonone_k5,FedAvg (ablação),metr-la,speed,5,5,0.46631120475133264,0.066606466183291815,24.162569189649993,não registrado,não registrado
+metrla_halonone_k10,FedAvg (ablação),metr-la,speed,10,5,0.91345305887858075,0.23275887019647204,49.319839297913042,não registrado,não registrado
+metrla_halonone_k20,FedAvg (ablação),metr-la,speed,20,5,1.7039132323000168,0.2909041663699013,87.981302893089349,não registrado,não registrado
+metrla_halomin2_k20,FedGNN-Halo (dois ou mais vizinhos),metr-la,speed,20,5,2.7156693249411052,0.41911572156682475,128.67626040787121,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_ditto_k5,Ditto,metr-la,speed,5,5,3.5356492399639556,0.66376151613694256,156.64643999087875,NVIDIA A16,servidor do laboratório
+metrla_ditto_k10,Ditto,metr-la,speed,10,5,5.1555368689298628,0.75414144644063685,272.168902159906,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_ditto_k20,Ditto,metr-la,speed,20,5,12.241372787766986,1.2509075212133394,611.19278061935461,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_local_k5,Local,metr-la,speed,5,5,1.3846061957677205,0.35208765301320788,60.330083640928237,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_local_k10,Local,metr-la,speed,10,5,2.7330685334470539,0.60189795145641312,111.55966476458471,NVIDIA A16,servidor do laboratório
+metrla_local_k20,Local,metr-la,speed,20,5,4.7170358090400697,0.62861728318724119,237.99837120742683,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p01_k5,Ditto λ=0.01 (controle),metr-la,speed,5,5,1.3807865469058354,0.22524966639878846,73.346795484404879,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_dittofix0p1_k5,Ditto λ=0.1 (controle),metr-la,speed,5,5,1.5459293655951818,0.22736983419040172,73.936401511324789,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k5,Ditto λ=1 (controle),metr-la,speed,5,5,1.5206692133214739,0.13344391350683957,72.643517210271597,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_dittofix0p01_k10,Ditto λ=0.01 (controle),metr-la,speed,10,5,3.0998299560546876,0.36808951801136319,140.62947686604204,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k10,Ditto λ=0.1 (controle),metr-la,speed,10,5,2.3955499191549086,0.34249209580847229,124.36594131935115,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_dittofix1_k10,Ditto λ=1 (controle),metr-la,speed,10,5,2.8790370759566626,0.8343704811939574,132.92173212522525,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+metrla_dittofix0p01_k20,Ditto λ=0.01 (controle),metr-la,speed,20,5,5.4397937446700206,0.64249248014215632,283.27954725268853,NVIDIA A16,servidor do laboratório
+metrla_dittofix0p1_k20,Ditto λ=0.1 (controle),metr-la,speed,20,5,4.9123462183740401,1.2277317636831873,238.30774296256226,NVIDIA A16,servidor do laboratório
+metrla_dittofix1_k20,Ditto λ=1 (controle),metr-la,speed,20,5,4.82098889848921,0.63604460130937335,225.49846390263173,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_halo_k5,FedGNN-Halo,pems-bay,speed,5,5,1.2499067965216106,0.16305690642149381,57.302233872149635,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_halo_k10,FedGNN-Halo,pems-bay,speed,10,5,2.863155051284366,0.32651447748505463,122.56041446273937,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_halo_k20,FedGNN-Halo,pems-bay,speed,20,5,5.0454368626409103,1.8459441034783275,199.5073125722119,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_halonone_k5,FedAvg (sem halo),pems-bay,speed,5,5,0.90205669482549022,0.20130648323155262,43.439679200603891,NVIDIA A16,servidor do laboratório
+pemsbay_ditto_k5,Ditto,pems-bay,speed,5,5,5.8331037656068805,0.94344129628025397,233.45771680212246,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_ditto_k10,Ditto,pems-bay,speed,10,5,10.191130916489495,2.4674724232333607,457.72180234992157,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_ditto_k20,Ditto,pems-bay,speed,20,5,12.87827825919787,3.3524759632879078,519.72645731549619,NVIDIA GeForce RTX 2060,estação de trabalho
+pemsbay_local_k5,Local,pems-bay,speed,5,5,2.0645366701152588,0.33562596141542889,86.934234726926348,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_local_k10,Local,pems-bay,speed,10,5,4.0810752219756443,0.63736466379032064,165.49372336317111,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+pemsbay_local_k20,Local,pems-bay,speed,20,5,8.1282176401880051,1.5422528663882835,338.51526261252974,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_fedavg_k6,FedAvg,sunt,n_boardings,6,5,8.4992596460978191,0.26211622138968016,50.995557876586915,NVIDIA A16,servidor do laboratório
+sunt_fedavg_k20,FedAvg,sunt,n_boardings,20,5,9.332990246097248,0.21958567548730473,55.997941476583478,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_fedavg_k166,FedAvg,sunt,n_boardings,166,5,29.451615579936242,0.43254277604657076,106.02581608777045,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_halo_k6,FedGNN-Halo,sunt,n_boardings,6,5,9.0443055553436285,0.0492282124925933,54.265833332061767,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k20,FedGNN-Halo,sunt,n_boardings,20,5,10.462322182522879,0.032792007435975518,62.773933095137274,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_halo_k166,FedGNN-Halo,sunt,n_boardings,166,5,40.902178222325112,1.3546157434086745,147.24784160037041,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_fedprox_k6,FedProx,sunt,n_boardings,6,5,8.3660502840942819,0.33848423770146424,50.196301704565684,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_fedprox_k20,FedProx,sunt,n_boardings,20,5,9.9065829997062682,0.069279136014876869,59.439497998237606,NVIDIA A16,servidor do laboratório
+sunt_fedprox_k166,FedProx,sunt,n_boardings,166,5,24.680113770167033,0.56205219059053591,88.848409572601312,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_ditto_k6,Ditto,sunt,n_boardings,6,5,25.992971459786098,0.091994257612337593,155.95782875871657,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_ditto_k20,Ditto,sunt,n_boardings,20,5,35.887589373177953,0.73668647600489034,215.3255362390677,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_ditto_k166,Ditto,sunt,n_boardings,166,5,99.501291896012091,3.6759082382781361,358.20465082564357,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_local_k6,Local,sunt,n_boardings,6,5,7.0839337864319489,0.28112028003361017,42.503602718591694,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_local_k20,Local,sunt,n_boardings,20,5,7.9876459434959628,0.23391518559812388,47.925875660975777,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+sunt_local_k166,Local,sunt,n_boardings,166,5,22.031348380737835,0.24882737860308235,79.312854170656209,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+carga_fedavg_k20,FedAvg,sunt,loading,20,5,8.6397647552357775,0.3570568341820437,51.838588531414665,NVIDIA A16; NVIDIA L40S,servidor do laboratório
+carga_halo_k20,FedGNN-Halo,sunt,loading,20,5,12.592810391346614,0.023869770768508155,75.556862348079676,NVIDIA GeForce RTX 2060,estação de trabalho
+sunt_fedpub_k20,FED-PUB (adaptação),sunt,n_boardings,20,5,7.5577085294061233,0.20896732738595722,45.346251176436738,NVIDIA A16; NVIDIA L40S,servidor do laboratório

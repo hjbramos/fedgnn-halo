@@ -1,0 +1,52 @@
+# CAMPANHA FINAL do FedGNNHet `1hop` no SUNT — células k=6 e k=20 (pedidos 5 e 20) no DESKTOP pessoal (i9-9900K 8C/16T,
+# 31 GB, RTX 2060 6 GB; env fedstgnn_env com as versões do Terumo; dados com os mesmos hashes do Terumo).
+# Protocolo idêntico ao de config/sunt_fedgnnhet_final.yaml; muda só `execution`. Smoke (1f3cee3): validação
+# igual à do Terumo na rodada 1 (13,488 × 13,484); depois diverge pelo scatter-add não determinístico em CUDA.
+# Cada célula roda inteira nesta máquina (sem misturar hardware dentro da célula). Lançamentos:
+#   --clients 5 --max-epochs 600    (k=6: concluída em 02/10, commit 9f94986)
+#   --clients 20 --max-epochs 600   (k=20: lançada em 02/10)
+
+method: fedgnnhet
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+
+fedgnnhet:
+  num_clients: [5, 20]
+  halo: [1hop]
+  partition_seed: 42
+  learning_rate: 0.001
+  optimizer: adam_reset_each_round
+  local_epochs: 1
+  max_rounds: 600                 # sobrescrito no lançamento por --max-epochs
+  patience: 100000                # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  participation_fraction: 1.0
+  aggregation_weight: train_observations
+  evaluate_test: true
+
+execution:
+  cpus_per_run: 3                 # 5 × 3 = 15 das 16 threads
+  gpus: [0]                       # RTX 2060 (≤ 0,32 GB por execução no smoke)
+  gpus_per_run: 0.2               # as 5 sementes dividem a GPU
+  max_parallel: 5
+  worker_niceness: 0
+  ray_node_ip: 127.0.0.1          # 02/10: desktop no Wi-Fi; Ray só no loopback, imune a quedas e troca de IP
+  ray_temp_dir: .ray
+
+output: results/sunt_fedgnnhet_final

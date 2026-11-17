@@ -106,7 +106,8 @@ def partition_dir(dataset: str, requested_clients: int, seed: int) -> Path:
         row = index[(index["num_clients"] == requested_clients) & (index["partition_seed"] == seed)]
     if row.empty:
         raise FileNotFoundError(f"partição {dataset} k={requested_clients} seed={seed} não existe; rode experiments.partition")
-    return ROOT / row.iloc[0]["path"]
+    path = Path(row.iloc[0]["path"])
+    return dl.DATA_DIR / path.relative_to("data") if not path.is_absolute() and path.parts[0] == "data" else ROOT / path
 
 
 def client_edges(data: ExperimentData, cdir: Path, nodes: np.ndarray) -> tuple[torch.Tensor, torch.Tensor]:

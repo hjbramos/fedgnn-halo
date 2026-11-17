@@ -1,0 +1,25 @@
+{
+  "dataset": "pems-bay",
+  "method": "leiden",
+  "partition_seed": 42,
+  "requested_clients": 20,
+  "num_clients": 20,
+  "resolution": 1.584893192461114,
+  "nodes": 325,
+  "undirected_edges": 2079,
+  "cut_edges": 361,
+  "cut_weight_fraction": 0.0881647548896934,
+  "isolated_nodes_attached_by_distance": [
+    "400001",
+    "400017",
+    "400240",
+    "400560",
+    "400677",
+    "407202"
+  ],
+  "client_size_min": 7,
+  "client_size_max": 31,
+  "client_size_cv": 0.40860565326688375,
+  "clients_with_multiple_components": 6,
+  "graph": "max(W, W\u1d40) sem diagonal; subgrafos locais com arestas originais"
+}

@@ -14,7 +14,7 @@ cd fedgnn-halo
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -e ".[dev,notebooks]"
+python -m pip install -e ".[dev,notebooks,reproduction]"
 fedgnn-halo --config examples/synthetic.yaml
 ```
 
@@ -57,6 +57,7 @@ data_loader/   preparação e carregamento dos conjuntos
 experiments/   treinamento, validação, checkpoints e métricas
 examples/      configurações pequenas para começar
 config/        configurações de referência importadas do código experimental
+reproduction/  receitas resolvidas, partições, evidências e manifestos da dissertação
 notebooks/     exemplos de uso da API
 tests/         contratos dos módulos, regressões e integração
 docs/          página do projeto e guias
@@ -66,9 +67,16 @@ docs/          página do projeto e guias
 
 ## Dados reais e reprodução
 
-Consulte [dados e experimentos](docs/experiments.md) e a [auditoria de reprodução da dissertação](docs/reproduction-audit.md), que distingue o que já executa das pendências para reproduzir as tabelas. Os dados não estão incluídos no Git. Os carregadores acessam as fontes originais; disponibilidade, condições de uso e tamanho dos downloads dependem dessas fontes. `FEDGNN_DATA_DIR` permite escolher o diretório de dados antes de iniciar o Python.
+O [guia de reprodução](docs/reproduction.md) reúne as configurações resolvidas, as nove partições verificadas e os comandos por experimento e semente. É possível recalcular as análises registradas sem iniciar treinamentos:
 
-As configurações em `config/` preservam referências do código experimental, com agendamento de hardware simplificado. **Não constituem, sozinhas, uma receita completa de reprodução da dissertação:** algumas campanhas usaram limites e seleções na linha de comando. O nome interno `fedgnnhet` corresponde ao FedGNN-Halo e foi mantido nos runners para compatibilidade. A API de entrada usa `halo`.
+```bash
+python -m fedgnn_halo.reproduce verify
+python -m fedgnn_halo.reproduce export-reference --output results/reference-recomputed
+python -m fedgnn_halo.reproduce list
+python -m fedgnn_halo.reproduce train --experiment metrla_halo_k20 --seed 42
+```
+
+O último comando só mostra o plano; treinar exige `--execute`. Os dados brutos são obtidos das fontes originais e conferidos por hash antes dos treinos. Consulte [dados e experimentos](docs/experiments.md) para as fontes. O nome interno `fedgnnhet` corresponde ao FedGNN-Halo e foi mantido nos runners para compatibilidade.
 
 A simulação é sequencial por padrão. As estimativas de comunicação não medem tráfego de rede; os agregados do halo são preparados com acesso centralizado aos dados. Eles não oferecem, por si, proteção das séries. O método Local usa o ramo independente do treinador de modelos pessoais, com coeficiente zero e sem troca de parâmetros.
 

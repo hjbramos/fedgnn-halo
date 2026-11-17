@@ -1,0 +1,5332 @@
+[
+ {
+  "verificação": "auditoria results/sunt_centralized_boardings/sunt/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_centralized_boardings/sunt/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_centralized_boardings/sunt/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_centralized_boardings/sunt/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_centralized_boardings/sunt/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_control_noedges/sunt/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=2903"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_noedges/sunt/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_noedges/sunt/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=2903"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_noedges/sunt/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_noedges/sunt/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=2903"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_noedges/sunt/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_noedges/sunt/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=2903"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_noedges/sunt/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_noedges/sunt/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=2903"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_noedges/sunt/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut20/sunt/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=8994"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut20/sunt/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut20/sunt/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=8994"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut20/sunt/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut20/sunt/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=8994"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut20/sunt/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut20/sunt/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=8994"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut20/sunt/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut20/sunt/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=8994"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut20/sunt/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k020/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k020/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k020/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k020/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k020/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut166/sunt/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=7998"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut166/sunt/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut166/sunt/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=7998"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut166/sunt/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut166/sunt/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=7998"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut166/sunt/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut166/sunt/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=7998"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut166/sunt/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_control_cut166/sunt/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=600/600, model_edges=7998"
+ },
+ {
+  "verificação": "hash do checkpoint registrado results/sunt_control_cut166/sunt/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k166/seed_007/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=1000/1000, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k166/seed_042/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=1000/1000, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k166/seed_101/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=1000/1000, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k166/seed_123/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=1000/1000, model_edges=None"
+ },
+ {
+  "verificação": "auditoria results/sunt_fedavg_final/sunt/k166/seed_314/metrics.json",
+  "ok": true,
+  "detalhe": "concluído=1000/1000, model_edges=None"
+ },
+ {
+  "verificação": "node_descriptors.csv = o da análise estratificada v1 (estratos e limites fixados)",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.947531"
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s7 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.950958"
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s42 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.935281"
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s101 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.937684"
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s123 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.936481"
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test Centralizado s314 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.967648"
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.985394"
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.970895"
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.938133"
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.952639"
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test sem_arestas s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.931730"
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.990778"
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.953685"
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.928897"
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.929381"
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k20 s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.087549"
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.030522"
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.090534"
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.032477"
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.128492"
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k20 s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.936895"
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s7 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.942637"
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s42 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.908252"
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s101 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.925288"
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s123 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "3.941137"
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test cortes_k166 s314 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.337902"
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s7 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.329805"
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s42 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.353792"
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s101 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.317674"
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s123 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.337303"
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "test FedAvg_k166 s314 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.871949"
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s7 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.991314"
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s42 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.901577"
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s101 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.886892"
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s123 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.934840"
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation Centralizado s314 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.934269"
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.975242"
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.914863"
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.938503"
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.868262"
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation sem_arestas s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.916703"
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.944555"
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.971485"
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.919089"
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.801580"
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k20 s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.163517"
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s7 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.131294"
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s42 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.116043"
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s101 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.096556"
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s123 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.073965"
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k20 s314 k=20 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.869222"
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s7 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.912793"
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s42 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.877165"
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s101 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.913288"
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s123 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "4.881082"
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation cortes_k166 s314 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.319919"
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s7 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.349717"
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s42 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.295494"
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s101 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.424843"
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s123 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314: 2903 nós, erros finitos ≥ 0",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314: mesmos alvos que o Centralizado",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314: Σerro/Σcount = MAE gravado",
+  "ok": true,
+  "detalhe": "5.311405"
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 global: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 global: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 fronteira: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 fronteira: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 perda_vizinhança: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 perda_vizinhança: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 perda_peso: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 perda_peso: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 volume: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 volume: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 cobertura: estratos cobrem todos os nós",
+  "ok": true,
+  "detalhe": ""
+ },
+ {
+  "verificação": "validation FedAvg_k166 s314 k=166 cobertura: recomposição = MAE global",
+  "ok": true,
+  "detalhe": ""
+ }
+]

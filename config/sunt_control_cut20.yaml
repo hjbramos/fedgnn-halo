@@ -1,0 +1,42 @@
+# Centralizado COM OS CORTES DA PARTIÇÃO k=20 (Leiden, semente 42, a mesma do FedAvg final).
+# Mantém só as arestas entre nós do mesmo cliente, com os pesos brutos log1p(contagem)/máx, e a LEConv
+# renormaliza os pesos de entrada de cada nó sobre as arestas que restam (como cada cliente do FedAvg).
+#
+# AVALIAÇÃO FINAL do controle de grafo: usada só por experiments.evaluate_frozen sobre os checkpoints de
+# results/sunt_control_cut20_probe (mesma config de treino; muda só evaluate_test e output).
+# Protocolo e decisões: results/sunt_graph_controls/v1/protocol.md
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]
+    target: n_boardings
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+  cut_partition: data/sunt/processed/partitions/leiden/k020/partition_seed_042   # só arestas internas aos clientes
+
+training:
+  learning_rate: 0.001
+  max_epochs: 600
+  patience: 999                 # sem parada antecipada
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+  evaluate_test: true
+  keep_last_checkpoint: true    # last.pt preservado: retomada após queda continua da última época
+
+execution:
+  cpus_per_run: 3               # só limita threads de CPU (servidor compartilhado); não altera o treino
+  gpus_per_run: 1
+  max_parallel: 1               # lançamento por semente e GPU fixada (CUDA_VISIBLE_DEVICES), --backend local
+  ray_temp_dir: .ray
+
+output: results/sunt_control_cut20

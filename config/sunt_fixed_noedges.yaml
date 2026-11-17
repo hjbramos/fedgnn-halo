@@ -1,0 +1,50 @@
+# PORTÃO DO SUNT — braço SEM ARESTAS (só auto-laço por nó). A ORÇAMENTO FIXO.
+#
+# Porquê: a leitura anterior ("o grafo prejudica o SUNT", −0.0294) era artefato do early stopping. As
+# campanhas paravam em épocas sistematicamente diferentes (sem-arestas 51 em média, as outras 22–29),
+# r(best_epoch, MAE) = −0.85 nas 25 execuções, e a orçamento igual a diferença inverte de sinal
+# (+0.0136, t=+0.64). Causa: o SUNT tem 2 903 nós mas só 1 337 janelas de treino e 195 de VALIDAÇÃO —
+# 18× menos que o METR-LA. O early stopping decide sobre um MAE estimado em 195 amostras.
+#
+# Desenho: `patience: 999` desliga o early stopping, logo TODAS as execuções treinam exatamente 60
+# épocas. O checkpoint continua sendo o de melhor validação, mas agora dentro do mesmo orçamento para
+# todas — é a comparação justa. O history.csv permite varrer orçamentos menores a posteriori.
+#
+# Limite honesto: isto remove a loteria da PARADA, não o ruído da SELEÇÃO — o checkpoint ainda é
+# escolhido por 195 amostras. E com 5 sementes só dá para detetar um valor de grafo da ordem de 0.05
+# (o tamanho visto no METR-LA e PEMS-BAY); um efeito pequeno continua fora de alcance.
+#
+# Comparar com config/sunt_fixed_graph.yaml, POR DIFERENÇAS EMPARELHADAS entre sementes.
+datasets: [sunt]
+seeds: [7, 42, 101, 123, 314]
+
+windows:
+  sunt:
+    input_steps: 168
+    horizon: 24
+    features: [n_boardings, n_alightings]   # `loading` retirado da entrada em 23/09
+    target: n_boardings      # alvo do sunt-fedstgnn (signal: n_boardings); `loading` até 23/09
+
+data:
+  batch_size: 32
+  num_workers: 0
+
+model:
+  name: leconv
+  hidden_size: 64
+  self_loops_only: true
+
+training:
+  learning_rate: 0.001
+  max_epochs: 60
+  patience: 999                 # desliga o early stopping: orçamento fixo para todas as execuções
+  early_stopping_min_delta: 0.0
+  gradient_clip_norm: 5.0
+
+execution:
+  cpus_per_run: 4
+  gpus_per_run: 1
+  max_parallel: 5
+  ray_temp_dir: .ray
+
+output: results/sunt_fixed/noedges
