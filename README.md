@@ -30,6 +30,22 @@ jupyter lab notebooks/01_quickstart.ipynb
 
 O [segundo notebook](notebooks/02_methods_and_partitions.ipynb) compara seis métodos e dois agrupamentos. Ambos têm saídas limpas e podem ser executados desde a primeira célula.
 
+## Exemplos curtos com dados reais
+
+Com o ambiente ativado, execute estes comandos na raiz do repositório para comparar centralizado, FedAvg e FedGNN-Halo no METR-LA:
+
+```bash
+fedgnn-halo --config examples/metr-la.yaml --method centralized --output results/metr-centralized
+fedgnn-halo --config examples/metr-la.yaml --method fedavg --output results/metr-fedavg
+fedgnn-halo --config examples/metr-la.yaml --method halo --output results/metr-halo
+```
+
+O primeiro comando baixa automaticamente os dados das fontes públicas e os prepara em `data/`; os seguintes reutilizam esses arquivos. É necessário acesso à internet no primeiro uso, mas não copiar dados de outro projeto. O CSV principal tem aproximadamente 73 MB, além dos arquivos do grafo e dos dados preparados.
+
+Os três exemplos usam CPU, uma arquitetura reduzida e apenas **uma época no centralizado ou uma rodada nos métodos federados**. Eles verificam o funcionamento com dados reais; não reproduzem o orçamento nem os resultados da dissertação. O número de clientes é determinado pelo Leiden com resolução 1,0, sem usar as partições congeladas do protocolo principal.
+
+Cada diretório de saída contém `summary.json` com as métricas, as configurações e os arquivos da execução. Para repetir um exemplo, escolha outro diretório com `--output`, pois saídas existentes não são sobrescritas.
+
 ## Alterar o experimento
 
 O YAML define os pontos de configuração:
