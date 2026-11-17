@@ -14,13 +14,13 @@
 <main>
 <h2>Comece com um experimento pequeno</h2>
 <p>O exemplo sintético funciona em CPU, com três clientes e sem baixar bases externas. Modelos, agrupamentos e hiperparâmetros são definidos em YAML.</p>
-<pre>python -m pip install -e ".[dev,notebooks]"
+<pre>python -m pip install -e ".[dev,notebooks,reproduction]"
 fedgnn-halo --config examples/synthetic.yaml
 jupyter lab notebooks/01_quickstart.ipynb</pre>
 <p>Consulte o README para criar o ambiente virtual e obter o projeto. O exemplo verifica a execução; não reproduz as tabelas da dissertação.</p>
 <div class="grid"><section class="card"><h2>Modelos</h2><p>LEConv, GRU, LSTM e DCRNN, com construção separada do carregamento de dados.</p></section><section class="card"><h2>Treinamento</h2><p>Centralizado, Local, FedAvg, FedProx, Ditto e FedGNN-Halo.</p></section><section class="card"><h2>Agrupamentos</h2><p>Partições contíguas, aleatórias, Leiden ou rótulos fornecidos pelo usuário.</p></section></div>
 <h2>O que o halo recupera</h2><p>Os nós virtuais representam agregados dos históricos de vizinhos externos. A recuperação implementada é específica à arquitetura com uma camada LEConv, sob entradas e parâmetros comuns. Recuperar mensagens não garante melhora do erro após o treinamento federado.</p>
 <h2>Dados e alcance</h2><p>Os carregadores atendem SUNT, METR-LA e PEMS-BAY. Os dados permanecem nas fontes originais. A simulação não implementa rede distribuída real nem proteção de privacidade dos agregados.</p>
-<p><a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/experiments.md">Guia de experimentos</a> · <a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/validation.md">Validação da distribuição</a></p>
-</main><footer>Helder José Bastos Ramos · Projeto em preparação para publicação.</footer>
+<p><a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/experiments.md">Guia de experimentos</a> · <a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/reproduction.md">Reprodução da dissertação</a> · <a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/validation.md">Validação da distribuição</a></p>
+</main><footer>Helder José Bastos Ramos · Código disponível sob a licença MIT.</footer>
 </body></html>

@@ -2,7 +2,7 @@
 
 Código para estudar previsão espaço-temporal federada em grafos particionados. O FedGNN-Halo representa mensagens de vizinhos externos por nós virtuais de fronteira. O projeto reúne modelos, treinamento local, agregação federada, agrupamentos e carregamento dos conjuntos SUNT, METR-LA e PEMS-BAY.
 
-**Esta distribuição está em preparação.** O exemplo sintético permite começar sem dados externos. Executar o exemplo não equivale a reproduzir os resultados da dissertação. O repositório permanece privado durante a preparação para publicação.
+O código está disponível publicamente sob a licença MIT. O exemplo sintético permite começar sem dados externos. Executar o exemplo não equivale a reproduzir os resultados da dissertação; as receitas e as evidências de referência estão no guia de reprodução.
 
 ## Começar do zero
 
@@ -18,7 +18,7 @@ python -m pip install -e ".[dev,notebooks,reproduction]"
 fedgnn-halo --config examples/synthetic.yaml
 ```
 
-Enquanto o repositório estiver privado, o clone exige acesso autorizado. No Windows, use `.venv\Scripts\activate` no lugar de `source`. O primeiro exemplo usa CPU, 12 nós, três clientes e três rodadas. Não requer GPU nem download de bases. Se o diretório de saída já existir e contiver arquivos, escolha outro com `--output`.
+O clone público não exige autenticação. No Windows, use `.venv\Scripts\activate` no lugar de `source`. O primeiro exemplo usa CPU, 12 nós, três clientes e três rodadas. Não requer GPU nem download de bases. Se o diretório de saída já existir e contiver arquivos, escolha outro com `--output`.
 
 ```bash
 fedgnn-halo --config examples/synthetic.yaml --method fedavg --output results/example-fedavg

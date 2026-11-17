@@ -4,7 +4,7 @@ Este guia distingue a recomposição das análises registradas da repetição do
 
 ## Ambiente
 
-Na raiz de um clone autorizado do repositório privado:
+Na raiz de um clone do repositório público:
 
 ```bash
 python3 -m venv .venv
