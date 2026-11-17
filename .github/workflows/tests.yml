@@ -13,6 +13,7 @@ jobs:
       - run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
       - run: python -m pip install -e '.[dev,notebooks,reproduction]'
       - run: python -m pytest tests -q
+      - run: python -m nbconvert --to notebook --execute notebooks/00_halo_step_by_step.ipynb --output /tmp/halo.ipynb
       - run: python -m nbconvert --to notebook --execute notebooks/01_quickstart.ipynb --output /tmp/quickstart.ipynb
       - run: python -m nbconvert --to notebook --execute notebooks/02_methods_and_partitions.ipynb --output /tmp/comparison.ipynb
       - run: python -m fedgnn_halo.reproduce export-reference --output /tmp/dissertation-reference

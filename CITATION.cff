@@ -1,10 +1,32 @@
 cff-version: 1.2.0
-message: "Ao utilizar este código, cite o repositório e os métodos originais empregados."
+message: "Este código acompanha uma dissertação de mestrado ainda sem artigo publicado. Ao utilizá-lo, cite a dissertação, o repositório e os métodos originais empregados."
 type: software
 title: "FedGNN-Halo: previsão espaço-temporal federada em grafos"
+abstract: "Código da dissertação de mestrado 'Aprendizado Federado em Grafos Espaço-Temporais Particionados: Um Estudo de Caso em Mobilidade Urbana' (PPGCC/UFBA, LabIA). Reúne o FedGNN-Halo, os comparadores, os carregadores do SUNT, METR-LA e PEMS-BAY e as receitas de reprodução."
 authors:
   - family-names: Ramos
     given-names: Helder José Bastos
+    affiliation: "Laboratório de Inteligência Artificial (LabIA), Universidade Federal da Bahia"
 version: 0.1.0
 repository-code: "https://github.com/hjbramos/fedgnn-halo"
+url: "https://hjbramos.github.io/fedgnn-halo/"
 license: MIT
+keywords:
+  - federated learning
+  - graph neural networks
+  - spatiotemporal forecasting
+  - public transportation
+  - SUNT
+preferred-citation:
+  type: thesis
+  thesis-type: "Dissertação (Mestrado em Ciência da Computação)"
+  title: "Aprendizado Federado em Grafos Espaço-Temporais Particionados: Um Estudo de Caso em Mobilidade Urbana"
+  authors:
+    - family-names: Ramos
+      given-names: Helder José Bastos
+  institution:
+    name: "Universidade Federal da Bahia, Programa de Pós-Graduação em Ciência da Computação"
+    city: Salvador
+    country: BR
+  year: 2026
+  url: "https://github.com/hjbramos/fedgnn-halo"

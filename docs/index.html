@@ -10,6 +10,7 @@
 <body>
 <header><p class="tag">Previsão espaço-temporal · aprendizado federado · grafos particionados</p>
 <h1>FedGNN-Halo</h1><p>Um ambiente modular para examinar a perda e a recuperação de mensagens entre clientes na previsão em grafos.</p>
+<p>Código da dissertação de mestrado <em>Aprendizado Federado em Grafos Espaço-Temporais Particionados: Um Estudo de Caso em Mobilidade Urbana</em> (PPGCC/UFBA, 2026), desenvolvida no <a href="https://labia.ufba.br/">Laboratório de Inteligência Artificial (LabIA)</a> · <a href="https://github.com/LabIA-UFBA">GitHub do laboratório</a>. Autor: Helder José Bastos Ramos. Orientador: Prof. Dr. Ricardo Araújo Rios. Coorientador: Prof. Dr. Bruno Veloso. Ainda não há artigo publicado com estes resultados.</p>
 <p><a href="https://github.com/hjbramos/fedgnn-halo">Código e instruções</a> · <a href="https://github.com/hjbramos/fedgnn-halo/tree/main/notebooks">Notebooks</a></p></header>
 <main>
 <h2>Comece com um experimento pequeno</h2>
@@ -19,7 +20,7 @@ fedgnn-halo --config examples/synthetic.yaml
 jupyter lab notebooks/01_quickstart.ipynb</pre>
 <p>Consulte o README para criar o ambiente virtual e obter o projeto. O exemplo verifica a execução; não reproduz as tabelas da dissertação.</p>
 <div class="grid"><section class="card"><h2>Modelos</h2><p>LEConv, GRU, LSTM e DCRNN, com construção separada do carregamento de dados.</p></section><section class="card"><h2>Treinamento</h2><p>Centralizado, Local, FedAvg, FedProx, Ditto e FedGNN-Halo.</p></section><section class="card"><h2>Agrupamentos</h2><p>Partições contíguas, aleatórias, Leiden ou rótulos fornecidos pelo usuário.</p></section></div>
-<h2>O que o halo recupera</h2><p>Os nós virtuais representam agregados dos históricos de vizinhos externos. A recuperação implementada é específica à arquitetura com uma camada LEConv, sob entradas e parâmetros comuns. Recuperar mensagens não garante melhora do erro após o treinamento federado.</p>
+<h2>O que o halo recupera</h2><p><img src="figures/halo_fronteira.png" alt="Grafo completo, cliente sem halo e cliente com halo" style="width:100%;height:auto;background:white;border-radius:8px"></p><p>Os nós virtuais representam agregados dos históricos de vizinhos externos. A recuperação implementada é específica à arquitetura com uma camada LEConv, sob entradas e parâmetros comuns. Recuperar mensagens não garante melhora do erro após o treinamento federado. O <a href="https://github.com/hjbramos/fedgnn-halo/blob/main/notebooks/00_halo_step_by_step.ipynb">notebook 00</a> mostra a construção passo a passo.</p>
 <h2>Dados e alcance</h2><p>Os carregadores atendem SUNT, METR-LA e PEMS-BAY. Os dados permanecem nas fontes originais. A simulação não implementa rede distribuída real nem proteção de privacidade dos agregados.</p>
 <p><a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/experiments.md">Guia de experimentos</a> · <a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/reproduction.md">Reprodução da dissertação</a> · <a href="https://github.com/hjbramos/fedgnn-halo/blob/main/docs/validation.md">Validação da distribuição</a></p>
 </main><footer>Helder José Bastos Ramos · Código disponível sob a licença MIT.</footer>
