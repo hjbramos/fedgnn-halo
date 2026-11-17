@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Este código acompanha uma dissertação de mestrado ainda sem artigo publicado. Ao utilizá-lo, cite a dissertação, o repositório e os métodos originais empregados."
 type: software
 title: "FedGNN-Halo: previsão espaço-temporal federada em grafos"
-abstract: "Código da dissertação de mestrado 'Aprendizado Federado em Grafos Espaço-Temporais Particionados: Um Estudo de Caso em Mobilidade Urbana' (PPGCC/UFBA, LabIA). Reúne o FedGNN-Halo, os comparadores, os carregadores do SUNT, METR-LA e PEMS-BAY e as receitas de reprodução."
+abstract: "Código da dissertação de mestrado 'Aprendizado Federado em Grafos Espaço-Temporais Particionados: Um Estudo de Caso em Mobilidade Urbana' (PGCOMP/UFBA, LabIA). Reúne o FedGNN-Halo, os comparadores, os carregadores do SUNT, METR-LA e PEMS-BAY e as receitas de reprodução."
 authors:
   - family-names: Ramos
     given-names: Helder José Bastos

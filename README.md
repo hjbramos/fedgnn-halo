@@ -1,6 +1,6 @@
 # FedGNN-Halo
 
-Código da dissertação de mestrado **Aprendizado Federado em Grafos Espaço-Temporais Particionados: Um Estudo de Caso em Mobilidade Urbana**, desenvolvida no [Laboratório de Inteligência Artificial (LabIA)](https://labia.ufba.br/) do Programa de Pós-Graduação em Ciência da Computação da Universidade Federal da Bahia (PPGCC/UFBA). Veja também o [GitHub do laboratório](https://github.com/LabIA-UFBA).
+Código da dissertação de mestrado **Aprendizado Federado em Grafos Espaço-Temporais Particionados: Um Estudo de Caso em Mobilidade Urbana**, desenvolvida no [Laboratório de Inteligência Artificial (LabIA)](https://labia.ufba.br/) do Programa de Pós-Graduação em Ciência da Computação da Universidade Federal da Bahia (PGCOMP/UFBA). Veja também o [GitHub do laboratório](https://github.com/LabIA-UFBA).
 
 - **Autor:** Helder José Bastos Ramos
 - **Orientador:** Prof. Dr. Ricardo Araújo Rios
