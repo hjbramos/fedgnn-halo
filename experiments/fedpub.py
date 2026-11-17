@@ -334,7 +334,7 @@ def train_fedpub(dataset: str, requested_clients: int, l1: float, seed: int, cfg
         "tau": tau, "lambda_l1": l1, "lambda_prox": prox, "mask_threshold": thr, "proxy_graph": dict(pg),
         "similarity_source": sim_source,
         "requested_clients": requested_clients, "num_clients": num_clients, "partition_seed": int(fp["partition_seed"]),
-        "partition": str(pdir.relative_to(ROOT)), "nodes": data.nodes,
+        "partition": str(pdir.relative_to(ROOT)) if pdir.is_relative_to(ROOT) else str(pdir), "nodes": data.nodes,
         "client_nodes": [int(c.nodes) for c in clients], "client_train_observations": [c.train_observations for c in clients],
         "input_steps": data.input_steps, "horizon": data.horizon,
         "features": data.feature_names, "target": data.feature_names[data.target_feature_index], "graph": getattr(data, "graph", "default"),

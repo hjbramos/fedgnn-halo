@@ -387,7 +387,7 @@ def evaluate_test_from_checkpoint(dataset: str, requested_clients: int, lam: flo
     m.update(test_evaluated=True, test_evaluated_from="best_model.pt", validation_recomputed={k: val[k] for k in (*keys, "observations") if k in val},
              test_device=str(device), test_gpu=gpu_name(device))
     (out / "metrics.json").write_text(json.dumps(m, indent=2) + "\n")
-    print(f"{out.relative_to(ROOT)} | teste avaliado | best_round={m['best_round']} | test_MAE={m['test']['MAE']:.4f} "
+    print(f"{out} | teste avaliado | best_round={m['best_round']} | test_MAE={m['test']['MAE']:.4f} "
           f"| test_RMSE={m['test'].get('RMSE', float('nan')):.4f}", flush=True)
     return m
 

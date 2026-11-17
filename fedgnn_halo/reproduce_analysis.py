@@ -41,6 +41,11 @@ def export_reference(output):
         curves._tracked_files = lru_cache(maxsize=1)(lambda: frozenset(archived))
 
         shutil.copytree(REPRO / 'reference', output)
+        for name in ('tabelas','figuras'):
+            shutil.rmtree(output/name)
+            (output/name).mkdir()
+        (output/'VALIDACAO.md').rename(output/'reference-validation.md')
+        (output/'README.md').rename(output/'reference-README.md')
         runs = pd.read_csv(output/'dados/resultados_por_semente.csv', float_precision='round_trip')
         for row in runs.itertuples():
             path = root / row.fonte
@@ -82,6 +87,11 @@ def export_reference(output):
         if (sensitivity/'macros.tex').read_bytes() != (REPRO/'holm-sensitivity/macros.tex').read_bytes():
             raise ValueError('Sensibilidade de Holm divergente')
         shutil.copytree(sensitivity,output/'holm-sensitivity')
+        for directory, pattern in [('tabelas','*.tex'),('figuras','*')]:
+            expected={p.name for p in (REPRO/'reference'/directory).glob(pattern)}
+            actual={p.name for p in (output/directory).glob(pattern)}
+            if expected != actual:
+                raise ValueError('Arquivos não regenerados: '+str(expected-actual))
         tables=[]
         for path in sorted((output/'tabelas').glob('*.tex')):
             reference=REPRO/'reference/tabelas'/path.name

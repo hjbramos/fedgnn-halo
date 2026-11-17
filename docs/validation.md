@@ -26,4 +26,19 @@ O METR-LA foi baixado anonimamente das fontes públicas, preparado e carregado c
 
 A verificação das mensagens do halo, sob parâmetros comuns, registrou diferença máxima de aproximadamente 2,38 × 10⁻⁷ em relação ao centralizado. Os tempos são registros de execução, não uma comparação de eficiência.
 
-**Estes são testes de funcionamento, não resultados adicionais da dissertação.** O orçamento curto, a arquitetura reduzida e a partição não correspondem ao protocolo principal. Esta validação não reproduziu as tabelas da dissertação nem os experimentos completos com SUNT ou PEMS-BAY. O acesso público por clone e a implantação do GitHub Pages serão conferidos após a autorização para tornar o repositório público.
+**Estes são testes de funcionamento, não resultados adicionais da dissertação.** O orçamento curto, a arquitetura reduzida e a partição não correspondem ao protocolo principal. Esta primeira rodada não reproduziu as tabelas da dissertação nem os experimentos completos com SUNT ou PEMS-BAY. O acesso público por clone e a implantação do GitHub Pages serão conferidos após a autorização para tornar o repositório público.
+
+## Verificação do pacote de reprodução
+
+Na segunda rodada, o mesmo ambiente isolado do desktop recebeu os artefatos versionados por Git bundle, sem acesso ao repositório original da pesquisa. A instalação foi atualizada com o extra `reproduction`.
+
+- **159 testes passaram**, incluindo a interpretação das 86 receitas pelos runners, sem chamar as funções de treinamento, e a recusa de partições alteradas.
+- A recomposição conferiu os 360 registros, recalculou as 72 células e os 65 contrastes, executou as auditorias dos controles complementares e das curvas e reproduziu exatamente as 26 tabelas/macros da referência. A sensibilidade de Holm também coincidiu.
+- METR-LA: dados brutos, séries preparadas, máscaras, grafo, timestamps e ordem dos nós conferidos no desktop.
+- PEMS-BAY: download das fontes públicas nas revisões fixadas e preparação do zero concluídos no desktop; todos os hashes brutos e preparados coincidiram.
+- SUNT: os hashes dos 91 arquivos OD coincidiram com os metadados LFS da revisão pública fixada. Os fingerprints preparados foram registrados a partir da base de referência; a reconstrução completa do SUNT no ambiente limpo ainda não foi executada.
+- As nove partições foram instaladas e verificadas. Os comandos SUNT com 166 clientes e do diagnóstico do Adam permaneceram em modo de planejamento.
+
+O relatório da recomposição separa a procedência histórica da nova exportação. Os descritores estruturais são preservados da referência e têm verificação independente pelo comando de dados. O ambiente desta rodada está em `requirements/reproduction-desktop-cpu-py313.txt`.
+
+Nenhum treinamento completo foi iniciado. Repetir os treinamentos e comparar suas métricas permanece uma etapa posterior; os testes acima verificam a distribuição, os insumos e o recálculo da evidência existente. O repositório permaneceu privado e o GitHub Pages não foi publicado.

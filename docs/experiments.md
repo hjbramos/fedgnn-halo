@@ -29,7 +29,7 @@ python -m experiments.run_grid --config config/fedavg_leconv.yaml --backend loca
 
 Essa interface preserva a busca de resolução Leiden do protocolo original, que escolhe a partição mais próxima do número solicitado. Verifique o número efetivo de clientes no arquivo de metadados. A entrada simplificada `fedgnn-halo` usa resolução fixa quando `partition.method: leiden`; portanto, esses agrupamentos não são intercambiáveis para reproduzir uma tabela.
 
-Antes de reproduzir os resultados completos, é necessário fixar a versão dos dados, a partição, as cinco sementes, os limites efetivos de épocas/rodadas, o critério de parada e as opções de cada método. Os YAMLs históricos incluem campanhas diferentes e não devem ser tratados como comandos finais sem conferir esses parâmetros. GPU e bibliotecas diferentes também podem introduzir variação numérica.
+Para reproduzir o protocolo da dissertação, use as receitas resolvidas e as partições congeladas do [guia de reprodução](reproduction.md). Elas incluem as cinco sementes, os limites efetivos e as opções por célula. Os YAMLs históricos incluem campanhas diferentes e não substituem essas receitas. GPU e bibliotecas diferentes também podem introduzir variação numérica.
 
 ## Arquiteturas e métodos
 
