@@ -84,7 +84,7 @@ def export_reference(output):
         shutil.copytree(REPRO/'holm-sensitivity',sensitivity)
         (root/'generated-traffic').symlink_to(output,target_is_directory=True)
         subprocess.run([sys.executable,str(sensitivity/'calcular.py')],check=True,capture_output=True,text=True)
-        if (sensitivity/'macros.tex').read_bytes() != (REPRO/'holm-sensitivity/macros.tex').read_bytes():
+        if (sensitivity/'macros.tex').read_text() != (REPRO/'holm-sensitivity/macros.tex').read_text():
             raise ValueError('Sensibilidade de Holm divergente')
         shutil.copytree(sensitivity,output/'holm-sensitivity')
         for directory, pattern in [('tabelas','*.tex'),('figuras','*')]:
@@ -95,7 +95,7 @@ def export_reference(output):
         tables=[]
         for path in sorted((output/'tabelas').glob('*.tex')):
             reference=REPRO/'reference/tabelas'/path.name
-            if path.read_bytes()!=reference.read_bytes():
+            if path.read_text()!=reference.read_text():
                 raise ValueError('Tabela/macros diferentes da referência: '+path.name)
             tables.append(path.name)
         provenance=output/'provenance.json'
