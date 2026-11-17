@@ -32,13 +32,15 @@ A verificação das mensagens do halo, sob parâmetros comuns, registrou diferen
 
 Na segunda rodada, o mesmo ambiente isolado do desktop recebeu os artefatos versionados por Git bundle, sem acesso ao repositório original da pesquisa. A instalação foi atualizada com o extra `reproduction`.
 
-- **159 testes passaram**, incluindo a interpretação das 86 receitas pelos runners, sem chamar as funções de treinamento, e a recusa de partições alteradas.
+- **160 testes passaram**, incluindo a interpretação das 86 receitas pelos runners, sem chamar as funções de treinamento, e a recusa de partições alteradas.
 - A recomposição conferiu os 360 registros, recalculou as 72 células e os 65 contrastes, executou as auditorias dos controles complementares e das curvas e reproduziu exatamente as 26 tabelas/macros da referência. A sensibilidade de Holm também coincidiu.
 - METR-LA: dados brutos, séries preparadas, máscaras, grafo, timestamps e ordem dos nós conferidos no desktop.
 - PEMS-BAY: download das fontes públicas nas revisões fixadas e preparação do zero concluídos no desktop; todos os hashes brutos e preparados coincidiram.
-- SUNT: os hashes dos 91 arquivos OD coincidiram com os metadados LFS da revisão pública fixada. Os fingerprints preparados foram registrados a partir da base de referência; a reconstrução completa do SUNT no ambiente limpo ainda não foi executada.
-- As nove partições foram instaladas e verificadas. Os comandos SUNT com 166 clientes e do diagnóstico do Adam permaneceram em modo de planejamento.
+- SUNT: os 91 arquivos OD foram baixados da revisão pública fixada e as séries e o grafo foram reconstruídos do zero no desktop. Todos os hashes brutos e preparados coincidiram, incluindo máscaras, timestamps e ordem dos 2.903 nós. A consulta independente aos metadados LFS também confirmou os hashes dos arquivos brutos.
+- As nove partições foram instaladas e verificadas. Os comandos SUNT com 166 clientes e do diagnóstico do Adam permaneceram em modo de planejamento. O pequeno autoteste do Adam confirmou a equivalência entre limpar seu estado e reconstruir o otimizador; o diagnóstico com os dados do SUNT não foi treinado.
 
 O relatório da recomposição separa a procedência histórica da nova exportação. Os descritores estruturais são preservados da referência e têm verificação independente pelo comando de dados. O ambiente desta rodada está em `requirements/reproduction-desktop-cpu-py313.txt`.
 
 Nenhum treinamento completo foi iniciado. Repetir os treinamentos e comparar suas métricas permanece uma etapa posterior; os testes acima verificam a distribuição, os insumos e o recálculo da evidência existente. O repositório permaneceu privado e o GitHub Pages não foi publicado.
+
+A automação do GitHub também concluiu com sucesso na revisão `6a68b70` ([execução 43987527386](https://github.com/hjbramos/fedgnn-halo/actions/runs/43987527386)), incluindo os 160 testes, os dois notebooks e a recomposição das análises. O comando de comparação de novas execuções foi conferido com os 360 registros originais, reproduzindo os 65 contrastes; um teste adicional verifica que registros incompletos não provocam um ajuste de Holm sobre famílias menores.
