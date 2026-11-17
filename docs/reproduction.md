@@ -85,6 +85,14 @@ python -m experiments.adam_diagnostic
 
 Por padrão ele só descreve o plano: três sementes (7, 42 e 101), dois braços, 100 épocas, sem acesso ao teste. O início futuro exige `--execute`, CUDA e dados verificados. Para um diretório externo, defina `FEDGNN_DATA_DIR` antes do Python e informe o mesmo caminho em `--data-dir`. O script preserva a comparação pareada da inicialização e da sequência de lotes, sem substituir qualquer receita principal.
 
+Depois de executar as receitas escolhidas, compare os novos registros com a referência:
+
+```bash
+python -m fedgnn_halo.reproduce compare-results --results results/reproduced --output results/comparison
+```
+
+O relatório mostra as execuções ausentes e a diferença das novas métricas para as publicadas. Ele não preenche lacunas com resultados antigos. Se os 360 registros das 72 células estiverem presentes, as diferenças pareadas e o Holm são recalculados pelas funções originais; com registros incompletos, produz apenas a comparação descritiva, sem reduzir o tamanho das famílias. Os controles adicionais mantêm seus arquivos próprios e não são inseridos nessas famílias.
+
 ## Alcance da reprodução
 
 Os testes de instalação, verificação das evidências e análise estatística não demonstram que novos treinamentos produzirão números idênticos. O ambiente histórico não foi registrado integralmente em todas as execuções, e operações em GPU podem variar entre placas e versões. Os registros mantêm os ambientes conhecidos; informações ausentes não foram preenchidas por inferência. A repetição dos treinos completos e a comparação de seus resultados continuam sendo uma etapa posterior.

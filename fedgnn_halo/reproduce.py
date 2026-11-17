@@ -175,6 +175,7 @@ def main():
     q=sub.add_parser('train');q.add_argument('--experiment',required=True);q.add_argument('--seed',type=int,required=True)
     q.add_argument('--execute',action='store_true');q.add_argument('--device',default='cpu');q.add_argument('--data-dir',default='data');q.add_argument('--output',default='results/reproduced')
     q=sub.add_parser('export-reference');q.add_argument('--output',required=True)
+    q=sub.add_parser('compare-results');q.add_argument('--results',default='results/reproduced');q.add_argument('--output',required=True)
     args=p.parse_args()
     if args.action=='verify':print(f"{len(verify()['files'])} artefatos verificados")
     elif args.action=='install-partitions':print(install_partitions(args.data_dir))
@@ -197,6 +198,9 @@ def main():
             verify_prepared(args.data_dir,dataset)
             print(dataset,'dados e grafo conferidos')
         install_partitions(args.data_dir)
+    elif args.action=='compare-results':
+        from .reproduce_results import compare_results
+        compare_results(Path(args.results),Path(args.output))
     else:
         from .reproduce_analysis import export_reference
         export_reference(Path(args.output))

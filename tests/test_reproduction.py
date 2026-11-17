@@ -47,3 +47,17 @@ def test_plan_never_starts_subprocess(monkeypatch,tmp_path,capsys):
     r.train(r.catalog()[0],SimpleNamespace(seed=42,output=tmp_path,device='cpu',execute=False))
     assert 'Planejamento apenas' in capsys.readouterr().out
     assert not list(tmp_path.iterdir())
+
+
+def test_partial_results_do_not_recompute_holm(tmp_path):
+    from fedgnn_halo.reproduce_results import compare_results
+    path=tmp_path/'runs/metrla_cent/metr-la/seed_042/metrics.json'
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps({'dataset':'metr-la','seed':42,'epochs_completed':50,'best_epoch':40,
+                                'test_evaluated':True,'test':{'MAE':3.8,'RMSE':7.,'R2':.5}}))
+    out=tmp_path/'comparison'
+    compare_results(tmp_path/'runs',out)
+    report=json.loads((out/'comparison-report.json').read_text())
+    assert report['records_found']==1 and len(report['missing'])==359
+    assert not report['holm_recomputed']
+    assert not (out/'diferencas_pareadas.csv').exists()
